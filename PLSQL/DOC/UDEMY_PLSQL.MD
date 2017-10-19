@@ -1,5 +1,5 @@
 
-[PL/SQL](https://www.udemy.com/oracle-plsql-fundamentals-vol-i-ii/learn/v4/t/lecture/759778?start=0)
+[PL/SQL](https://www.udemy.com/oracle-plsql-fundamentals-vol-i-ii/learn/v4/overview)
 ======
 
 Section 1. Oracle 11g PL/SQL Fundamentals I
