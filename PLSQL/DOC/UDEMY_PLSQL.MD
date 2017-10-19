@@ -1,5 +1,5 @@
 
-PLSQL
+[PLSQL](https://www.udemy.com/oracle-plsql-fundamentals-vol-i-ii/learn/v4/t/lecture/759778?start=0)
 ======
 
 Section 1. Oracle 11g PL/SQL Fundamentals I
@@ -8,8 +8,10 @@ Section 1. Oracle 11g PL/SQL Fundamentals I
   * Selecting the Appropriate Database Tool
 
 Section 2. Oracle 11g PL/SQL Fundamentals II
+ *
+ *
 
-Section 1. Oracle 11g PL/SQL Fundamentals I
+Oracle 11g PL/SQL Fundamentals I
 ------
 
 #### Introduction
@@ -17,3 +19,4 @@ Section 1. Oracle 11g PL/SQL Fundamentals I
 
 #### Course Setup
 
+Install and setup the system according to the video
