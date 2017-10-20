@@ -3,7 +3,7 @@
 ======
 
 ### Database Basics
-  * Oracle Database Introduction & Basics of Tables
+  * <a href='#1'>Oracle Database Introduction & Basics of Tables</a>
   * Setting Up the SQL Development Environment
   
 ### Single Table Queries
@@ -24,7 +24,7 @@
 Database Basics
 ------
 
-#### Oracle Database Introduction & Basics of Tables
+#### <h4 id='1'>Oracle Database Introduction & Basics of Tables</h4>
 
 #### Setting Up the SQL Development Environment
 
