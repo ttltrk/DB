@@ -16,10 +16,18 @@ Section 6
 Single Table Queries
 ------
 
-#### Using Operators in the WHERE clause
+### Using the WHERE Clause
+
+#### Using Operators in the WHERE Clause
 
 ```SQL
 --List Out, all the managers from EMP
 SELECT * FROM EMP
-WHERE JOB='MANAGER';
+WHERE JOB = 'MANAGER';
+```
+
+```SQL
+--List Out, all the jobs without MANAGER from EMP
+SELECT * FROM EMP
+WHERE JOB != 'MANAGER';
 ```
