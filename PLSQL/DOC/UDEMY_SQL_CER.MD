@@ -2,11 +2,11 @@
 [The Complete Udemy SQL Certification Course](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/content)
 ======
 
-### Section 1 - Database Basics
+### Database Basics
   * Oracle Database Introduction & Basics of Tables
   * Setting Up the SQL Development Environment
   
-### Section 2 Single Table Queries
+### Single Table Queries
   *
   *
   *
@@ -33,7 +33,7 @@ Single Table Queries
 
 #### Retrieving Data Using the SELECT Clause
 
-### Using the WHERE Clause
+#### Using the WHERE Clause
 
 #### Using Operators in the WHERE Clause
 
