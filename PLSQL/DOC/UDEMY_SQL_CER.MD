@@ -17,3 +17,9 @@ Single Table Queries
 ------
 
 #### Using Operators in the WHERE clause
+
+```SQL
+--List Out, all the managers from EMP
+SELECT * FROM EMP
+WHERE JOB='MANAGER';
+```
