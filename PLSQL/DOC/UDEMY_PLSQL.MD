@@ -2,7 +2,7 @@
 [PL/SQL](https://www.udemy.com/oracle-plsql-fundamentals-vol-i-ii/learn/v4/overview)
 ======
 
-Section 1. Oracle 11g PL/SQL Fundamentals I
+### Oracle 11g PL/SQL Fundamentals I
   * Introduction
   * Course Setup
   * Selecting the Appropriate Database Tool
@@ -10,7 +10,7 @@ Section 1. Oracle 11g PL/SQL Fundamentals I
   * PL/SQL Blocks
   * Working with SQL Plus
 
-Section 2. Oracle 11g PL/SQL Fundamentals II
+### Oracle 11g PL/SQL Fundamentals II
  *
  *
 
