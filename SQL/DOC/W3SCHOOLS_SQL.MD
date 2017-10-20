@@ -5,11 +5,11 @@
 ### SQL HOME
 
 ### SQL Intro
-  * <a href="#1'>What is SQL?</a>
-  * <a href="#1'>What Can SQL do?</a>
-  * <a href="#1'>SQL is a Standard - BUT...</a>
-  * <a href="#1'>Using SQL in Your Web Site</a>
-  * <a href="#1'>RDBMS</a>
+  * <a href='#1'>What is SQL?</a>
+  * <a href='#2'>What Can SQL do?</a>
+  * <a href='#3'>SQL is a Standard - BUT...</a>
+  * <a href='#4'>Using SQL in Your Web Site</a>
+  * <a href='#5'>RDBMS</a>
  
 ### SQL Syntax
 ### SQL Select
