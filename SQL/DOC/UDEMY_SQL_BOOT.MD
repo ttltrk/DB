@@ -3,14 +3,60 @@
 ========
 
 ### Course Introduction
+  * Introduction
+  * Course Curriculum Overview
+  * Overview of Databases
+  * Course FAQs
+  * Time to get your Computer Set-Up!
+  * Setting Up with pgAdmin 4
+  * Installation Notes
 
 ### PostGreSQL Installation (Mac)
+  * Mac OS X - Quick Note
+  * Mac OS Installation
+  * Mac Sample Database Download
+  * Mac Database Set-up
+  * Review of Set-up
 
 ### PostGreSQL Installation (Win)
-
+  * Windows - Quick Note
+  * Windows Installation
+  * Sample Database Download
+  * Windows Command Line Installation Lecture
+  
 ### Databases and Tables
+  * Databases and Tables Overview
+  * Creating and restoring a Database
+  * Overview of Challenges!
+  * Challenge: Restore a Database!
+  * Restoring a Table Schema
+  * Challenge: Restore a Table Schema!
+  * Review of Section
 
 ### SQL Statement Fundamentals
+  * SQL Cheat Sheet
+  * SQL Statement Fundamentals
+  * SELECT Statement
+  * Challenge: SELECT task
+  * SELECT DISTINCT
+  * Challenge: SELECT DISTINCT
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  
+
+
+
+
+
+
 
 ### GROUP BY Statement
 
