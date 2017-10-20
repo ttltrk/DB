@@ -42,14 +42,63 @@ Basic Concepts
 
 #### <h4 id='1'>Introduction to Databases</h4>
 
-#### SQL Statements: SELECT
+#### <h4 id='2'>SQL Statements: SELECT</h4>
 
-#### SQL Syntax Rules
+#### <h4 id='3'>SQL Syntax Rules</h4>
 
-#### Selecting Multiple Columns
+#### <h4 id='4'>Selecting Multiple Columns</h4>
 
-#### DISTINCT and LIMIT
+#### <h4 id='5'>DISTINCT and LIMIT</h4>
 
-#### Sorting Results
+#### <h4 id='6'>Sorting Results</h4>
 
-#### Module 1 Quiz
+#### <h4 id='7'>Module 1 Quiz</h4>
+
+Filtering, Functions, Subqueries
+------
+
+#### <h4 id='8'>The WHERE Statement</h4>
+
+#### <h4 id='9'>Filtering with AND, OR</h4>
+
+#### <h4 id='10'>IN, NOT IN Statements</h4>
+
+#### <h4 id='11'>Custom Columns</h4>
+
+#### <h4 id='12'>Functions</h4>
+
+#### <h4 id='13'>Subqueries</h4>
+
+#### <h4 id='14'>LIKE and MIN</h4>
+
+#### <h4 id='15'>Module 2 Quiz</h4>
+
+Join, Table Operations
+------
+
+#### <h4 id='16'>Joining Tables</h4>
+
+#### <h4 id='17'>Types of Join</h4>
+
+#### <h4 id='18'>UNION</h4>
+
+#### <h4 id='19'>The INSERT Statement</h4>
+
+#### <h4 id='20'>UPDATE and DELETE Statements</h4>
+
+#### <h4 id='21'>Creating a Table</h4>
+
+#### <h4 id='22'>NOT_NULL and AUTO_INCREMENT</h4>
+
+#### <h4 id='23'>Alter, Drop, Rename a Table</h4>
+
+#### <h4 id='24'>Views</h4>
+
+#### <h4 id='25'>Module 2 Quiz</h4>
+
+CHALLENGES
+------
+
+#### <h4 id='26'>Challenge 1</h4>
+
+#### <h4 id='27'>Challenge 2</h4>
