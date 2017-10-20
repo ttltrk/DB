@@ -3,7 +3,7 @@
 ======
 
 ### Basic Concepts
-  * Introduction to Databases
+  * <a href='#1'>Introduction to Databases</a>
   * SQL Statements: SELECT
   * SQL Syntax Rules
   * Selecting Multiple Columns
@@ -40,7 +40,7 @@
 Basic Concepts
 ------
 
-#### Introduction to Databases
+#### <h4 id='1'>Introduction to Databases</h4>
 
 #### SQL Statements: SELECT
 
