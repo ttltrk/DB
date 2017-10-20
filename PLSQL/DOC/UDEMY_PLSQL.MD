@@ -12,17 +12,17 @@
   * <a href='#7'>DECLARE Clause Objects</a>
   * <a href='#8'>PL/SQL Available Data Types</a>
   * <a href='#9'>Declaring Simple Data Types and Assignments</a>
-  * <a href='#10'></a>
-  * <a href='#11'></a>
-  * <a href='#12'></a>
-  * <a href='#13'></a>
-  * <a href='#14'></a>
-  * <a href='#15'></a>
-  * <a href='#16'></a>
-  * <a href='#17'></a>
-  * <a href='#18'></a>
-  * <a href='#19'></a>
-  * <a href='#20'></a>
+  * <a href='#10'>Declaring Complex Data Types and Assignments</a>
+  * <a href='#11'>Declaring Complex RowTypes and Assignments</a>
+  * <a href='#12'>Declaring Complex Tables</a>
+  * <a href='#13'>Declaring Complex Records</a> 
+  * <a href='#14'>Creating and Declaring User-Defined Types</a>
+  * <a href='#15'>What Can Be Included in the BEGIN Clause</a>
+  * <a href='#16'>Working with CHAR and VARCHAR2 Variables</a>
+  * <a href='#17'>Handling String Literals</a>
+  * <a href='#18'>Working with Numeric Variables</a>
+  * <a href='#19'>Working with Date Variables</a>
+  * <a href='#20'>Assigning and Using Boolean Variables</a> 
 
 ### Oracle 11g PL/SQL Fundamentals II
  *
