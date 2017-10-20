@@ -4,13 +4,13 @@
 
 ### Database Basics
   * <a href='#1'>Oracle Database Introduction & Basics of Tables</a>
-  * Setting Up the SQL Development Environment
+  * <a href='#2'>Setting Up the SQL Development Environment</a>
   
 ### Single Table Queries
-  * Retrieving Data Using the SELECT Clause
-  * Using the WHERE Clause 
-  * Using Operators in the WHERE Clause
-  * Combining WHERE, AND & OR with Operators
+  * <a href='#3'>Retrieving Data Using the SELECT Clause</a>
+  * <a href='#4'>Using the WHERE Clause</a>
+  * <a href='#5'>Using Operators in the WHERE Clause</a>
+  * <a href='#6'>Combining WHERE, AND & OR with Operators</a>
   *
 
 ### Section 3
@@ -26,16 +26,16 @@ Database Basics
 
 #### <h4 id='1'>Oracle Database Introduction & Basics of Tables</h4>
 
-#### Setting Up the SQL Development Environment
+#### <h4 id='2'>Setting Up the SQL Development Environment</h4>
 
 Single Table Queries
 ------
 
-#### Retrieving Data Using the SELECT Clause
+#### <h4 id='3'>Retrieving Data Using the SELECT Clause</h4>
 
-#### Using the WHERE Clause
+#### <h4 id='4'>Using the WHERE Clause</h4>
 
-#### Using Operators in the WHERE Clause
+#### <h4 id='5'>Using Operators in the WHERE Clause</h4>
 
 ```SQL
 --List Out, all the managers from EMP
@@ -84,7 +84,7 @@ AND SAL > 2500
 AND DEPTNO = 20;
 ```
 
-#### Combining WHERE, AND & OR with Operators
+#### <h4 id='6'>Combining WHERE, AND & OR with Operators</h4>
 
 ```SQL
 --
