@@ -83,3 +83,10 @@ WHERE JOB != 'MANAGERS'
 AND SAL > 2500
 AND DEPTNO = 20;
 ```
+
+#### Combining WHERE, AND & OR with Operators
+
+```SQL
+--
+
+```
