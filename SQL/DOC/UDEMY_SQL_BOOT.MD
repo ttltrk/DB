@@ -40,27 +40,29 @@
   * Challenge: SELECT task
   * SELECT DISTINCT
   * Challenge: SELECT DISTINCT
-  *
-  *
-  *
-  *
-  *
-  *
-  *
-  *
-  *
-  *
-  
-
-
-
-
-
-
+  * SELECT WHERE
+  * Challenge: SELECT WHERE
+  * COUNT
+  * LIMIT
+  * ORDER BY
+  * Challenge: ORDER BY
+  * BETWEEN
+  * IN
+  * LIKE
+  * General Challenge 1
 
 ### GROUP BY Statement
+  * MIN MAX SUM and AVG
+  * GROUP BY
+  * Challenge: GROUP BY
+  * HAVING
+  * Quick Note
+  * Challenge: HAVING
 
 ### Assessment Test 1
+  * Overview of Assessment Test 1
+  * Assessment Test 1
+  * Solutions to Assessment Test 1
 
 ### JOINS
 
