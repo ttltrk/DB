@@ -75,24 +75,50 @@
   * Join Challenges
 
 ### Advanced SQL Commands
-  *
-  *
-  *
-  *
-  *
-  *
+  * Overview of Advanced SQL Commands
+  * Timestamps and Extract
+  * Mathematical Functions
+  * String Function and Operators
+  * SubQuery
+  * Self-Join
 
 ### Assessment Test 2
+  * Assessment Test 2 Overview
+  * Assessment Test 2
+  * Solutions to Assessment Test 2
 
 ### Creating Databases and Tables
+  * Overview of Section
+  * Data Types
+  * Primary Keys and Foreign Keys
+  * Resource for Create Table Code
+  * Note on Constrains
+  * Create Table
+  * Challenge: Create Table
+  * Challenge: Create Table - SOLUTION
+  * Insert
+  * Update
+  * Delete
+  * Alter Table
+  * Drop Table
+  * CHECK Constraint
+  * NOT NULL Constraint
+  * UNIQUE Constraint
 
-### Assessment Test 2
+### Assessment Test 3
+  * Assessment Test 3
+  * Solutions to Assessment Test 3
 
 ### Extra Views
+  * Views
 
 ### Extra PostGreSQL with Python
+  * Overview of Python and PostGreSQL
+  * Psycopg2 Example Usage
+  * Psycopg2 Resources
 
 ### Bonus Offers
+  * Bonus Offers
 
 Course Introduction
 ------
