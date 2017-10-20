@@ -31,3 +31,17 @@ WHERE JOB = 'MANAGER';
 SELECT * FROM EMP
 WHERE JOB != 'MANAGER';
 ```
+
+```SQL
+--List Out, all the salesman with salary 1500 from EMP
+SELECT * FROM EMP
+WHERE JOB = 'SALESMAN'
+AND SAL = 1500;
+```
+
+```SQL
+--List Out, all the salesman with salary less than 2500 from EMP
+SELECT * FROM EMP
+WHERE JOB = 'SALESMAN'
+AND SAL < 2500;
+```
