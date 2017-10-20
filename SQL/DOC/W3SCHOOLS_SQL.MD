@@ -1,15 +1,15 @@
 
-SQL Tutorial
+[SQL Tutorial](https://www.w3schools.com/sql/default.asp)
 ======
 
 ### SQL HOME
 
 ### SQL Intro
-  * What is SQL?
-  * What Can SQL do?
-  * SQL is a Standard - BUT...
-  * Using SQL in Your Web Site
-  * RDBMS
+  * <a href="#1'>What is SQL?</a>
+  * <a href="#1'>What Can SQL do?</a>
+  * <a href="#1'>SQL is a Standard - BUT...</a>
+  * <a href="#1'>Using SQL in Your Web Site</a>
+  * <a href="#1'>RDBMS</a>
  
 ### SQL Syntax
 ### SQL Select
@@ -58,13 +58,13 @@ SQL Intro
 
 SQL is a standard language for accessing and manipulating databases.
 
-#### What is SQL?
+#### <h4 id='1'>What is SQL?</h4>
 
 SQL stands for Structured Query Language
 SQL lets you access and manipulate databases
 SQL is an ANSI (American National Standards Institute) standard
 
-#### What Can SQL do?
+#### <h4 id='2'>What Can SQL do?</h4>
 
 SQL can execute queries against a database
 SQL can retrieve data from a database
@@ -77,7 +77,7 @@ SQL can create stored procedures in a database
 SQL can create views in a database
 SQL can set permissions on tables, procedures, and views
 
-#### SQL is a Standard - BUT....
+#### <h4 id='3'>SQL is a Standard - BUT....</h4>
 
 Although SQL is an ANSI (American National Standards Institute) standard, there are different versions of the SQL language.
 
@@ -86,7 +86,7 @@ However, to be compliant with the ANSI standard, they all support at least the m
 
 Note: Most of the SQL database programs also have their own proprietary extensions in addition to the SQL standard!
 
-#### Using SQL in Your Web Site
+#### <h4 id='4'>Using SQL in Your Web Site</h4>
 
 To build a web site that shows data from a database, you will need:
 
@@ -95,7 +95,7 @@ To use a server-side scripting language, like PHP or ASP
 To use SQL to get the data you want
 To use HTML / CSS to style the page
 
-#### RDBMS
+#### <h4 id='5'>RDBMS</h4>
 
 RDBMS stands for Relational Database Management System.
 
