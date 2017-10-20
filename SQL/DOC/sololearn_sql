@@ -1,81 +1,55 @@
 
-#SOLOLEARN - SQL TUTORIAL
+[SQL TUTORIAL](https://www.sololearn.com/Play/SQL)
+======
 
--------------------------------------------------------------
-01. BASIC CONCEPTS
--------------------------------------------------------------
+### Basic Concepts
+  * Introduction to Databases
+  * SQL Statements: SELECT
+  * SQL Syntax Rules
+  * Selecting Multiple Columns
+  * DISTINCT and LIMIT
+  * Sorting Results
+  * Module 1 Quiz
 
---------------------
-01.001. Introduction to Databases
-01.002. SQL Statements: SELECT
-01.003. SQL Syntax Rules
-01.004. Selecting Multiple Columns
-01.005. DISTINCT and LIMIT
-01.006. Sorting Results
-******. Module 1 Quiz
---------------------
+### Filtering, Functions, Subqueries
+  * The WHERE Statement
+  * Filtering with AND, OR
+  * IN, NOT IN Statements
+  * Custom Columns
+  * Functions
+  * Subqueries
+  * LIKE and MIN
+  * Module 2 Quiz
 
--------------------------------------------------------------
-02. FILTERING, FUNCTIONS, SUBQUERIES
--------------------------------------------------------------
+### Join, Table Operations
+  * Joining Tables
+  * Types of Join
+  * UNION
+  * The INSERT Statement
+  * UPDATE and DELETE Statements
+  * Creating a Table
+  * NOT_NULL and AUTO_INCREMENT
+  * Alter, Drop, Rename a Table
+  * Views
+  * Module 2 Quiz
 
---------------------
-02.001. The WHERE Statement
-02.002. Filtering with AND, OR
-02.003. IN, NOT IN Statements
-02.004. Custom Columns
-02.005. Functions
-02.006. Subqueries
-02.007. LIKE and MIN
-******. Module 2 Quiz
---------------------
+### CHALLENGES
+  * Challenge 1
+  * Challenge 2
+  
+Basic Concepts
+------
 
--------------------------------------------------------------
-03. JOIN, TABLE OPERATIONS
--------------------------------------------------------------
+#### Introduction to Databases
 
---------------------
-03.001. Joining Tables
-03.002. Types of Join
-03.003. UNION
-03.004. The INSERT Statement
-03.005. UPDATE and DELETE Statements
-03.006. Creating a Table
-03.007. NOT_NULL and AUTO_INCREMENT
-03.008. Alter, Drop, Rename a Table
-03.009. Views
-******. Module 2 Quiz
---------------------
+#### SQL Statements: SELECT
 
--------------------------------------------------------------
-04. CHALLENGES
--------------------------------------------------------------
+#### SQL Syntax Rules
 
---------------------
-04.001. Challenge 1
-04.002. Challenge 2
---------------------
+#### Selecting Multiple Columns
 
--------------------------------------------------------------
+#### DISTINCT and LIMIT
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+#### Sorting Results
 
------------------------------------------------------------------------------------------
-01. 
------------------------------------------------------------------------------------------
-
--------------------------------------------------------------
-01.001. 
--------------------------------------------------------------
-
---------------------
-
---------------------
-
--------------------------------------------------------------
-01.002. 
--------------------------------------------------------------
-
---------------------
-
---------------------
+#### Module 1 Quiz
