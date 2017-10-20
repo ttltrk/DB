@@ -3,12 +3,12 @@
 ======
 
 ### Oracle 11g PL/SQL Fundamentals I
-  * Introduction
-  * Course Setup
-  * Selecting the Appropriate Database Tool
-  * Understanding PL/SQL
-  * PL/SQL Blocks
-  * Working with SQL Plus
+  * <a href='#1'>Introduction</a>
+  * <a href='#2'>Course Setup</a>
+  * <a href='#3'>Selecting the Appropriate Database Tool</a>
+  * <a href='#4'>Understanding PL/SQL</a>
+  * <a href='#5'>PL/SQL Blocks</a>
+  * <a href='#6'>Working with SQL Plus</a>
 
 ### Oracle 11g PL/SQL Fundamentals II
  *
@@ -17,17 +17,17 @@
 Oracle 11g PL/SQL Fundamentals I
 ------
 
-#### Introduction
+#### <h4 id='1'>Introduction</h4>
 
 
-#### Course Setup
+#### <h4 id='2'>Course Setup</h4>
 
 Install and setup the system according to the video
 
-#### Selecting the Appropriate Database Tool
+#### <h4 id='3'>Selecting the Appropriate Database Tool</h4>
 
-#### Understanding PL/SQL
+#### <h4 id='4'>Understanding PL/SQL</h4>
 
-#### PL/SQL Blocks
+#### <h4 id='5'>PL/SQL Blocks</h4>
 
-#### Working with SQL Plus
+#### <h4 id='6'>Working with SQL Plus</h4>
