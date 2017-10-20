@@ -13,8 +13,17 @@ Section 5
 
 Section 6
 
+Database Basics
+------
+
+#### Oracle Database Introduction & Basics of Tables
+
+#### Setting Up the SQL Development Environment
+
 Single Table Queries
 ------
+
+#### Retrieving Data Using the SELECT Clause
 
 ### Using the WHERE Clause
 
