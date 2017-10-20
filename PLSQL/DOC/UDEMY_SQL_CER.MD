@@ -2,24 +2,24 @@
 [The Complete Udemy SQL Certification Course](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/content)
 ======
 
-#### Section 1 - Database Basics
+### Section 1 - Database Basics
   * Oracle Database Introduction & Basics of Tables
   * Setting Up the SQL Development Environment
   
-#### Section 2 Single Table Queries
+### Section 2 Single Table Queries
   *
   *
   *
   *
   *
 
-#### Section 3
+### Section 3
 
-#### Section 4
+### Section 4
 
-#### Section 5
+### Section 5
 
-#### Section 6
+### Section 6
 
 Database Basics
 ------
@@ -73,5 +73,14 @@ AND SAL <= 3000;
 ```SQL
 --Return the employees who have a comission greater than their salary
 SELECT * FROM EMP
-WHERE SAL > COMM;
+WHERE SAL < COMM;
 ```
+
+```SQL
+--Get all employees that are not managers and have sal greater than 2500 and also work in dep no#20
+SELECT * FROM EMP
+WHERE JOB != 'MANAGERS' 
+AND SAL > 2500
+AND DEPTNO = 20;
+```
+
