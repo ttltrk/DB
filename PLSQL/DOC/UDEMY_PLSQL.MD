@@ -23,6 +23,37 @@
   * <a href='#18'>Working with Numeric Variables</a>
   * <a href='#19'>Working with Date Variables</a>
   * <a href='#20'>Assigning and Using Boolean Variables</a> 
+  * <a href='#21'>Using Comparison Operators</a> 
+  * <a href='#22'>Using SQL Functions</a> 
+  * <a href='#23'>SQL DML within PL/SQL</a> 
+  * <a href='#24'>Using SELECT</a> 
+  * <a href='#25'>Exceptions and Embedded SQL</a> 
+  * <a href='#26'>Using Sequences</a> 
+  * <a href='#27'>Logic Control and Branching</a> 
+  * <a href='#28'>Using GOTO</a> 
+  * <a href='#29'>Working with LOOPS</a> 
+  * <a href='#30'>Creating and Using the Indefinite Loop</a> 
+  * <a href='#31'>Creating and Using the Conditional Loop</a> 
+  * <a href='#32'>Using Nested Loops</a> 
+  * <a href='#33'>Using the If-Then-Else</a> 
+  * <a href='#34'>Using the CASE Statement</a> 
+  * <a href='#35'>What Are the Types of Exceptions</a> 
+  * <a href='#36'>Trapping Exceptions</a> 
+  * <a href='#37'>Identify Exceptions Details</a> 
+  * <a href='#38'>Creating User-Defined Exceptions</a> 
+  * <a href='#39'>Using SQLCODE and SQLERRM Objects</a> 
+  * <a href='#40'>Understand the Implicit Cursor</a>
+  * <a href='#41'>Creating User-Defined Events</a>
+  * <a href='#42'>Understanding the Concept and Purpose of Explicit Cursors</a>
+  * <a href='#43'>Learn about Cursor Attributes</a>
+  * <a href='#44'>Using the Continue Statement</a>
+  * <a href='#45'>Working with Updateable Cursors</a>
+  * <a href='#46'>Creating and Using Cursors Parameters</a>
+  * <a href='#47'>FOR...LOOPS Cursors</a>
+  * <a href='#48'>Understanding Nested Blocks</a>
+  * <a href='#49'>Difference between Global vs Local Objects and Exceptions</a>
+  * <a href='#50'>Subprograms: How They Differ from Nested Blocks</a>
+  * <a href='#51'>Conclusion</a>
 
 ### Oracle 11g PL/SQL Fundamentals II
  *
