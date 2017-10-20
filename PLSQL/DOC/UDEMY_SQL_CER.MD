@@ -1,17 +1,25 @@
+
 [The Complete Udemy SQL Certification Course](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/content)
 ======
 
-Section 1
+#### Section 1 - Database Basics
+  * Oracle Database Introduction & Basics of Tables
+  * Setting Up the SQL Development Environment
+  
+#### Section 2 Single Table Queries
+  *
+  *
+  *
+  *
+  *
 
-Section 2
+#### Section 3
 
-Section 3
+#### Section 4
 
-Section 4
+#### Section 5
 
-Section 5
-
-Section 6
+#### Section 6
 
 Database Basics
 ------
@@ -53,4 +61,17 @@ AND SAL = 1500;
 SELECT * FROM EMP
 WHERE JOB = 'SALESMAN'
 AND SAL < 2500;
+```
+
+```SQL
+--List Out, all the salesman with salary less than or equal to 3000 from EMP
+SELECT * FROM EMP
+WHERE JOB = 'SALESMAN'
+AND SAL <= 3000;
+```
+
+```SQL
+--Return the employees who have a comission greater than their salary
+SELECT * FROM EMP
+WHERE SAL > COMM;
 ```
