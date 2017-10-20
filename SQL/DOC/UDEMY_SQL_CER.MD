@@ -7,10 +7,10 @@
   * Setting Up the SQL Development Environment
   
 ### Single Table Queries
-  *
-  *
-  *
-  *
+  * Retrieving Data Using the SELECT Clause
+  * Using the WHERE Clause 
+  * Using Operators in the WHERE Clause
+  * Combining WHERE, AND & OR with Operators
   *
 
 ### Section 3
