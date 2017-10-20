@@ -22,20 +22,20 @@
   * <a href='#15'>Module 2 Quiz</a>
 
 ### Join, Table Operations
-  * Joining Tables
-  * Types of Join
-  * UNION
-  * The INSERT Statement
-  * UPDATE and DELETE Statements
-  * Creating a Table
-  * NOT_NULL and AUTO_INCREMENT
-  * Alter, Drop, Rename a Table
-  * Views
-  * Module 2 Quiz
+  * <a href='#16'>Joining Tables</a>
+  * <a href='#17'>Types of Join</a>
+  * <a href='#18'>UNION</a>
+  * <a href='#19'>The INSERT Statement</a>
+  * <a href='#20'>UPDATE and DELETE Statements</a>
+  * <a href='#21'>Creating a Table</a>
+  * <a href='#22'>NOT_NULL and AUTO_INCREMENT</a>
+  * <a href='#23'>Alter, Drop, Rename a Table</a>
+  * <a href='#24'>Views</a>
+  * <a href='#25'>Module 2 Quiz</a>
 
 ### CHALLENGES
-  * Challenge 1
-  * Challenge 2
+  * <a href='#26'>Challenge 1</a>
+  * <a href='#27'>Challenge 2</a>
   
 Basic Concepts
 ------
