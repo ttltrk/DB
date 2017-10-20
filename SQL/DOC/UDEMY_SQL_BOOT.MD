@@ -3,13 +3,13 @@
 ========
 
 ### Course Introduction
-  * Introduction
-  * Course Curriculum Overview
-  * Overview of Databases
-  * Course FAQs
-  * Time to get your Computer Set-Up!
-  * Setting Up with pgAdmin 4
-  * Installation Notes
+  * <a href='#1'>Introduction</a>
+  * <a href='#2'>Course Curriculum Overview</a>
+  * <a href='#3'>Overview of Databases</a>
+  * <a href='#4'>Course FAQs</a>
+  * <a href='#5'>Time to get your Computer Set-Up!</a>
+  * <a href='#6'>Setting Up with pgAdmin 4</a>
+  * <a href='#7'>Installation Notes</a>
 
 ### PostGreSQL Installation (Mac)
   * Mac OS X - Quick Note
@@ -122,6 +122,20 @@
 
 Course Introduction
 ------
+
+#### <h4 id='1'>Introduction</h4>
+  
+#### <h4 id='2'>Course Curriculum Overview</h4>
+  
+#### <h4 id='3'>Overview of Databases</h4>
+  
+#### <h4 id='4'>Course FAQs</h4>
+  
+#### <h4 id='5'>Time to get your Computer Set-Up!</h4>
+  
+#### <h4 id='6'>Setting Up with pgAdmin 4</h4>
+  
+#### <h4 id='7'>Installation Notes</h4>
 
 PostGreSQL Installation (Mac)
 ------
