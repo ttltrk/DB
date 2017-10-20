@@ -65,8 +65,22 @@
   * Solutions to Assessment Test 1
 
 ### JOINS
+  * Overview of JOINS
+  * AS Statement
+  * Overview of Inner Join
+  * Examples of Inner Joins
+  * Overview of Join types
+  * Example of Outer Joins
+  * Union
+  * Join Challenges
 
 ### Advanced SQL Commands
+  *
+  *
+  *
+  *
+  *
+  *
 
 ### Assessment Test 2
 
