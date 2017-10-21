@@ -87,6 +87,18 @@ AND DEPTNO = 20;
 #### <h4 id='6'>Combining WHERE, AND & OR with Operators</h4>
 
 ```SQL
---
-
+--Get all employees that are clerks and salesmans.
+SELECT * FROM EMP
+WHERE JOB='CLERK'
+OR JOB='SALESMAN';
 ```
+
+```SQL
+--Get the names of those employees that are not managers nor salesman and have a salary greater than or
+--equal to 2000
+SELECT * FROM EMP
+WHERE JOB != 'MANAGER'
+AND JOB !='SALESMAN'
+AND SAL >= 2000;
+```
+
