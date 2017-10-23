@@ -1,0 +1,1510 @@
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+udemy.com
+
+SQL BOOTCAMP
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+SECTION 1. COURSE INTRO
+
+(xx)
+
+001. (xx) - COURSE INTRODUCTION
+002. (xx) - COURSE CURRICULUM OVERVIEW
+003. (xx) - OVERVIEW OF DATABASES
+004. (xx) - COURSE FAQ
+005. (xx) - TIME TO GET YOUR COMPUTER SETUP
+006. (xx) - SETTING UP WITH PGADMIN4
+007. (xx) - INSTALL NOTES
+
+----------------------------------------------------------------------
+
+SECTION 2. POSTGRESQL INSTALL (MAC)
+
+----------------------------------------------------------------------
+
+SECTION 3. POSTGRESQL INSTALL (WIN)
+
+----------------------------------------------------------------------
+
+SECTION 4. DATABASES AND TABLES
+
+017. (xx) - DATABASES AND TABLES OVERVIEW
+018. (xx) - CREATING AND RESTORING A DATABASE
+019. (xx) - OVERVIEW OF CHALLENGES
+020. (xx) - CHALLENGE: RESTORE A DATABASE
+021. (xx) - RESTORING A TABLE SCHEMA
+022. (xx) - CHALLENGE: RESTORE A TABLE SCHEMA
+023. (xx) - REVIEW OF SECTION
+
+----------------------------------------------------------------------
+
+SECTION 5. SQL STATEMENT FUNDAMENTALS
+
+024. (xx) - SQL CHEAT SHEET
+025. (xx) - SQL STATEMENT FUNDAMENTALS
+026. (xx) - SELECT STATEMENT
+027. (xx) - CHALLENGE: SELECT TASK
+028. (xx) - SELECT DISTINCT
+029. (xx) - CHALLENGE: SELECT DISTINCT
+030. (xx) - SELECT WHERE
+031. (xx) - CHALLENGE: SELECT WHERE
+032. (xx) - COUNT
+033. (xx) - LIMIT
+034. (xx) - ORDER BY
+035. (xx) - CHALLENGE: ORDER BY
+036. (xx) - BETWEEN
+037. (xx) - IN
+038. (xx) - LIKE
+039. (xx) - GENERAL CHALLENGE
+
+----------------------------------------------------------------------
+
+SECTION 6. GROUP BY STATEMENTS
+
+040. (xx) - MIN MAX SUM AND AVG
+041. (xx) - GROUP BY
+042. (xx) - CHALLENGE: GROUP BY
+043. (xx) - HAVING
+044. (xx) - QUICK NOTE
+045. (xx) - CHALLENGE: HAVING
+
+----------------------------------------------------------------------
+
+SECTION 7. ASSESSMENT 1
+
+046. OVERVIEW OF ASSESSMENT TEST 1
+047. ASSESSMNET TEST 1
+048. SOLUTIONS TO ASSESSMENT TEST 1
+
+----------------------------------------------------------------------
+
+SECTION 8. JOINS
+
+049. OVERVIEW OF JOINS
+050. AS STATEMENT
+051. OVSERVIEW OF INNER JOIN
+052. EXAMPLES OF INNER JOINS
+053. OVERVIEW OF JOIN TYPES
+054. EXAMPLE OF OUTER JOINS
+055. UNION 
+056. JOIN CHALLENGES
+
+----------------------------------------------------------------------
+
+SECTION 9. ADVANCED SQL COMMANDS
+
+057. OVERVIEW OF ADVANCED SQL COMMANDS
+058. TIMESTAMPS AND EXTRACT
+059. MATHEMATICAL FUNCTIONS
+060. STRING FUNCTION AND OPERATORS
+061. SUBQUERY
+062. SELF-JOIN
+
+----------------------------------------------------------------------
+
+SECTION 10. ASSESSMENT TEST 2
+
+063. ASSESSMENT TEST 2 OVERVIEW
+064. ASSESSMENT TEST 2
+065. SOLUTIONS TO ASSESSMENT TEST 2
+
+----------------------------------------------------------------------
+
+SECTION 11. CREATING DATABASES AND TABLES
+
+066. (xx) - OVERVIEW OF SECTION
+067. (xx) - DATA TYPES
+068. (xx) - PRIMARY KEYS AND FOREIGN KEYS
+069. (xx) - RESOURCE FOR CREATE TABLE CODE
+070. (xx) - NOTE ON CONSTRAINTS
+071. (xx) - CREATE TABLE
+072. (xx) - CHALLENGE: CREATE TABLE
+073. (xx) - CHALLENGE: CREATE TABLE SOLUTION
+074. (xx) - INSERT
+075. (xx) - UPDATE
+076. (xx) - DELETE
+077. (xx) - ALERT TABLE
+078. (xx) - DROP TABLE
+079. CHECK CONSTRAINT
+080. NOT NULL CONSTRAINT
+081. UNIQUE CONSTRAINT
+
+----------------------------------------------------------------------
+
+SECTION 12. ASSESSMENT TEST 3
+
+082. ASSESSMENT TEST 3
+083. SOLUTIONS TO ASSESSMENT TEST 3
+
+----------------------------------------------------------------------
+
+SECTION 13. EXTRA VIEWS
+
+084. VIEWS
+
+----------------------------------------------------------------------
+
+SECTION 14. POSTGRESQL WITH PYTHON
+
+085. OVERVIEW OF PYTHON AND POSTGRESQL
+086. PSYCOPG2 EXAMPLE USAGE
+087. PSYCOPG2 RSOURCES
+
+----------------------------------------------------------------------
+
+SECTION 15. BONUS OFFERS
+
+088. BONUS OFFERS
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+SECTION 4. DATABASES AND TABLES
+
+****************************
+bug
+
+ERROR: source database "template1" is being accessed by other users
+DETAIL: There is 1 other session using the database.
+
+fix
+
+CREATE DATABASE dbname TEMPLATE template0;
+
+or
+
+diconnect/connect DB
+****************************
+
+----------------------------------------------------------------------
+
+018. CREATING AND RESTORING DATABASE
+
+### create
+
+	CREATE DATABASE testpg
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    CONNECTION LIMIT = -1;
+
+### restore
+
+	right click >>> restore >>> upload the .tar file and GO
+
+### delete
+
+	right click >>> delete/drop
+
+----------------------------------------------------------------------
+
+021. RESTORING ONLY A TABLE SCHEMA
+
+	1. TO THE NEW DB >>> newdb >>> restore >>> find the .tar file >>> restore options >>> only schema YES >>> restore >>> refresh
+	
+	2. TO THE OLD DB >>> olddb >>> restore >>> find the .tar file >>> restore options >>> only schema YES >>> clean before restore YES >>> restore >>> refresh
+	
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+SECTION 5. SQL STATEMENT FUNDAMENTALS
+
+----------------------------------------------------------------------
+
+026. SELECT STATEMENT
+
+	SELECT column1, column2 FROM table_name;
+	
+	----------------------------------
+	
+	SELECT * FROM actor;
+	
+	>>>
+	#all the value from the table actor
+	>>>
+	
+	----------------------------------
+
+	SELECT first_name, last_name FROM actor;
+
+	>>>
+	#all the first_name and all the last_name from the table actor
+	>>>
+
+
+----------------------------------------------------------------------
+
+028.  SELECT DISTINCT
+
+	SELECT DISTINCT column1, column2 FROM table_name;
+	
+	----------------------------------
+	
+	SELECT DISTINCT rental_rate FROM film;
+	
+	>>>
+	4.99
+	0.99
+	2.99
+	>>>
+
+----------------------------------------------------------------------
+
+030. SELECT WHERE
+
+	SELECT column1, column2, column_n
+	FROM table_name
+	WHERE conditions;
+	
+	----------------------------------
+	
+	SELECT * 
+	FROM customer
+	WHERE first_name = 'Jamie';
+	
+	>>>
+	001 | Jamie |  Rice | ........
+	002 | Jamie | Vaugh | ........
+	>>>
+	
+	----------------------------------
+
+	SELECT * 
+	FROM customer
+	WHERE first_name = 'Jamie' AND last_name = 'Waugh';
+
+	>>>
+	002 | Jamie | Vaugh | ........
+	>>>
+	
+	----------------------------------
+	
+	SELECT email 
+	FROM customer
+	WHERE first_name = 'Jared';
+	
+	>>>
+	jared.ely@pg.com
+	>>>
+	
+	----------------------------------
+
+	SELECT customer_id, amount, payment_date 
+	FROM payment
+	WHERE amount <= 1 OR amount >= 8;
+	
+	>>>
+	343 | 0.99 | 2015
+	343 | 8.99 | 2015
+	343 | 8.99 | 2016
+	344 | 8.99 | 2011
+	>>>
+	
+	----------------------------------
+	
+	SELECT phone, address
+	FROM address
+	WHERE address = '259 Ipoh Drive';
+	
+	>>>
+	555-555 | 259 Ipoh Drive
+	>>>
+
+	----------------------------------
+
+----------------------------------------------------------------------
+
+032. COUNT
+
+	SELECT COUNT(*) FROM table;
+
+	----------------------------------
+	
+	SELECT COUNT(*)
+	FROM payment;
+
+	>>>
+	14596
+	>>>
+	
+	----------------------------------
+	
+	SELECT COUNT(amount)
+	FROM payment;
+	
+	>>>
+	14596
+	>>>
+	
+	----------------------------------
+	
+	#kiirja hogy hany kulonbozo amount type van
+	
+	SELECT COUNT(DISTINCT amount)
+	FROM payment;
+	
+	>>>
+	19
+	>>>
+	
+	----------------------------------
+
+----------------------------------------------------------------------
+
+033. LIMIT
+
+	----------------------------------
+	
+	SELECT *
+	FROM customer;
+	
+	>>>
+	1
+	2
+	3
+	...
+	550
+	>>>
+	
+	SELECT *
+	FROM customer
+	LIMIT 3;
+	
+	>>>
+	1
+	2
+	3
+	>>>	
+
+----------------------------------------------------------------------
+
+034. ORDER BY
+
+	SELECT column_1, column_2
+	FROM table_name
+	ORDER BY column_1 ASC / DESC;
+
+	----------------------------------
+	
+	SELECT first_name, last_name
+	FROM customer
+	ORDER BY first_name ASC;
+	
+	>>>
+	Aaron 	| Bishop
+	Adam	| Wayne
+	Adrian	| Smith
+	Agnes	| Kemp
+	>>>
+	
+	----------------------------------
+	
+	SELECT first_name, last_name
+	FROM customer
+	ORDER BY first_name DESC;
+	
+	>>>
+	Zachary		| Selby
+	Yvonne		| Glooch
+	Yolanda		| Kerry
+	>>>
+
+----------------------------------------------------------------------
+
+036. BETWEEN
+
+	----------------------------------
+	
+	SELECT customer_id, amount
+	FROM payment
+	WHERE amount BETWEEN 8 AND 9;
+	
+	>>>
+	kilistazza a 8 es 9 koze eso amountot
+	>>>
+	
+	----------------------------------
+	
+	SELECT amount, payment_date
+	FROM payment
+	WHERE payment_date BETWEEN '2007-02-07' AND '2007-02-15';
+
+	>>>
+	kilistazza az osszes datumot ami ebbe az idobe esik
+	>>>
+	
+	----------------------------------
+	
+	SELECT amount, payment_date
+	FROM payment
+	WHERE payment_date NOT BETWEEN '2007-02-07' AND '2007-02-15';
+	
+	>>>
+	kilistazza az osszes datumot ami NEM ebbe az idobe esik
+	>>>
+	
+----------------------------------------------------------------------
+
+037. IN
+
+	----------------------------------
+	
+	SELECT customer_id, rental_id, return_date
+	FROM rental
+	WHERE customer_id IN (1,2)
+	ORDER BY return_date DESC;
+
+	>>>
+	kiirja az osszes customer_idt ami 1 es 2 a return_date szerinti sorrendbe visszafele
+	>>>
+	
+	----------------------------------
+	
+	SELECT customer_id, rental_id, return_date
+	FROM rental
+	WHERE customer_id IN (1,2,7,21)
+	ORDER BY return_date DESC;
+	
+	>>>
+	kiirja az osszes customer_idt ami 1, 2, 7 ill 21 a return_date szerinti sorrendbe visszafele
+	>>>
+	
+	----------------------------------
+	
+	SELECT customer_id, rental_id, return_date
+	FROM rental
+	WHERE customer_id NOT IN (1,2)
+	ORDER BY return_date DESC;
+
+	>>>
+	kiirja az osszes customer_idt ami NEM 1 es 2 a return_date szerinti sorrendbe visszafele
+	>>>
+
+----------------------------------------------------------------------
+
+038. LIKE
+
+	----------------------------------
+
+	SELECT first_name, last_name
+	FROM customer
+	WHERE first_name LIKE 'Jen%';
+	
+	>>>
+	1. Jennifer Davis
+	2. Jennie Terry
+	3. Jenny Castro
+	....
+	>>>
+	
+	----------------------------------
+	
+	SELECT first_name, last_name
+	FROM customer
+	WHERE first_name NOT LIKE 'Jen%';
+
+	>>>
+	Mindent kilistaz ami nem Jen-nel kezdodik
+	>>>
+
+	----------------------------------
+	
+	SELECT first_name, last_name
+	FROM customer
+	WHERE first_name LIKE '%t';
+
+	>>>
+	1. Margaret
+	2. Janet
+	3. Violet
+	....
+	>>>
+	
+	----------------------------------
+	
+	SELECT first_name, last_name
+	FROM customer
+	WHERE first_name LIKE '%em%';
+
+	>>>
+	1. Rosemary
+	2. Jeremy
+	>>>
+	
+	----------------------------------
+	
+	SELECT first_name, last_name
+	FROM customer
+	WHERE first_name LIKE '_er%';
+
+	>>>
+	1. Teresa
+	2. Bertha
+	3. Veronica
+	....
+	>>>
+	
+	----------------------------------
+	
+	SELECT first_name, last_name
+	FROM customer
+	WHERE first_name ILIKE 'BAR%';
+
+	>>>
+	1. Barbara
+	2. Barry
+	>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+006 - GROUP BY STATEMENTS
+
+----------------------------------------------------------------------
+
+040. MIN MAX SUM AND AVG
+
+	----------------------------------
+	
+	SELECT AVG(amount)
+	FROM payment;
+	
+	>>>
+	4.2006054
+	>>>
+	
+	----------------------------------
+	
+	#tizedes vesszo utan 2 szamjegyet ad vissza
+	
+	SELECT ROUND (AVG(amount), 2)
+	FROM payment;
+	
+	>>>
+	4.20
+	>>>
+	
+	----------------------------------
+	
+	#tizedes vesszo utan 3 szamjegyet ad vissza
+	
+	SELECT ROUND (AVG(amount), 3)
+	FROM payment;
+	
+	>>>
+	4.201
+	>>>
+	
+	----------------------------------
+	
+	SELECT MIN(amount)
+	FROM payment;
+	
+	>>>
+	0.00
+	>>>
+	
+	----------------------------------
+	
+	SELECT MAX(amount)
+	FROM payment;
+	
+	>>>
+	11.99
+	>>>
+	
+	----------------------------------
+	
+	SELECT SUM(amount)
+	FROM payment;
+	
+	>>>
+	61312.04
+	>>>
+	
+----------------------------------------------------------------------
+
+041. GROUP BY
+
+	SELECT column_1, aggregate_func(column_2)
+	FROM table_name
+	GROUP BY column_1;
+
+	----------------------------------
+	
+	SELECT customer_id, SUM(amount)
+	FROM payment
+	GROUP BY customer_id;
+
+	>>>
+	customer_id | sum
+	201			| 200.1
+	105			| 21.8
+	603			| 105.3
+	>>>
+	
+	----------------------------------
+	
+	SELECT customer_id, SUM(amount)
+	FROM payment
+	GROUP BY customer_id
+	ORDER BY SUM(amount) ASC;
+	
+	>>>
+	customer_id | sum
+	102			| 35
+	41			| 36.9
+	97			| 37.2
+	>>>
+	
+	----------------------------------
+	
+	SELECT staff_id, COUNT(payment_id)
+	FROM payment
+	GROUP BY staff_id;
+	
+	>>>	
+	1 | 7127
+	2 | 7281	
+	>>>	
+	
+	----------------------------------
+	
+	#kiirja hogy a ket uzletben mennyi customer_id fordult meg
+	
+	SELECT store_id, COUNT(customer_id)
+	FROM customer
+	GROUP BY store_id;
+
+	>>>
+	1	| 231
+	2	| 291
+	>>>
+
+----------------------------------------------------------------------
+
+043. HAVING
+
+	SELECT column_1, aggregate_func(column_2)
+	FROM table_name
+	GROUP BY column_1
+	HAVING condition;
+
+	----------------------------------
+	
+	SELECT customer_id, SUM(amount)
+	FROM payment
+	GROUP BY customer_id
+	HAVING SUM(amount) > 200;
+	
+	>>>
+	customer_id | sum
+	7			| 219
+	21			| 554
+	>>>
+	
+	----------------------------------
+	
+	#kiirja hogy a ket uzletben mennyi customer_id fordult meg
+	
+	SELECT store_id, COUNT(customer_id)
+	FROM customer
+	GROUP BY store_id;
+
+	>>>
+	1	| 326
+	2	| 291
+	>>>
+	
+	--------
+	
+	SELECT store_id, COUNT(customer_id)
+	FROM customer
+	GROUP BY store_id
+	HAVING COUNT(customer_id) > 300;
+	
+	>>>
+	store_id 	| count
+	1			| 326
+	>>>
+	
+	----------------------------------
+	
+	#kiirja a megadott ratingek atlagat a film tablabol
+	
+	SELECT rating, AVG(rental_rate) 
+	FROM film
+	WHERE rating IN ('R', 'G', 'PG')
+	GROUP BY rating;
+
+	>>>
+	R	| 2.543
+	G	| 2.112
+	PG	| 3.099
+	>>>
+	
+	--------
+	
+	SELECT rating, AVG(rental_rate) 
+	FROM film
+	WHERE rating IN ('R', 'G', 'PG')
+	GROUP BY rating
+	HAVING AVG(rental_rate) < 3;
+
+	>>>
+	>>>
+	R	| 2.543
+	G	| 2.112	
+	>>>
+	
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+008 - JOINS
+
+----------------------------------------------------------------------
+
+049. OVERVIEW OF JOINS
+
+----------------------------------------------------------------------
+
+050. AS STATEMENT
+
+	--------------------------
+
+	SELECT payment_id AS my_payment_column 
+	FROM payment;
+	
+	>>>
+	my_payment_column
+	17503
+	17504
+	17505
+	...
+	>>>
+
+	--------------------------
+	
+	SELECT customer_id, SUM(amount)
+	FROM payment
+	GROUP BY customer_id;
+	
+	>>>
+	customer_id | sum
+	251			| 100.75
+	106			| 95.79
+	120			| 134.7
+	>>>
+	
+	--------
+	
+	SELECT customer_id, SUM(amount) AS total_spent
+	FROM payment
+	GROUP BY customer_id;
+	
+	>>>
+	customer_id | total_spent
+	251			| 100.75
+	106			| 95.79
+	120			| 134.7
+	>>>
+	
+	
+----------------------------------------------------------------------
+
+051. OVERVIEW OF INNER JOIN
+	
+	--------------------------
+	
+	# osszekapcsoljuk a customer tablaban levo customer_id-t a a payment tablaval
+	
+	SELECT 
+		customer.customer_id, 
+		first_name,
+		last_name,
+		email,
+		payment_date
+	FROM customer
+	INNER JOIN payment ON payment.customer_id = customer.customer_id;
+	
+	>>>
+	customer_id | first_name 	| last_name | email | payment_date
+	...			| ...			| ...		| ....	| ....
+	>>>
+	
+	--------------------------
+	
+	SELECT 
+		customer.customer_id, 
+		first_name,
+		last_name,
+		email,
+		payment_date
+	FROM customer
+	INNER JOIN payment ON payment.customer_id = customer.customer_id
+	ORDER BY customer.customer_id;
+	
+	>>>
+	>>>
+	customer_id | first_name 	| last_name | email | payment_date
+	1			| ...			| ...		| ....	| ....
+	2			| ...			| ...		| ....	| ....
+	2			| ...			| ...		| ....	| ....
+	3			| ...			| ...		| ....	| ....
+	>>>
+	>>>
+	
+	--------------------------
+	
+	SELECT 
+		customer.customer_id, 
+		first_name,
+		last_name,
+		email,
+		payment_date
+	FROM customer
+	INNER JOIN payment ON payment.customer_id = customer.customer_id
+	WHERE customer.customer_id = 2;
+	
+	>>>
+	>>>
+	customer_id | first_name 	| last_name | email | payment_date
+	2			| ...			| ...		| ....	| ....
+	2			| ...			| ...		| ....	| ....
+	2			| ...			| ...		| ....	| ....
+	2			| ...			| ...		| ....	| ....
+	>>>
+	>>>
+	
+----------------------------------------------------------------------
+
+052. EXAMPLES OF INNER JOINS
+
+	--------------------------
+	
+	SELECT 
+		payment_id, 
+    	amount, 
+    	first_name, 
+    	last_name
+	FROM payment
+	INNER JOIN staff ON payment.staff_id = staff.staff_id;
+	
+	>>>
+	payment_id 	| amount 	| first_name 	| last_name
+	504			|...		|...			| ...
+	505			|			|				|
+	506			|			|				|
+	...
+	>>>
+	
+	--------------------------
+	
+	SELECT 
+		store_id,
+    	title
+	FROM inventory
+	INNER JOIN film ON inventory.film_id = film.film_id;
+	
+	>>>
+	store_id	| title
+	1			| xyz
+	1			| ...
+	1
+	1
+	2
+	2
+	2
+	2
+	...
+	>>>
+	
+	--------------------------
+	
+	SELECT 
+		store_id,
+    	title
+	FROM inventory
+	INNER JOIN film ON inventory.film_id = film.film_id
+	WHERE store_id = 1;
+	
+	>>>
+	store_id	| title
+	1			| xyz
+	1			| ...
+	1
+	1
+	...
+	>>>
+	
+	--------------------------
+	
+	#mennyi masolat az egyes filmekbol
+	
+	SELECT 
+		title,
+    	COUNT(title)
+	FROM inventory
+	INNER JOIN film ON inventory.film_id = film.film_id
+	WHERE store_id = 1
+	GROUP BY title;
+	
+	>>>
+	title	| count
+	xyz		| 7
+	xyz		| 3
+	xyz		| 4
+	>>>
+	
+	--------
+	
+	SELECT 
+		title,
+    	COUNT(title) AS copies_at_store1
+	FROM inventory
+	INNER JOIN film ON inventory.film_id = film.film_id
+	WHERE store_id = 1
+	GROUP BY title;
+	
+	>>>
+	title	| copies_at_store1
+	xyz		| 7
+	xyz		| 3
+	xyz		| 4
+	>>>
+	
+	--------
+	
+	SELECT 
+		title,
+    	COUNT(title) AS copies_at_store1
+	FROM inventory
+	INNER JOIN film ON inventory.film_id = film.film_id
+	WHERE store_id = 1
+	GROUP BY title
+	ORDER BY title;
+	
+	>>>
+	title	| copies_at_store1
+	a		| 2
+	abc		| 3
+	add		| 1
+	>>>
+	
+	--------------------------
+	
+	# kiirja a filmek nyelveit
+	
+	SELECT 
+		film.title,
+    	language.name
+	FROM film
+	INNER JOIN language ON language.language_id = film.language_id;
+	
+	>>>
+	title	| name
+	abc		|	english
+	xyz		|	spanish
+	>>>
+	
+	--------
+	
+	SELECT 
+		film.title,
+    	language.name AS movie_language
+	FROM film
+	INNER JOIN language ON language.language_id = film.language_id;
+	
+	>>>
+	title	| movie_language
+	abc		|	english
+	xyz		|	spanish
+	>>>
+	
+	--------
+	
+	#mukodik az AS nelkul is
+	
+	SELECT 
+		film.title,
+    	language.name movie_language
+	FROM film
+	INNER JOIN language ON language.language_id = film.language_id;
+	
+	>>>
+	title	| movie_language
+	abc		|	english
+	xyz		|	spanish
+	>>>
+	
+----------------------------------------------------------------------
+
+053. OVERVIEW OF JOIN TYPES
+	
+	--------------------------
+	
+	VENN DIAGRAM!!!
+	
+	--------------------------
+	
+	INNER JOIN
+	
+	SELECT * FROM TableA
+	INNER JOIN TableB
+	ON TableA.name = TableB.name;
+	
+	--------------------------
+	
+	FULL OUTER JOIN
+	
+	SELECT * FROM TableA
+	FULL OUTER JOIN TableB
+	ON TableA.name = TableB.name;
+	
+	--------------------------
+	
+	LEFT OUTER JOIN
+	
+	SELECT * FROM TableA
+	LEFT OUTER JOIN TableB
+	ON TableA.name = TableB.name;
+	
+	--------------------------
+	
+	LEFT OUTER JOIN with WHERE
+	
+	SELECT * FROM TableA
+	LEFT OUTER JOIN TableB
+	ON TableA.name = TableB.name
+	WHERE TableB.id IS null;
+	
+	--------------------------
+	
+	FULL OUTER JOIN with WHERE
+	
+	SELECT * FROM TableA
+	FULL OUTER JOIN TableB
+	ON TableA.name = TableB.name
+	WHERE TableA.id IS null 
+	OR TableB.id IS null;
+				
+----------------------------------------------------------------------
+
+053. EXAMPLE OF OUTHER JOINS
+	
+	--------------------------
+	
+	SELECT film.film_id, film.title, inventory_id
+	FROM film
+	LEFT OUTER JOIN inventory ON inventory.film_id = film.film_id;
+	
+	>>>
+	...
+	>>>
+	
+	--------------------------
+	
+	SELECT film.film_id, film.title, inventory_id
+	FROM film
+	LEFT OUTER JOIN inventory ON inventory.film_id = film.film_id
+	WHERE inventory.film_id IS NULL;
+	
+	>>>
+	...
+	>>>
+	
+----------------------------------------------------------------------
+
+053. UNION
+	
+	--------------------------
+	
+	SELECT cl1, cl2
+	FROM tbl1
+	UNION
+	SELECT cl1, cl2
+	FROM tbl2;
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+009 - ADVANCED SQL COMMANDS
+
+----------------------------------------------------------------------
+
+	--------------------------
+
+----------------------------------------------------------------------
+	
+	--------------------------
+	
+----------------------------------------------------------------------
+	
+	--------------------------
+	
+----------------------------------------------------------------------
+	
+	--------------------------
+	
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+011 - CREATING DATABASES AND TABLES
+
+----------------------------------------------------------------------
+
+067. DATA TYPES
+
+	bool, char, num, temp, special, array
+
+	--------------------------
+
+	1, yes, y, t = TRUE
+	0, no, n, f = FALSE
+
+	--------------------------
+
+	char(n) - fixed length
+	varchar(n) - variable length
+
+----------------------------------------------------------------------
+
+068. PRIMARY KEYS AND FOREIGN KEYS
+
+	--------------------------
+	
+	Primary K is uniqueily identifies a row in a table
+
+	--------------------------
+	
+	CREATE TABLE table_name (
+	column_name datat_type PRIMARY KEY,
+	column_name datat_type ...	
+	)
+
+	--------------------------
+	
+	Foreign K is uniquely identifies a row in another table
+	
+	--------------------------
+	
+	FK contains = child table
+	FK to which = parent table
+	
+	A table can have a multiple FK
+	
+	--------------------------
+	
+	!!!!!!!!!!!!!
+	7:18
+	!!!!!!!!!!!!!
+	
+	--------------------------
+
+----------------------------------------------------------------------
+
+071 - CREATE TABLE 
+
+	CREATE TABLE table_name
+	(column_name TYPE column_constraint,
+	table_constraint)
+	INHERITS existing_table_name;
+
+	--------------------------
+	
+	!!!!!!!!!!!!!!!!
+	06:00
+	!!!!!!!!!!!!!!!!
+	
+	CREATE TABLE account(
+	user_id serial PRIMARY KEY,
+	username VARCHAR (50) UNIQUE NOT NULL,
+	password VARCHAR (50) NOT NULL,
+	email VARCHAR (355) UNIQUE NOT NULL,
+	created_on TIMESTAMP NOT NULL,
+	last_login TIMESTAMP
+	);
+
+	CREATE TABLE role(
+	role_id serial PRIMARY KEY,
+	role_name VARCHAR (255) UNIQUE NOT NULL
+	);
+
+	CREATE TABLE account_role
+	(
+  	user_id integer NOT NULL,
+  	role_id integer NOT NULL,
+  	grant_date timestamp without time zone,
+  	PRIMARY KEY (user_id, role_id),
+  	CONSTRAINT account_role_role_id_fkey FOREIGN KEY (role_id)
+      REFERENCES role (role_id) MATCH SIMPLE
+      ON UPDATE NO ACTION ON DELETE NO ACTION,
+  	CONSTRAINT account_role_user_id_fkey FOREIGN KEY (user_id)
+      REFERENCES account (user_id) MATCH SIMPLE
+      ON UPDATE NO ACTION ON DELETE NO ACTION
+	);
+	
+	--------------------------
+	
+	#duplicalni mar egy meglevo tablat
+	
+	CREATE TABLE link_copy (LIKE link);
+	
+	--------------------------
+
+
+----------------------------------------------------------------------
+
+074 - INSERT
+
+	INSERT INTO table(col1, col2)
+	VALUES (val1, val2);
+	
+	or
+	
+	INSERT INTO table
+	SELECT col1, col2
+	FROM another_table
+	WHERE condition;
+
+	--------------------------
+	
+	INSERT INTO link(url,name)
+	VALUES ('google.com','Google');
+
+	>>>
+	feltolti az url mezot a megadott adatokkal
+	>>>
+	
+	--------------------------
+	
+	#tobb adat megadasa
+
+	INSERT INTO link(url,name)
+	VALUES
+	('bing.com','Bing'),
+	('amazon.com','Amazon');
+	
+	>>>
+	feltolti az url mezot a megadott adatokkal
+	>>>
+
+	--------------------------
+	
+	INSERT INTO link_copy
+	SELECT * 
+	FROM link 
+	WHERE name = 'Bing';
+
+	>>>
+	Egy masik tabla egy adatat atmasoljuk az uj tablaba
+	>>>
+
+----------------------------------------------------------------------
+
+075 - UPDATE
+
+	UPDATE table
+	
+	SET col1 = val1,
+		col2 = val2
+		
+	WHERE condition; 
+
+	--------------------------
+	
+	UPDATE link
+	SET description = 'Empty desc';
+	
+	>>>
+	Feltolti a description oszlopot a megadott adattal
+	>>>
+
+	--------------------------
+	
+	UPDATE link
+	SET description = 'Name starts with A'
+	WHERE name LIKE 'A%';	
+	
+	>>>
+	Feltolti minden A-val kezdodo record descriptionjat a megadott adattal
+	>>>
+
+	--------------------------
+	
+	UPDATE link
+	SET description = name;
+	
+	>>>
+	A description oszlop ugyan azt a tartalmat kapta mint a name
+	>>>
+	
+	--------------------------
+	
+	UPDATE link
+	SET description = 'New desc'
+	WHERE id = 1;
+	
+	>>>
+	Az elso sor description tartalmat atirja a megadottra
+	>>>
+	
+
+----------------------------------------------------------------------
+
+076 - DELETE
+
+	DELETE FROM table
+	WHERE condition;
+
+	--------------------------
+	
+	DELETE FROM link
+	WHERE name LIKE 'B%';
+	
+	>>>
+	Kitorli a B-vel kezdodo name sorokat
+	>>>
+
+----------------------------------------------------------------------
+
+077 - ALTER TABLE
+
+	--------------------------
+	
+	DROP TABLE IF EXISTS link;
+	
+	>>>
+	Kidobtuk a link tablat
+	>>>
+
+	--------------------------
+	
+	#keszitunk egy link tablat
+	
+	CREATE TABLE link
+	(
+    link_id serial PRIMARY KEY,
+    title VARCHAR(512) NOT NULL,
+    url VARCHAR(1024) NOT NULL UNIQUE
+    );
+	
+	#hozzaadjuk a active oszlopot
+	
+	ALTER TABLE link ADD COLUMN active boolean;
+	
+	#majd gyorsan ki is toroljuk ezt az oszlopot
+	
+	ALTER TABLE link DROP COLUMN active;
+	
+	#majd vegul atnevezzuk a title oszlopot
+	
+	ALTER TABLE link RENAME COLUMN title TO new_title_name;
+	
+	#az egesz tablat is atnevezhetjuk
+	
+	ALTER TABLE link RENAME TO url_table;
+
+	--------------------------
+
+----------------------------------------------------------------------
+
+078 - DROP TABLE
+
+	DROP TABLE table_name 
+
+	--------------------------
+	
+	DROP TABLE test_two;
+	
+	>>>
+	test_two was removed
+	>>>
+
+	--------------------------
+
+	--------------------------
+
+----------------------------------------------------------------------
+
+--------------------------
+
+--------------------------
+
+--------------------------
+
+----------------------------------------------------------------------
+
+--------------------------
+
+--------------------------
+
+--------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
