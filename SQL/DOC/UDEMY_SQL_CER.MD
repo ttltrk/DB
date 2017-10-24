@@ -11,7 +11,7 @@
   * <a href='#4'>Using the WHERE Clause</a>
   * <a href='#5'>Using Operators in the WHERE Clause</a>
   * <a href='#6'>Combining WHERE, AND & OR with Operators</a>
-  *
+  * <a href='#7'>Query Filtering Continued BETWEEN, IN and NULL</a>
 
 ### Section 3
 
@@ -101,4 +101,15 @@ WHERE JOB != 'MANAGER'
 AND JOB !='SALESMAN'
 AND SAL >= 2000;
 ```
+#### <h4 id='7'>Query Filtering Continued BETWEEN, IN and NULL</h4>
+
+```SQL
+--Get the names of the employees that works in Dallas and in Chicago
+SELECT ename, hiredate, deptno FROM EMP
+WHERE DEPTNO IN (20, 30);
+```
+
+
+
+
 
