@@ -216,37 +216,111 @@ olddb >>> restore >>> find the .tar file >>> restore options >>> only schema YES
 SQL Statement Fundamentals
 ------
 
-#### <h4 id='23'>SQL Cheat Sheet</h4>
+#### <h4 id='24'>SQL Cheat Sheet</h4>
 
-#### <h4 id='23'>SQL Statement Fundamentals</h4>
+#### <h4 id='25'>SQL Statement Fundamentals</h4>
 
-#### <h4 id='23'>SELECT Statement</h4>
+#### <h4 id='26'>SELECT Statement</h4>
 
-#### <h4 id='23'>Challenge: SELECT task</h4>
+```SQL
+SELECT column1, column2 FROM table_name;
+```
 
-#### <h4 id='23'>SELECT DISTINCT</h4>
+```SQL
+--get all the value from the table actor
+SELECT * FROM actor;
+```
 
-#### <h4 id='23'>Challenge: SELECT DISTINCT</h4>
+```SQL
+--get all the first_name and all the last_name from the table actor
+SELECT first_name, last_name FROM actor;
+```
 
-#### <h4 id='23'>SELECT WHERE</h4>
+#### <h4 id='27'>Challenge: SELECT task</h4>
 
-#### <h4 id='23'>Challenge: SELECT WHERE</h4>
+#### <h4 id='28'>SELECT DISTINCT</h4>
 
-#### <h4 id='23'>COUNT</h4>
+```SQL
+SELECT DISTINCT rental_rate FROM film;
+```
 
-#### <h4 id='23'>LIMIT</h4>
+#### <h4 id='29'>Challenge: SELECT DISTINCT</h4>
 
-#### <h4 id='23'>ORDER BY</h4>
+#### <h4 id='30'>SELECT WHERE</h4>
 
-#### <h4 id='23'>Challenge: ORDER BY</h4>
+```SQL
+-- get all the customer (Jamie) 
+SELECT * 
+FROM customer
+WHERE first_name = 'Jamie';
+```
 
-#### <h4 id='23'>BETWEEN</h4>
+```SQL
+SELECT * 
+FROM customer
+WHERE first_name = 'Jamie' AND last_name = 'Waugh';
+```
 
-#### <h4 id='23'>IN</h4>
+```SQL
+SELECT customer_id, amount, payment_date 
+FROM payment
+WHERE amount <= 1 
+OR amount >= 8;
+```
 
-#### <h4 id='23'>LIKE</h4>
+#### <h4 id='31'>Challenge: SELECT WHERE</h4>
 
-#### <h4 id='23'>General Challenge 1</h4>
+#### <h4 id='32'>COUNT</h4>
+
+```SQL
+--count the the rows in the payment
+SELECT COUNT(*)
+FROM payment;
+```
+
+```SQL
+SELECT COUNT(DISTINCT amount)
+FROM payment;
+```
+
+#### <h4 id='33'>LIMIT</h4>
+
+```SQL
+--we will receive only 3 rows
+SELECT *
+FROM customer
+LIMIT 3;
+```
+
+#### <h4 id='34'>ORDER BY</h4>
+
+```SQL
+SELECT first_name, last_name
+FROM customer
+ORDER BY first_name ASC;
+```
+
+#### <h4 id='35'>Challenge: ORDER BY</h4>
+
+#### <h4 id='36'>BETWEEN</h4>
+
+```SQL
+SELECT customer_id, amount
+FROM payment
+WHERE amount BETWEEN 8 AND 9;
+```
+
+```SQL
+SELECT amount, payment_date
+FROM payment
+WHERE payment_date BETWEEN '2007-02-07' AND '2007-02-15';
+```
+
+#### <h4 id='37'>IN</h4>
+
+#### <h4 id='38'>LIKE</h4>
+
+#### <h4 id='39'>General Challenge 1</h4>
 
 GROUP BY Statement
 ------
