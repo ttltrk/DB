@@ -168,11 +168,46 @@ Databases and Tables
 
 #### <h4 id='18'>Creating and restoring a Database</h4>
 
+create
+
+```SQL
+	CREATE DATABASE testpg
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    CONNECTION LIMIT = -1;
+ ```
+ 
+ restore
+
+```
+	right click >>> restore >>> upload the .tar file and GO
+```
+
+delete
+
+```
+	right click >>> delete/drop
+```
+
 #### <h4 id='19'>Overview of Challenges!</h4>
 
 #### <h4 id='20'>Challenge: Restore a Database!</h4>
 
 #### <h4 id='21'>Restoring a Table Schema</h4>
+
+To the new DB
+
+```
+newdb >>> restore >>> find the .tar file >>> restore options >>> only schema YES >>> restore >>> refresh
+```
+
+To the old DB
+
+```
+olddb >>> restore >>> find the .tar file >>> restore options >>> only schema YES >>> clean before restore YES 
+>>> restore >>> refresh
+```
 
 #### <h4 id='22'>Challenge: Restore a Table Schema!</h4>
 
