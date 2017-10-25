@@ -60,19 +60,19 @@
   * <a href='#45'>Challenge: HAVING</a>
 
 ### Assessment Test 1
-  * Overview of Assessment Test 1
-  * Assessment Test 1
-  * Solutions to Assessment Test 1
+  * <a href='#46'>Overview of Assessment Test 1</a>
+  * <a href='#47'>Assessment Test 1</a>
+  * <a href='#48'>Solutions to Assessment Test 1</a>
 
 ### JOINS
-  * Overview of JOINS
-  * AS Statement
-  * Overview of Inner Join
-  * Examples of Inner Joins
-  * Overview of Join types
-  * Example of Outer Joins
-  * Union
-  * Join Challenges
+  * <a href='#49'>Overview of JOINS</a>
+  * <a href='#50'>AS Statement</a>
+  * <a href='#51'>Overview of Inner Join</a>
+  * <a href='#52'>Examples of Inner Joins</a>
+  * <a href='#53'>Overview of Join types</a>
+  * <a href='#54'>Example of Outer Joins</a>
+  * <a href='#55'>Union</a>
+  * <a href='#56'>Join Challenges</a>
 
 ### Advanced SQL Commands
   * Overview of Advanced SQL Commands
