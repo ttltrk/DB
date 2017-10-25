@@ -37,6 +37,8 @@ Single Table Queries
 
 #### <h4 id='5'>Using Operators in the WHERE Clause</h4>
 
+WHERE
+
 ```SQL
 --List Out, all the managers from EMP
 SELECT * FROM EMP
