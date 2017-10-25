@@ -109,6 +109,19 @@ SELECT ename, hiredate, deptno FROM EMP
 WHERE DEPTNO IN (20, 30);
 ```
 
+```SQL
+--get the mentioned names
+SELECT ename, hiredate
+FROM EMP
+WHERE ENAME IN ('FORD', 'SMITH');
+```
+
+```SQL
+get all the names without the selected ones
+SELECT ename, hiredate
+FROM EMP
+WHERE ENAME NOT IN ('FORD', 'SMITH');
+```
 
 
 
