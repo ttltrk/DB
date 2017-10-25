@@ -318,12 +318,63 @@ WHERE payment_date BETWEEN '2007-02-07' AND '2007-02-15';
 
 #### <h4 id='37'>IN</h4>
 
+```SQL
+SELECT customer_id, rental_id, return_date
+FROM rental
+WHERE customer_id IN (1,2)
+ORDER BY return_date DESC;
+```
+
+```SQL
+SELECT customer_id, rental_id, return_date
+FROM rental
+WHERE customer_id IN (1,2,7,21)
+ORDER BY return_date DESC;
+```
+
+```SQL
+SELECT customer_id, rental_id, return_date
+FROM rental
+WHERE customer_id NOT IN (1,2)
+ORDER BY return_date DESC;
+```
+
 #### <h4 id='38'>LIKE</h4>
+
+```SQL
+SELECT first_name, last_name
+FROM customer
+WHERE first_name LIKE 'Jen%';
+```
+
+```SQL
+SELECT first_name, last_name
+FROM customer
+WHERE first_name NOT LIKE 'Jen%';
+```
+
+```SQL
+SELECT first_name, last_name
+FROM customer
+WHERE first_name LIKE '%em%';
+```
 
 #### <h4 id='39'>General Challenge 1</h4>
 
 GROUP BY Statement
 ------
+
+#### MIN MAX SUM and AVG
+
+#### GROUP BY
+
+#### Challenge: GROUP BY
+
+#### HAVING
+
+#### Quick Note
+
+#### Challenge: HAVING
 
 Assessment Test 1
 ------
