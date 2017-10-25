@@ -366,7 +366,68 @@ GROUP BY Statement
 
 #### <h4 id='40'>MIN MAX SUM and AVG</h4>
 
+AVG
+
+```SQL
+SELECT AVG(amount)
+FROM payment;
+```	
+
+ROUND
+
+```SQL
+--tizedes vesszo utan 2 szamjegyet ad vissza
+SELECT ROUND (AVG(amount), 2)
+FROM payment;
+```
+
+MIN
+
+```SQL
+SELECT MIN(amount)
+FROM payment;
+```
+
+MAX
+
+```SQL
+SELECT MAX(amount)
+FROM payment;
+```
+
+SUM
+
+```
+SELECT SUM(amount)
+FROM payment;
+```
+
 #### <h4 id='41'>GROUP BY</h4>
+
+```SQL
+SELECT customer_id, SUM(amount)
+FROM payment
+GROUP BY customer_id;
+```
+
+```SQL
+SELECT customer_id, SUM(amount)
+FROM payment
+GROUP BY customer_id
+ORDER BY SUM(amount) ASC;
+```
+
+```SQL
+SELECT staff_id, COUNT(payment_id)
+FROM payment
+GROUP BY staff_id;
+```
+
+```SQL
+SELECT store_id, COUNT(customer_id)
+FROM customer
+GROUP BY store_id;
+```
 
 #### <h4 id='42'>Challenge: GROUP BY</h4>
 
