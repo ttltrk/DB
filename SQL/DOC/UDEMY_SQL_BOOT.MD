@@ -52,12 +52,12 @@
   * <a href='#39'>General Challenge 1</a>
 
 ### GROUP BY Statement
-  * MIN MAX SUM and AVG
-  * GROUP BY
-  * Challenge: GROUP BY
-  * HAVING
-  * Quick Note
-  * Challenge: HAVING
+  * <a href='#40'>MIN MAX SUM and AVG</a>
+  * <a href='#41'>GROUP BY</a>
+  * <a href='#42'>Challenge: GROUP BY</a>
+  * <a href='#43'>HAVING</a>
+  * <a href='#44'>Quick Note</a>
+  * <a href='#45'>Challenge: HAVING</a>
 
 ### Assessment Test 1
   * Overview of Assessment Test 1
@@ -364,17 +364,17 @@ WHERE first_name LIKE '%em%';
 GROUP BY Statement
 ------
 
-#### MIN MAX SUM and AVG
+#### <h4 id='40'>MIN MAX SUM and AVG</h4>
 
-#### GROUP BY
+#### <h4 id='41'>GROUP BY</h4>
 
-#### Challenge: GROUP BY
+#### <h4 id='42'>Challenge: GROUP BY</h4>
 
-#### HAVING
+#### <h4 id='43'>HAVING</h4>
 
-#### Quick Note
+#### <h4 id='44'>Quick Note</h4>
 
-#### Challenge: HAVING
+#### <h4 id='45'>Challenge: HAVING</h4>
 
 Assessment Test 1
 ------
