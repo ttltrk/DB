@@ -86,12 +86,16 @@ AND DEPTNO = 20;
 
 #### <h4 id='6'>Combining WHERE, AND & OR with Operators</h4>
 
+OR
+
 ```SQL
 --Get all employees that are clerks and salesmans.
 SELECT * FROM EMP
 WHERE JOB='CLERK'
 OR JOB='SALESMAN';
 ```
+
+AND
 
 ```SQL
 --Get the names of those employees that are not managers nor salesman and have a salary greater than or
@@ -102,6 +106,8 @@ AND JOB !='SALESMAN'
 AND SAL >= 2000;
 ```
 #### <h4 id='7'>Query Filtering Continued BETWEEN, IN and NULL</h4>
+
+IN
 
 ```SQL
 --Get the names of the employees that works in Dallas and in Chicago
@@ -116,6 +122,8 @@ FROM EMP
 WHERE ENAME IN ('FORD', 'SMITH');
 ```
 
+NOT IN
+
 ```SQL
 get all the names without the selected ones
 SELECT ename, hiredate
@@ -123,6 +131,14 @@ FROM EMP
 WHERE ENAME NOT IN ('FORD', 'SMITH');
 ```
 
+BETWEEN
+
+```SQL
+--between the selected range
+SELECT * FROM EMP
+WHERE hiredate 
+BETWEEN '05/01/1981' AND '01/12/1983';
+```
 
 
 
