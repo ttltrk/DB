@@ -140,5 +140,32 @@ WHERE hiredate
 BETWEEN '05/01/1981' AND '01/12/1983';
 ```
 
+NOT BETWEEN
+
+```SQL
+SELECT * FROM EMP
+WHERE SAL 
+NOT BETWEEN 1000 AND 2000;
+```
+
+NULL
+
+```SQL
+--records with no data
+SELECT * FROM EMP
+WHERE COMM IS NULL;
+```
+
+NOT NULL
+
+```SQL
+SELECT * FROM EMP
+WHERE COMM IS NOT NULL;
+```
+
+
+
+
+
 
 
