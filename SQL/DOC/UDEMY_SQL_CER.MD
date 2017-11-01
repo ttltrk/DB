@@ -169,11 +169,19 @@ WHERE COMM IS NOT NULL;
 #### <h4 id='8'>Query Filtering Conditions & Operator Precedence</h4>
 
 ```SQL
--- all employees with null and 0 in COMM and SAL is in the range 1100-5000 and not equal to 3000
+-- all employees with null and 0 in COMM and SAL is in the range 1100-5000 and not equal to 1500
 SELECT * FROM EMP
-WHERE COMM IS NULL
-AND SAL > 1100 AND SAL < 5000
-AND SAL != 3000;
+WHERE (COMM IS NULL OR COMM = 0)
+AND SAL > 1100 
+AND SAL < 5000
+AND SAL <> 1500;
+```
+
+```SQL
+-- all salesman with comm 300 and more than 1000
+SELECT * FROM EMP
+WHERE JOB = 'SALESMAN'
+AND (COMM = 300 OR COMM > 1000);
 ```
 
 
