@@ -12,6 +12,7 @@
   * <a href='#5'>Using Operators in the WHERE Clause</a>
   * <a href='#6'>Combining WHERE, AND & OR with Operators</a>
   * <a href='#7'>Query Filtering Continued BETWEEN, IN and NULL</a>
+  * <a href='#8'>Query Filtering Conditions & Operator Precedence</a>
 
 ### Section 3
 
@@ -165,6 +166,7 @@ SELECT * FROM EMP
 WHERE COMM IS NOT NULL;
 ```
 
+#### <h4 id='8'>
 
 
 
