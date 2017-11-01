@@ -166,7 +166,22 @@ SELECT * FROM EMP
 WHERE COMM IS NOT NULL;
 ```
 
-#### <h4 id='8'>
+#### <h4 id='8'>Query Filtering Conditions & Operator Precedence</h4>
+
+```SQL
+-- all employees with null and 0 in COMM and SAL is in the range 1100-5000 and not equal to 3000
+SELECT * FROM EMP
+WHERE COMM IS NULL
+AND SAL > 1100 AND SAL < 5000
+AND SAL != 3000;
+```
+
+
+
+
+
+
+
 
 
 
