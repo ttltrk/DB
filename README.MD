@@ -8,7 +8,7 @@ Database documents
 
 ### [SQL](https://github.com/ttltrk/DB/tree/master/SQL)
 
-  * [SQL Tutorial on SoloLearn](https://github.com/ttltrk/DB/blob/master/SQL/DOC/SOLOLEARN_SQL.MD)
+  * [SQL Tutorial on SoloLearn](https://github.com/ttltrk/DB/blob/master/SQL/DOC/SOLOLEARN_SQL.MD) - [100%]
   * [The Complete SQL Bootcamp on Udemy](https://github.com/ttltrk/DB/blob/master/SQL/DOC/UDEMY_SQL_BOOT.MD) - [74%]
   * [The Complete Oracle SQL Certification Course on Udemy](https://github.com/ttltrk/DB/blob/master/SQL/DOC/UDEMY_SQL_CER.MD) - [25%]
   * [SQL Tutorial on W3Schools](https://github.com/ttltrk/DB/blob/master/SQL/DOC/W3SCHOOLS_SQL.MD)
