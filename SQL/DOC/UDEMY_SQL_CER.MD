@@ -13,6 +13,7 @@
   * <a href='#6'>Combining WHERE, AND & OR with Operators</a>
   * <a href='#7'>Query Filtering Continued BETWEEN, IN and NULL</a>
   * <a href='#8'>Query Filtering Conditions & Operator Precedence</a>
+  * <a href='#9'>Ordering, Concatenating and Aliasing Query Results</a>
 
 ### Section 3
 
@@ -183,7 +184,7 @@ SELECT * FROM EMP
 WHERE JOB = 'SALESMAN'
 AND (COMM = 300 OR COMM > 1000);
 ```
-
+#### <h4 id='9'>Ordering, Concatenating and Aliasing Query Results</h4>
 
 
 
