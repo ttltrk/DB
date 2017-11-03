@@ -4,7 +4,7 @@ Database documents
 
 ### [PL/SQL](https://github.com/ttltrk/DB/tree/master/PLSQL)
 
-  * [Oracle PL/SQL Fundamentals vol. I & II on Udemy](https://github.com/ttltrk/DB/blob/master/PLSQL/DOC/UDEMY_PLSQL.MD)[3%]
+  * [Oracle PL/SQL Fundamentals vol. I & II on Udemy](https://github.com/ttltrk/DB/blob/master/PLSQL/DOC/UDEMY_PLSQL.MD) - [3%]
 
 ### [SQL](https://github.com/ttltrk/DB/tree/master/SQL)
 
