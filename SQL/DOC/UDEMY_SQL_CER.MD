@@ -221,7 +221,7 @@ hello my name is JONES
 ```
 
 ```SQL
---concatenating strings a rename ENAME to employee makes per month
+--concatenating strings and rename ENAME to employee makes per month
 SELECT ENAME || ' makes $' || SAL ||  ' per month' AS "employee makes per month"
 FROM EMP;
 
@@ -231,10 +231,36 @@ BLAKE makes $2850 per month
 CLARK makes $2450 per month
 ...
 >>>
+```
+
 ```SQL
+SELECT ENAME, SAL
+FROM EMP
+ORDER BY ENAME ASC;
 
+>>>
+ENAME	SAL
+ADAMS	1100
+ALLEN	1600
+BLAKE	2850
+CLARK	2450
+...
+>>>
+```
 
+```SQL
+SELECT ENAME, SAL
+FROM EMP
+ORDER BY ENAME DESC;
 
-
+>>>
+ENAME	SAL
+WARD	1250
+TURNER	1500
+SMITH	800
+SCOTT	3000
+...
+>>>
+```
 
 
