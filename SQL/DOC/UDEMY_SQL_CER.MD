@@ -206,8 +206,32 @@ hello my name is JONES
 >>>
 ```
 
+```SQL
+--concatenating strings and rename the ENAME to concatenated value
+SELECT 'hello my name is ' || ENAME AS "concatenated value"
+FROM EMP;
 
+>>>
+hello my name is KING
+hello my name is BLAKE
+hello my name is CLARK
+hello my name is JONES
+...
+>>>
+```
 
+```SQL
+--concatenating strings a rename ENAME to employee makes per month
+SELECT ENAME || ' makes $' || SAL ||  ' per month' AS "employee makes per month"
+FROM EMP;
+
+>>>
+KING makes $5000 per month
+BLAKE makes $2850 per month
+CLARK makes $2450 per month
+...
+>>>
+```SQL
 
 
 
