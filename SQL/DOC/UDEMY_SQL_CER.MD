@@ -187,12 +187,24 @@ AND (COMM = 300 OR COMM > 1000);
 #### <h4 id='9'>Ordering, Concatenating and Aliasing Query Results</h4>
 
 ```SQL
---return back the ENAME as EMPLOYEE SAL as SALARY and COMM as COMMISION
-SELECT ENAME EMPLOYEE, SAL SALARY, COMM COMMISION
+--return back the ENAME as EMPLOYEE NAME, SAL as SALARY and COMM as COMMISION
+SELECT ENAME "EMPLOYEE NAME", SAL SALARY, COMM COMMISION
 FROM EMP;
 ```
 
+```SQL
+--concatenating strings
+SELECT 'hello my name is ' || ENAME
+FROM EMP;
 
+>>>
+hello my name is KING
+hello my name is BLAKE
+hello my name is CLARK
+hello my name is JONES
+...
+>>>
+```
 
 
 
