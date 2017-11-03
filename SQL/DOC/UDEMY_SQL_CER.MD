@@ -186,6 +186,11 @@ AND (COMM = 300 OR COMM > 1000);
 ```
 #### <h4 id='9'>Ordering, Concatenating and Aliasing Query Results</h4>
 
+```SQL
+--return back the ENAME as EMPLOYEE SAL as SALARY and COMM as COMMISION
+SELECT ENAME EMPLOYEE, SAL SALARY, COMM COMMISION
+FROM EMP;
+```
 
 
 
