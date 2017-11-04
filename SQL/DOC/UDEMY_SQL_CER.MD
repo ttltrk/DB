@@ -287,11 +287,11 @@ Single Row Functions
 #### <h4 id='10'>Single Row Functions (SRF) & Using the Dual Table</h4>
 
 ```SQL
-SELECT 'my name is ' || ename
+SELECT 'my name is ' || ename as sentence
 FROM emp;
 
 >>>
-'MYNAMEIS'||ENAME
+SENTENCE
 my name is KING
 my name is BLAKE
 my name is CLARK
@@ -301,11 +301,11 @@ my name is JONES
 ```
 
 ```SQL
-SELECT concat('my name is ', ename)
+SELECT concat('my name is ', ename) as sentence
 FROM emp;
 
 >>>
-CONCAT('MYNAMEIS',ENAME)
+SENTENCE
 my name is KING
 my name is BLAKE
 my name is CLARK
@@ -315,5 +315,90 @@ my name is JONES
 ```
 
 ```SQL
+SELECT * FROM DUAL;
 
+>>>
+DUMMY
+X
+>>>
 ```
+
+```SQL
+SELECT 'pizza' AS FOOD, 'fanta' AS DRINK FROM DUAL;
+
+>>>
+FOOD	DRINK
+pizza	fanta
+>>>
+```
+
+```SQL
+SELECT 'pizza' AS FOOD, 'fanta' AS DRINK, CONCAT ('hello', ' john') AS NAME
+FROM DUAL;
+
+>>>
+FOOD	DRINK	NAME
+pizza	fanta	hello john
+>>>
+```
+
+```SQL
+SELECT lower(ename) AS name
+FROM emp;
+
+>>>
+NAME
+king
+blake
+clark
+jones
+...
+>>>
+```
+
+```SQL
+SELECT concat(lower(ename), ' is the name') AS name
+FROM emp;
+
+>>>
+NAME
+king is the name
+blake is the name
+clark is the name
+jones is the name
+...
+>>>
+```
+
+```SQL
+SELECT concat(lower(ename), upper(' is the name')) AS name
+FROM emp;
+
+>>>
+NAME
+king IS THE NAME
+blake IS THE NAME
+clark IS THE NAME
+jones IS THE NAME
+...
+>>>
+```
+
+```SQL
+SELECT concat (concat (lower(ename), upper(' is the name ') ), concat ('and their job is: ', job ) ) AS MAIN
+FROM emp
+WHERE deptno = 20;
+
+>>>
+MAIN
+jones IS THE NAME and their job is: MANAGER
+scott IS THE NAME and their job is: ANALYST
+ford IS THE NAME and their job is: ANALYST
+smith IS THE NAME and their job is: CLERK
+adams IS THE NAME and their job is: CLERK
+>>>
+```
+
+
+
+
