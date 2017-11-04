@@ -287,6 +287,33 @@ Single Row Functions
 #### <h4 id='10'>Single Row Functions (SRF) & Using the Dual Table</h4>
 
 ```SQL
+SELECT 'my name is ' || ename
+FROM emp;
 
+>>>
+'MYNAMEIS'||ENAME
+my name is KING
+my name is BLAKE
+my name is CLARK
+my name is JONES
+...
+>>>
 ```
 
+```SQL
+SELECT concat('my name is ', ename)
+FROM emp;
+
+>>>
+CONCAT('MYNAMEIS',ENAME)
+my name is KING
+my name is BLAKE
+my name is CLARK
+my name is JONES
+...
+>>>
+```
+
+```SQL
+
+```
