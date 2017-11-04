@@ -15,7 +15,8 @@
   * <a href='#8'>Query Filtering Conditions & Operator Precedence</a>
   * <a href='#9'>Ordering, Concatenating and Aliasing Query Results</a>
 
-### Section 3
+### Single Row Functions
+  * <a href='#10'>Single Row Functions (SRF) & Using the Dual Table</a>
 
 ### Section 4
 
@@ -279,3 +280,13 @@ DEPTNO	SAL	ENAME
 ...
 >>>
 ```
+
+Single Row Functions
+------
+
+#### <h4 id='10'>Single Row Functions (SRF) & Using the Dual Table</h4>
+
+```SQL
+
+```
+
