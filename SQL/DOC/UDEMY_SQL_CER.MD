@@ -424,6 +424,25 @@ MANAGER
 ```
 
 ```SQL
+SELECT initcap ('hello world') as hello
+FROM DUAL;
+
+>>>
+HELLO
+Hello World
+>>>
+```
+
+```SQL
+SELECT length ('hello world') as hello
+FROM DUAL;
+
+>>>
+11
+>>>
+```
+
+```SQL
 
 ```
 
