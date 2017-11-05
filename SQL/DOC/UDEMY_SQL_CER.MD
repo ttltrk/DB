@@ -443,6 +443,75 @@ FROM DUAL;
 ```
 
 ```SQL
+SELECT length (ename) as length
+FROM emp;
+
+>>>
+LENGTH
+4
+5
+5
+5
+5
+4
+5
+5
+...
+>>>
+```
+
+```SQL
+SELECT ename, length (ename) as length
+FROM emp;
+
+>>>
+ENAME	LENGTH
+KING	4
+BLAKE	5
+CLARK	5
+JONES	5
+...
+>>>
+```
+
+```SQL
+SELECT ename, length (ename) as length
+FROM emp
+WHERE length (ename) = 6;
+
+>>>
+ENAME	LENGTH
+MARTIN	6
+TURNER	6
+MILLER	6
+>>>
+```
+
+```SQL
+SELECT 'hello', substr ('hello', 2, 2) as substring
+FROM DUAL;
+
+>>>
+'HELLO'	SUBSTRING
+hello	el
+>>>
+```
+
+```SQL
+SELECT 'hello', substr ('hello', 2) as substring
+FROM DUAL;
+
+>>>
+'HELLO'	SUBSTRING
+hello	ello
+>>>
+```
+
+```SQL
+
+```
+
+```SQL
 
 ```
 
