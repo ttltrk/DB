@@ -17,6 +17,7 @@
 
 ### Single Row Functions
   * <a href='#10'>Single Row Functions (SRF) & Using the Dual Table</a>
+  * <a href='#11'>Using Functions in WHERE and Character Based SRFs</a>
 
 ### Section 4
 
@@ -399,6 +400,31 @@ adams IS THE NAME and their job is: CLERK
 >>>
 ```
 
+#### <h4 id='11'>Using Functions in WHERE and Character Based SRFs</h4>
 
+```SQL
+SELECT JOB FROM emp
+WHERE job = lower('MANAGER');
+
+>>>
+np data found
+>>>
+```
+
+```SQL
+SELECT JOB FROM emp
+WHERE job = upper('MANAGER');
+
+>>>
+JOB
+MANAGER
+MANAGER
+MANAGER
+>>>
+```
+
+```SQL
+
+```
 
 
