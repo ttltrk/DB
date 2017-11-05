@@ -508,11 +508,43 @@ hello	ello
 ```
 
 ```SQL
+SELECT LPAD ('hello', 10, '&') as LPAD
+FROM DUAL;
 
+>>>
+LPAD
+&&&&&hello
+>>>
 ```
 
 ```SQL
+SELECT RPAD ('hello', 10, '&') as RPAD
+FROM DUAL;
 
+>>>
+RPAD
+hello&&&&&
+>>>
+```
+
+```SQL
+SELECT LTRIM ('hello','h') as LTRIM
+FROM DUAL;
+
+>>>
+LTRIM
+ello
+>>>
+```
+
+```SQL
+SELECT RTRIM ('hello','o') as RTRIM
+FROM DUAL;
+
+>>>
+RTRIM
+hell
+>>>
 ```
 
 
