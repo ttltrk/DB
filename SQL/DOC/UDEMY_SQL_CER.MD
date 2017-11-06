@@ -18,6 +18,7 @@
 ### Single Row Functions
   * <a href='#10'>Single Row Functions (SRF) & Using the Dual Table</a>
   * <a href='#11'>Using Functions in WHERE and Character Based SRFs</a>
+  * <a href='#12'>Numeric and Date Data type SRFs</a>
 
 ### Section 4
 
@@ -544,6 +545,84 @@ FROM DUAL;
 >>>
 RTRIM
 hell
+>>>
+```
+
+#### <h4 id='12'>Numeric and Date Data type SRFs</h4>
+
+ROUND
+
+```SQL
+SELECT ROUND (107.088, 2) AS R
+FROM DUAL;
+
+>>>
+R
+107.09
+>>>
+```
+
+TRUNC
+
+```SQL
+SELECT TRUNC (107.0888476563839) AS T
+FROM DUAL;
+
+>>>
+T
+107
+>>>
+```
+
+```SQL
+SELECT TRUNC (107.0888476563839, 3) AS T
+FROM DUAL;
+
+>>>
+T
+107.088
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
 >>>
 ```
 
