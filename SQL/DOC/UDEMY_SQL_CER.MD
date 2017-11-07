@@ -710,51 +710,37 @@ ACTDATE
 ```
 
 ```SQL
+SELECT ename, sal, TO_CHAR(sal, '$99,999.99') AS SAL_UPD
+FROM emp;
 
 >>>
-
->>>
-```
-
-```SQL
-
->>>
-
->>>
-```
-
-```SQL
-
->>>
-
+ENAME	SAL	SAL_UPD
+KING	5000	$5,000.00
+BLAKE	2850	$2,850.00
+CLARK	2450	$2,450.00
+JONES	2975	$2,975.00
+SCOTT	3000	$3,000.00
+...
 >>>
 ```
 
 ```SQL
+SELECT TO_DATE('2017-10-12', 'yyyy-mm-dd') as REQDATE
+FROM dual;
 
 >>>
-
->>>
-```
-
-```SQL
-
->>>
-
+REQDATE
+10/12/2017
 >>>
 ```
 
 ```SQL
+SELECT ADD_MONTHS(TO_DATE('2017-10-12', 'yyyy-mm-dd'), 2) as REQDATE
+FROM dual;
 
 >>>
-
->>>
-```
-
-```SQL
-
->>>
-
+REQDATE
+12/12/2017
 >>>
 ```
 
