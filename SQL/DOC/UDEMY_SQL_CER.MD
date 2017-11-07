@@ -19,7 +19,8 @@
   * <a href='#10'>Single Row Functions (SRF) & Using the Dual Table</a>
   * <a href='#11'>Using Functions in WHERE and Character Based SRFs</a>
   * <a href='#12'>Numeric and Date Data type SRFs</a>
-
+  * <a href='#13'>Conversion SRFs & Date Formatting</a>
+  
 ### Section 4
 
 ### Section 5
@@ -671,6 +672,89 @@ FROM DUAL;
 >>>
 MBW
 24
+>>>
+```
+
+#### <h4 id='13'>Conversion SRFs & Date Formatting</h4>
+
+TO_CHAR
+
+```SQL
+SELECT TO_CHAR(sysdate, 'mm-dd-yy') AS ACTDATE
+FROM DUAL;
+
+>>>
+ACTDATE
+11-07-17
+>>>
+```
+
+```SQL
+SELECT TO_CHAR(sysdate, 'mm/dd/yy') AS ACTDATE
+FROM DUAL;
+
+>>>
+ACTDATE
+11/07/17
+>>>
+```
+
+```SQL
+SELECT TO_CHAR(sysdate, 'yyyy-mon-dd') AS ACTDATE
+FROM DUAL;
+
+>>>
+ACTDATE
+2017-nov-07
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
 >>>
 ```
 
