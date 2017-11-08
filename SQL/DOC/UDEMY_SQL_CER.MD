@@ -20,6 +20,7 @@
   * <a href='#11'>Using Functions in WHERE and Character Based SRFs</a>
   * <a href='#12'>Numeric and Date Data type SRFs</a>
   * <a href='#13'>Conversion SRFs & Date Formatting</a>
+  * <a href='#14'>Concluding SRFs & NULL / NULLIF Functions</a>
   
 ### Section 4
 
@@ -741,6 +742,92 @@ FROM dual;
 >>>
 REQDATE
 12/12/2017
+>>>
+```
+
+#### <h4 id='14'>Concluding SRFs & NULL / NULLIF Functions</h4>
+
+```SQL
+SELECT ename, job, sal, comm
+FROM emp
+WHERE empno IN (7839, 7698, 7566, 7654);
+
+>>>
+ENAME	JOB	SAL	COMM
+JONES	MANAGER	2975	-
+MARTIN	SALESMAN	1250	1400
+BLAKE	MANAGER	2850	-
+KING	PRESIDENT	5000	-
+>>>
+```
+
+NVL
+
+```SQL
+SELECT ename, job, sal, NVL(comm, 0)
+FROM emp
+WHERE empno IN (7839, 7698, 7566, 7654);
+
+>>>
+ENAME	JOB	SAL	NVL(COMM,0)
+JONES	MANAGER	2975	0
+MARTIN	SALESMAN	1250	1400
+BLAKE	MANAGER	2850	0
+KING	PRESIDENT	5000	0
+>>>
+```
+
+```SQL
+SELECT ename, job, sal, NVL(to_char(comm), 'No Data Found')
+FROM emp
+WHERE empno IN (7839, 7698, 7566, 7654);
+
+>>>
+ENAME	JOB	SAL	NVL(TO_CHAR(COMM),'NODATAFOUND')
+JONES	MANAGER	2975	No Data Found
+MARTIN	SALESMAN	1250	1400
+BLAKE	MANAGER	2850	No Data Found
+KING	PRESIDENT	5000	No Data Found
+>>>
+```
+
+NULLIF
+
+```SQL
+SELECT ename, LENGTH(ename), NULLIF(length(ename), 5)
+FROM emp;
+
+>>>
+ENAME	LENGTH(ENAME)	NULLIF(LENGTH(ENAME),5)
+KING	4	4
+BLAKE	5	-
+CLARK	5	-
+JONES	5	-
+SCOTT	5	-
+FORD	4	4
+SMITH	5	-
+ALLEN	5	-
+WARD	4	4
+MARTIN	6	6
+>>>
+```
+
+```SQL
+SELECT ename, LENGTH(ename), NVL(NULLIF(TO_CHAR(length(ename)), TO_CHAR(5)), 'length is 5') AS UPDATED
+FROM emp;
+
+>>>
+ENAME	LENGTH(ENAME)	UPDATED
+KING	4	4
+BLAKE	5	length is 5
+CLARK	5	length is 5
+JONES	5	length is 5
+SCOTT	5	length is 5
+FORD	4	4
+SMITH	5	length is 5
+ALLEN	5	length is 5
+WARD	4	4
+MARTIN	6	6
 >>>
 ```
 
