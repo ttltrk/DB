@@ -24,7 +24,7 @@
   
 ### Grouping Functions (Exercises and Solutions In the Lectures)
   * <a href='#15'>Grouping Functions MIN, MAX, AVG, COUNT</a>
-  * <a href='#16'>GROUP BY Clause &HAVING Clause</a>
+  * <a href='#16'>GROUP BY Clause HAVING Clause</a>
   * <a href='#17'>More Practice With The GROUP BY Clause</a>
 
 ### Section 5
@@ -839,30 +839,14 @@ Grouping Functions (Exercises and Solutions In the Lectures)
 
 #### <h4 id='15'>Grouping Functions MIN, MAX, AVG, COUNT</h4>
 
+MAX
+
 ```SQL
 SELECT MAX(sal) FROM emp;
 
 >>>
 MAX(SAL)
 5000
->>>
-```
-
-```SQL
-SELECT MIN(sal) FROM emp;
-
->>>
-MIN(SAL)
-800
->>>
-```
-
-```SQL
-SELECT SUM(sal) FROM emp;
-
->>>
-SUM(SAL)
-29025
 >>>
 ```
 
@@ -887,10 +871,65 @@ MAX(SAL)
 >>>
 ```
 
+MIN
+
 ```SQL
+SELECT MIN(sal) FROM emp;
 
 >>>
+MIN(SAL)
+800
+>>>
+```
 
+SUM
+
+```SQL
+SELECT SUM(sal) FROM emp;
+
+>>>
+SUM(SAL)
+29025
+>>>
+```
+
+AVG
+
+```SQL
+SELECT AVG(sal) FROM emp;
+
+>>>
+AVG(SAL)
+2073.21
+>>>
+```
+
+```SQL
+SELECT SUM(sal) / count(*) AS COMPUTED_AVG, AVG(sal) AS NATIVE_AVG FROM emp;
+
+>>>
+COMPUTED_AVG	NATIVE_AVG
+2073.21428571428571428571428571428571429	2073.21428571428571428571428571428571429
+>>>
+```
+
+COUNT
+
+```SQL
+SELECT COUNT(ename) FROM emp;
+
+>>>
+COUNT(ENAME)
+14
+>>>
+```
+
+```SQL
+SELECT SUM(sal) AS SUM, AVG(sal) AS AVG, MAX(sal) AS MAX, MIN(sal) AS MIN, COUNT(*) FROM emp;
+
+>>>
+SUM	AVG	MAX	MIN	COUNT(*)
+29025	2073.21428571428571428571428571428571429	5000	800	14
 >>>
 ```
 
@@ -901,28 +940,7 @@ MAX(SAL)
 >>>
 ```
 
-```SQL
-
->>>
-
->>>
-```
-
-```SQL
-
->>>
-
->>>
-```
-
-```SQL
-
->>>
-
->>>
-```
-
-#### <h4 id='16'>GROUP BY Clause &HAVING Clause</h4>
+#### <h4 id='16'>GROUP BY Clause HAVING Clause</h4>
 
 #### <h4 id='17'>More Practice With The GROUP BY Clause</h4>
 
