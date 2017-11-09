@@ -307,8 +307,10 @@ my name is JONES
 >>>
 ```
 
+CONCAT
+
 ```SQL
-SELECT concat('my name is ', ename) as sentence
+SELECT CONCAT('my name is ', ename) as sentence
 FROM emp;
 
 >>>
@@ -349,6 +351,8 @@ pizza	fanta	hello john
 >>>
 ```
 
+LOWER
+
 ```SQL
 SELECT lower(ename) AS name
 FROM emp;
@@ -364,7 +368,7 @@ jones
 ```
 
 ```SQL
-SELECT concat(lower(ename), ' is the name') AS name
+SELECT CONCAT(lower(ename), ' is the name') AS name
 FROM emp;
 
 >>>
@@ -378,7 +382,7 @@ jones is the name
 ```
 
 ```SQL
-SELECT concat(lower(ename), upper(' is the name')) AS name
+SELECT CONCAT(lower(ename), upper(' is the name')) AS name
 FROM emp;
 
 >>>
@@ -392,7 +396,7 @@ jones IS THE NAME
 ```
 
 ```SQL
-SELECT concat (concat (lower(ename), upper(' is the name ') ), concat ('and their job is: ', job ) ) AS MAIN
+SELECT CONCAT (CONCAT (lower(ename), upper(' is the name ') ), CONCAT ('and their job is: ', job ) ) AS MAIN
 FROM emp
 WHERE deptno = 20;
 
@@ -408,6 +412,8 @@ adams IS THE NAME and their job is: CLERK
 
 #### <h4 id='11'>Using Functions in WHERE and Character Based SRFs</h4>
 
+LOWER
+
 ```SQL
 SELECT JOB FROM emp
 WHERE job = lower('MANAGER');
@@ -416,6 +422,8 @@ WHERE job = lower('MANAGER');
 np data found
 >>>
 ```
+
+UPPER
 
 ```SQL
 SELECT JOB FROM emp
@@ -429,8 +437,10 @@ MANAGER
 >>>
 ```
 
+INITCAP
+
 ```SQL
-SELECT initcap ('hello world') as hello
+SELECT INITCAP ('hello world') as hello
 FROM DUAL;
 
 >>>
@@ -439,8 +449,10 @@ Hello World
 >>>
 ```
 
+LENGTH
+
 ```SQL
-SELECT length ('hello world') as hello
+SELECT LENGTH ('hello world') as hello
 FROM DUAL;
 
 >>>
@@ -449,7 +461,7 @@ FROM DUAL;
 ```
 
 ```SQL
-SELECT length (ename) as length
+SELECT LENGTH (ename) as length
 FROM emp;
 
 >>>
@@ -467,7 +479,7 @@ LENGTH
 ```
 
 ```SQL
-SELECT ename, length (ename) as length
+SELECT ename, LENGTH (ename) as length
 FROM emp;
 
 >>>
@@ -481,9 +493,9 @@ JONES	5
 ```
 
 ```SQL
-SELECT ename, length (ename) as length
+SELECT ename, LENGTH (ename) as length
 FROM emp
-WHERE length (ename) = 6;
+WHERE LENGTH (ename) = 6;
 
 >>>
 ENAME	LENGTH
@@ -493,8 +505,10 @@ MILLER	6
 >>>
 ```
 
+SUBSTR
+
 ```SQL
-SELECT 'hello', substr ('hello', 2, 2) as substring
+SELECT 'hello', SUBSTR ('hello', 2, 2) as substring
 FROM DUAL;
 
 >>>
@@ -504,7 +518,7 @@ hello	el
 ```
 
 ```SQL
-SELECT 'hello', substr ('hello', 2) as substring
+SELECT 'hello', SUBSTR ('hello', 2) as substring
 FROM DUAL;
 
 >>>
@@ -512,6 +526,8 @@ FROM DUAL;
 hello	ello
 >>>
 ```
+
+LPAD
 
 ```SQL
 SELECT LPAD ('hello', 10, '&') as LPAD
@@ -523,6 +539,8 @@ LPAD
 >>>
 ```
 
+RPAD
+
 ```SQL
 SELECT RPAD ('hello', 10, '&') as RPAD
 FROM DUAL;
@@ -533,6 +551,8 @@ hello&&&&&
 >>>
 ```
 
+LTRIM
+
 ```SQL
 SELECT LTRIM ('hello','h') as LTRIM
 FROM DUAL;
@@ -542,6 +562,8 @@ LTRIM
 ello
 >>>
 ```
+
+RTRIM
 
 ```SQL
 SELECT RTRIM ('hello','o') as RTRIM
