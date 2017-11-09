@@ -22,7 +22,10 @@
   * <a href='#13'>Conversion SRFs & Date Formatting</a>
   * <a href='#14'>Concluding SRFs & NULL / NULLIF Functions</a>
   
-### Section 4
+### Grouping Functions (Exercises and Solutions In the Lectures)
+  * <a href='#15'>Grouping Functions MIN, MAX, AVG, COUNT</a>
+  * <a href='#16'>GROUP BY Clause &HAVING Clause</a>
+  * <a href='#17'>More Practice With The GROUP BY Clause</a>
 
 ### Section 5
 
@@ -830,4 +833,84 @@ WARD	4	4
 MARTIN	6	6
 >>>
 ```
+
+Grouping Functions (Exercises and Solutions In the Lectures)
+------
+
+#### <h4 id='15'>Grouping Functions MIN, MAX, AVG, COUNT</h4>
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+#### <h4 id='16'>GROUP BY Clause &HAVING Clause</h4>
+
+#### <h4 id='17'>More Practice With The GROUP BY Clause</h4>
+
 
