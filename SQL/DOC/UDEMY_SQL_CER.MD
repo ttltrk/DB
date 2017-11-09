@@ -840,37 +840,50 @@ Grouping Functions (Exercises and Solutions In the Lectures)
 #### <h4 id='15'>Grouping Functions MIN, MAX, AVG, COUNT</h4>
 
 ```SQL
+SELECT MAX(sal) FROM emp;
 
 >>>
-
->>>
-```
-
-```SQL
-
->>>
-
+MAX(SAL)
+5000
 >>>
 ```
 
 ```SQL
+SELECT MIN(sal) FROM emp;
 
 >>>
-
->>>
-```
-
-```SQL
-
->>>
-
+MIN(SAL)
+800
 >>>
 ```
 
 ```SQL
+SELECT SUM(sal) FROM emp;
 
 >>>
+SUM(SAL)
+29025
+>>>
+```
 
+```SQL
+SELECT MAX(sal)
+FROM emp
+WHERE job='MANAGER';
+
+>>>
+MAX(SAL)
+2975
+>>>
+```
+
+```SQL
+SELECT MAX(sal) FROM emp
+WHERE lower(job) LIKE '%manager%';
+
+>>>
+MAX(SAL)
+2975
 >>>
 ```
 
