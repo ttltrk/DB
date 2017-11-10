@@ -1204,24 +1204,25 @@ EMP_NUM	JOB
 ```
 
 ```SQL
+SELECT COUNT(*) AS DEP_NUM, deptno
+FROM emp
+GROUP BY deptno
+HAVING COUNT(*) > 3;
 
 >>>
-
+DEP_NUM	DEPTNO
+6	30
+5	20
 >>>
 ```
 
-```SQL
-
->>>
-
->>>
 ```
-
-```SQL
-
->>>
-
->>>
+(1) SELECT
+(2) FROM
+(3) WHERE
+(4) GROUP BY
+(5) HAVING
+(6) ORDER BY
 ```
 
 #### <h4 id='17'>More Practice With The GROUP BY Clause</h4>
