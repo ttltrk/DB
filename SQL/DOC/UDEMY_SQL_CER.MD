@@ -1109,6 +1109,70 @@ SUM	AVG	MAX	MIN	COUNT(*)
 >>>
 ```
 
+#### <h4 id='16'>GROUP BY Clause HAVING Clause</h4>
+
+GROUP BY
+
+```SQL
+SELECT AVG(sal) AS salary_average, job
+FROM emp
+GROUP BY job;
+
+>>>
+SALARY_AVERAGE	JOB
+1037.5	CLERK
+1400	SALESMAN
+5000	PRESIDENT
+2758.33333333333333333333333333333333333	MANAGER
+3000	ANALYST
+>>>
+```
+
+```SQL
+SELECT job
+FROM emp
+GROUP BY job;
+
+>>>
+JOB
+CLERK
+SALESMAN
+PRESIDENT
+MANAGER
+ANALYST
+>>>
+```
+
+```SQL
+SELECT COUNT(*) AS emp_num_job, job
+FROM emp
+GROUP BY job;
+
+>>>
+EMP_NUM_JOB	JOB
+4	CLERK
+4	SALESMAN
+1	PRESIDENT
+3	MANAGER
+2	ANALYST
+>>>
+```
+
+```SQL
+SELECT MIN(sal) AS lowest_salary, job
+FROM emp
+GROUP BY job;
+
+>>>
+LOWEST_SALARY	JOB
+800	CLERK
+1250	SALESMAN
+5000	PRESIDENT
+2450	MANAGER
+3000	ANALYST
+>>>
+```
+
 ```SQL
 
 >>>
@@ -1116,7 +1180,33 @@ SUM	AVG	MAX	MIN	COUNT(*)
 >>>
 ```
 
-#### <h4 id='16'>GROUP BY Clause HAVING Clause</h4>
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
 
 #### <h4 id='17'>More Practice With The GROUP BY Clause</h4>
 
