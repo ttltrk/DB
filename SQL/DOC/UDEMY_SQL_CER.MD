@@ -1174,16 +1174,32 @@ LOWEST_SALARY	JOB
 ```
 
 ```SQL
+--same as GROUP BY Func
+SELECT DISTINCT job
+FROM emp;
 
 >>>
-
+JOB
+CLERK
+SALESMAN
+PRESIDENT
+MANAGER
+ANALYST
 >>>
 ```
 
+HAVING
+
 ```SQL
+--will select only the jobs were the emp number is = 2
+SELECT COUNT(*) AS EMP_NUM, job
+FROM emp
+GROUP BY job
+HAVING COUNT(*) = 2;
 
 >>>
-
+EMP_NUM	JOB
+2	ANALYST
 >>>
 ```
 
