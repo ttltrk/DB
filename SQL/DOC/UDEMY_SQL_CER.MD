@@ -1227,4 +1227,82 @@ DEP_NUM	DEPTNO
 
 #### <h4 id='17'>More Practice With The GROUP BY Clause</h4>
 
+```SQL
+SELECT job, count(*) AS emp_num
+FROM emp
+GROUP BY job;
+
+>>>
+JOB	EMP_NUM
+CLERK	4
+SALESMAN	4
+PRESIDENT	1
+MANAGER	3
+ANALYST	2
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
 
