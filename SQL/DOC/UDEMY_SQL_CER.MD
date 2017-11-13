@@ -1227,6 +1227,8 @@ DEP_NUM	DEPTNO
 
 #### <h4 id='17'>More Practice With The GROUP BY Clause</h4>
 
+GROUP BY
+
 ```SQL
 SELECT job, count(*) AS emp_num
 FROM emp
@@ -1243,66 +1245,31 @@ ANALYST	2
 ```
 
 ```SQL
+SELECT deptno, job, count(*) AS empno_diff_dept
+FROM emp
+GROUP BY deptno, job;
 
 >>>
-
->>>
-```
-
-```SQL
-
->>>
-
->>>
-```
-
-```SQL
-
->>>
-
+DEPTNO	JOB	EMPNO_DIFF_DEPT
+20	MANAGER	1
+20	CLERK	2
+30	SALESMAN	4
+30	CLERK	1
+10	PRESIDENT	1
+30	MANAGER	1
+10	CLERK	1
+10	MANAGER	1
+20	ANALYST	2
 >>>
 ```
 
 ```SQL
-
->>>
-
->>>
+SELECT col_1, col_2, col_3, group_function(aggregate_expression)
+FROM tables
+[ WHERE conditions ]
+GROUP BY col_1, col_2, col_3...col_n
+[ ORDER BY conditions ]
 ```
 
-```SQL
-
->>>
-
->>>
-```
-
-```SQL
-
->>>
-
->>>
-```
-
-```SQL
-
->>>
-
->>>
-```
-
-```SQL
-
->>>
-
->>>
-```
-
-```SQL
-
->>>
-
->>>
-```
-
+[tech on the net](https://www.techonthenet.com/)
 
