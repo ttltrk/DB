@@ -27,7 +27,11 @@
   * <a href='#16'>GROUP BY Clause HAVING Clause</a>
   * <a href='#17'>More Practice With The GROUP BY Clause</a>
 
-### Section 5
+### Mult-Table Queries and Joins (Exercises and Solutions in the Lectures)
+  * <a href='#18'>SELECT within SELECT (Subqueries)</a>
+  * <a href='#19'></a>
+  * <a href='#20'></a>
+  * <a href='#21'></a>
 
 ### Section 6
 
@@ -1273,3 +1277,77 @@ GROUP BY col_1, col_2, col_3...col_n
 
 [tech on the net](https://www.techonthenet.com/)
 
+Multi-Table Queries and Joins (Exercieses and Solutions In the Lectures)
+------
+
+#### <h4 id='18'>SELECT within SELECT (Subqueries)</h4>
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
