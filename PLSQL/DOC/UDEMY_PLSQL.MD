@@ -88,6 +88,17 @@ Install and setup the system according to the video
 
 #### <h4 id='3'>Selecting the Appropriate Database Tool</h4>
 
+* Oracle SQL Developer
+* Oracle Enterprise Manager SQL Worksheet
+* Oracle SQL Plus
+* Oracle Application Express
+* Oracle JDeveloper Studio
+
+Authentication Elements (User credentials are authenticated to ensure access is authorized)
+  * User name
+  * Password
+  * Role
+
 #### <h4 id='4'>Understanding PL/SQL</h4>
 
 #### <h4 id='5'>PL/SQL Blocks</h4>
