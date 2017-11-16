@@ -106,6 +106,7 @@ Oracle Database Connections (stored in TNSnames.ora)
   
 Bind Variables (Are a method to make PL/SQL and SQL code dynamic
 
+
 ```PLSQL
 DECLARE
         x_salary    employee.salary%TYPE;
