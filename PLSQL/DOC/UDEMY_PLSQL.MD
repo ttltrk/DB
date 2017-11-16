@@ -95,9 +95,28 @@ Install and setup the system according to the video
 * Oracle JDeveloper Studio
 
 Authentication Elements (User credentials are authenticated to ensure access is authorized)
-  * User name
-  * Password
-  * Role
+  * User name (name of the db account)
+  * Password (security password)
+  * Role (some tools require a connection role or privilege)
+  
+Oracle Database Connections (stored in TNSnames.ora)
+  * Host name (Host name or IP)
+  * Port (Port number of the DB listener API running on the host system)
+  * SID (System Identifier of the DB server)
+  
+Bind Variables (Are a method to make PL/SQL and SQL code dynamic
+
+```PLSQL
+DECLARE
+        x_salary    employee.salary%TYPE;
+BEGIN
+        SELECT salary
+        INTO x_salary
+        FROM employee
+        WHERE ssn = :ssnValue;
+END;
+/
+```
 
 #### <h4 id='4'>Understanding PL/SQL</h4>
 
