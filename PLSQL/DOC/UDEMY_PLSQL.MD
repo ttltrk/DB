@@ -3,16 +3,16 @@
 ======
 
 ### Oracle 11g PL/SQL Fundamentals I
-  * <a href='#1'>Introduction</a>
-  * <a href='#2'>Course Setup</a>
-  * <a href='#3'>Selecting the Appropriate Database Tool</a>
-  * <a href='#4'>Understanding PL/SQL</a>
-  * <a href='#5'>PL/SQL Blocks</a>
-  * <a href='#6'>Working with SQL Plus</a>
-  * <a href='#7'>DECLARE Clause Objects</a>
-  * <a href='#8'>PL/SQL Available Data Types</a>
-  * <a href='#9'>Declaring Simple Data Types and Assignments</a>
-  * <a href='#10'>Declaring Complex Data Types and Assignments</a>
+  * <a href='#1'>01 - Introduction</a>
+  * <a href='#2'>02 - Course Setup</a>
+  * <a href='#3'>03 - Selecting the Appropriate Database Tool</a>
+  * <a href='#4'>04 - Understanding PL/SQL</a>
+  * <a href='#5'>05 - PL/SQL Blocks</a>
+  * <a href='#6'>06 - Working with SQL Plus</a>
+  * <a href='#7'>07 - DECLARE Clause Objects</a>
+  * <a href='#8'>08 - PL/SQL Available Data Types</a>
+  * <a href='#9'>09 - Declaring Simple Data Types and Assignments</a>
+  * <a href='#10'>10 - Declaring Complex Data Types and Assignments</a>
   * <a href='#11'>Declaring Complex RowTypes and Assignments</a>
   * <a href='#12'>Declaring Complex Tables</a>
   * <a href='#13'>Declaring Complex Records</a> 
@@ -79,14 +79,14 @@
 Oracle 11g PL/SQL Fundamentals I
 ------
 
-#### <h4 id='1'>Introduction</h4>
+#### <h4 id='1'>01 - Introduction</h4>
 
 
-#### <h4 id='2'>Course Setup</h4>
+#### <h4 id='2'>02 - Course Setup</h4>
 
 Install and setup the system according to the video
 
-#### <h4 id='3'>Selecting the Appropriate Database Tool</h4>
+#### <h4 id='3'>03 - Selecting the Appropriate Database Tool</h4>
 
 * Oracle SQL Developer
 * Oracle Enterprise Manager SQL Worksheet
@@ -120,19 +120,19 @@ END;
 
 the Bind Variable is ```:ssnValue```
 
-#### <h4 id='4'>Understanding PL/SQL</h4>
+#### <h4 id='4'>04 - Understanding PL/SQL</h4>
 
-#### <h4 id='5'>PL/SQL Blocks</h4>
+#### <h4 id='5'>05 - PL/SQL Blocks</h4>
 
-#### <h4 id='6'>Working with SQL Plus</h4>
+#### <h4 id='6'>06 - Working with SQL Plus</h4>
 
-#### <h4 id='7'>DECLARE Clause Objects</h4>
+#### <h4 id='7'>07 - DECLARE Clause Objects</h4>
 
-#### <h4 id='8'>PL/SQL Available Data Types</h4>
+#### <h4 id='8'>08 - PL/SQL Available Data Types</h4>
 
-#### <h4 id='9'>Declaring Simple Data Types and Assignments</h4>
+#### <h4 id='9'>09 - Declaring Simple Data Types and Assignments</h4>
 
-#### <h4 id='10'>Declaring Complex Data Types and Assignments</h4>
+#### <h4 id='10'>10 - Declaring Complex Data Types and Assignments</h4>
 
 #### <h4 id='11'>Declaring Complex RowTypes and Assignments</h4>
 
