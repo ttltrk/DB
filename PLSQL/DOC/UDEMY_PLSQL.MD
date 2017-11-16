@@ -118,6 +118,8 @@ END;
 /
 ```
 
+the Bind Variable is ```:ssnValue```
+
 #### <h4 id='4'>Understanding PL/SQL</h4>
 
 #### <h4 id='5'>PL/SQL Blocks</h4>
