@@ -1666,9 +1666,11 @@ Creating, ALtering and Updating Tables Using SQL
 #### <h4 id='22'>Creating your own tables and Design Considerations</h3>
 
 Primary Key
+  * Cannot have duplicates
+  * Cannot be Null
 
 ```SQL
---EMPNO is a PK
+--EMPNO is the PK
 SELECT * FROM emp;
 
 >>>
@@ -1683,6 +1685,42 @@ EMPNO	ENAME	JOB	MGR	HIREDATE	SAL	COMM	DEPTNO
 7499	ALLEN	SALESMAN	7698	02/20/1981	1600	300	30
 7521	WARD	SALESMAN	7698	02/22/1981	1250	500	30
 7654	MARTIN	SALESMAN	7698	09/28/1981	1250	1400	30
+>>>
+```
+
+```SQL
+--DEPTNO is the PK
+SELECT * FROM dept;
+
+>>>
+DEPTNO	DNAME	LOC
+10	ACCOUNTING	NEW YORK
+20	RESEARCH	DALLAS
+30	SALES	CHICAGO
+40	OPERATIONS	BOSTON
+>>>
+```
+
+CREATE TABLE
+
+```SQL
+CREATE TABLE stores 
+(
+  store_id number not null,
+  city varchar(50)
+);
+
+>>>
+Table created.
+
+0.03 seconds
+>>>
+```
+
+```SQL
+
+>>>
+
 >>>
 ```
 
