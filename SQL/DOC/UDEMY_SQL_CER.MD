@@ -35,7 +35,7 @@
 
 ### Creating, ALtering and Updating Tables Using SQL
   * <a href='#22'>Creating your own tables and Design Considerations</a>
-  * <a href='#23'></a>
+  * <a href='#23'>Inserting Data into our Table</a>
   * <a href='#24'></a>
   * <a href='#25'></a>
   * <a href='#26'></a>
@@ -1717,17 +1717,30 @@ Table created.
 >>>
 ```
 
+#### <h4 id="23">Inserting Data into our Table</h4>
+
+INSERT INTO
+
 ```SQL
+INSERT INTO stores(store_id, city) VALUES (1, 'San Francisco');
+--COMMIT;
+SELECT * FROM stores;
 
 >>>
-
+STORE_ID	CITY
+1	San Francisco
 >>>
 ```
 
 ```SQL
+INSERT INTO stores(store_id, city) VALUES (2, 'New York');
+--COMMIT;
+SELECT * FROM stores;
 
 >>>
-
+STORE_ID	CITY
+1	San Francisco
+2	New York
 >>>
 ```
 
