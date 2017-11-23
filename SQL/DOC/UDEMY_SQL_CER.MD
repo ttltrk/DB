@@ -1663,7 +1663,7 @@ DEPTNO	DNAME	LOC
 Creating, ALtering and Updating Tables Using SQL
 ------
   
-#### <h4 id='22'>Creating your own tables and Design Considerations</h3>
+### <h3 id='22'>Creating your own tables and Design Considerations</h3>
 
 Primary Key
   * Cannot have duplicates
