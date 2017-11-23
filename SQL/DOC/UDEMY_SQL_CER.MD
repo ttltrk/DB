@@ -1744,10 +1744,24 @@ STORE_ID	CITY
 >>>
 ```
 
+INSERT ALL
+
 ```SQL
+INSERT ALL
+  INTO stores(store_id, city) VALUES (4, 'Philadelphia')
+  INTO stores(store_id, city) VALUES (5, 'Boston')
+  INTO stores(store_id, city) VALUES (6, 'Seattle')
+SELECT * FROM DUAL;
+SELECT * FROM stores;
 
 >>>
-
+STORE_ID	CITY
+1	San Francisco
+2	New York
+4	Philadelphia
+5	Boston
+6	Seattle
+3	Chicago
 >>>
 ```
 
