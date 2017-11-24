@@ -1,42 +1,42 @@
 
 [The Complete Oracle SQL Certification Course](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/content)
 ======
-
-### Database Basics
-  * <a href='#1'>Oracle Database Introduction & Basics of Tables</a>
-  * <a href='#2'>Setting Up the SQL Development Environment</a>
+ 
+### Section 1 - Database Basics
+  * <a href='#1'>1 - Oracle Database Introduction & Basics of Tables</a>
+  * <a href='#2'>2 - Setting Up the SQL Development Environment</a>
   
-### Single Table Queries
-  * <a href='#3'>Retrieving Data Using the SELECT Clause</a>
-  * <a href='#4'>Using the WHERE Clause</a>
-  * <a href='#5'>Using Operators in the WHERE Clause</a>
-  * <a href='#6'>Combining WHERE, AND & OR with Operators</a>
-  * <a href='#7'>Query Filtering Continued BETWEEN, IN and NULL</a>
-  * <a href='#8'>Query Filtering Conditions & Operator Precedence</a>
-  * <a href='#9'>Ordering, Concatenating and Aliasing Query Results</a>
+### Section 2 - Single Table Queries
+  * <a href='#3'>3 - Retrieving Data Using the SELECT Clause</a>
+  * <a href='#4'>4 - Using the WHERE Clause</a>
+  * <a href='#5'>5 - Using Operators in the WHERE Clause</a>
+  * <a href='#6'>6 - Combining WHERE, AND & OR with Operators</a>
+  * <a href='#7'>7 - Query Filtering Continued BETWEEN, IN and NULL</a>
+  * <a href='#8'>8 - Query Filtering Conditions & Operator Precedence</a>
+  * <a href='#9'>9 - Ordering, Concatenating and Aliasing Query Results</a>
 
-### Single Row Functions
-  * <a href='#10'>Single Row Functions (SRF) & Using the Dual Table</a>
-  * <a href='#11'>Using Functions in WHERE and Character Based SRFs</a>
-  * <a href='#12'>Numeric and Date Data type SRFs</a>
-  * <a href='#13'>Conversion SRFs & Date Formatting</a>
-  * <a href='#14'>Concluding SRFs & NULL / NULLIF Functions</a>
+### Section 3 - Single Row Functions
+  * <a href='#10'>10 - Single Row Functions (SRF) & Using the Dual Table</a>
+  * <a href='#11'>11 - Using Functions in WHERE and Character Based SRFs</a>
+  * <a href='#12'>12 - Numeric and Date Data type SRFs</a>
+  * <a href='#13'>13 - Conversion SRFs & Date Formatting</a>
+  * <a href='#14'>14 - Concluding SRFs & NULL / NULLIF Functions</a>
   
-### Grouping Functions (Exercises and Solutions In the Lectures)
-  * <a href='#15'>Grouping Functions MIN, MAX, AVG, COUNT</a>
-  * <a href='#16'>GROUP BY Clause HAVING Clause</a>
-  * <a href='#17'>More Practice With The GROUP BY Clause</a>
+### Section 4 - Grouping Functions (Exercises and Solutions In the Lectures)
+  * <a href='#15'>15 - Grouping Functions MIN, MAX, AVG, COUNT</a>
+  * <a href='#16'>16 - GROUP BY Clause HAVING Clause</a>
+  * <a href='#17'>17 - More Practice With The GROUP BY Clause</a>
 
-### Mult-Table Queries and Joins (Exercises and Solutions in the Lectures)
-  * <a href='#18'>SELECT within SELECT (Subqueries)</a>
-  * <a href='#19'>Relating Tables Together Using JOINs</a>
-  * <a href='#20'>Joins Continued INNER & OUTER Joins</a>
-  * <a href='#21'>More Joins With Correlated Subqueries</a>
+### Section 5 - Mult-Table Queries and Joins (Exercises and Solutions in the Lectures)
+  * <a href='#18'>18 - SELECT within SELECT (Subqueries)</a>
+  * <a href='#19'>19 - Relating Tables Together Using JOINs</a>
+  * <a href='#20'>20 - Joins Continued INNER & OUTER Joins</a>
+  * <a href='#21'>21 - More Joins With Correlated Subqueries</a>
 
-### Creating, ALtering and Updating Tables Using SQL
-  * <a href='#22'>Creating your own tables and Design Considerations</a>
-  * <a href='#23'>Inserting Data into our Table</a>
-  * <a href='#24'>Create Table With a Primary Key Constraint</a>
+### Section 6 - Creating, ALtering and Updating Tables Using SQL
+  * <a href='#22'>22 - Creating your own tables and Design Considerations</a>
+  * <a href='#23'>23 - Inserting Data into our Table</a>
+  * <a href='#24'>24 - Create Table With a Primary Key Constraint</a>
   * <a href='#25'></a>
   * <a href='#26'></a>
   * <a href='#27'></a>
