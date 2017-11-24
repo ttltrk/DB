@@ -36,7 +36,7 @@
 ### Creating, ALtering and Updating Tables Using SQL
   * <a href='#22'>Creating your own tables and Design Considerations</a>
   * <a href='#23'>Inserting Data into our Table</a>
-  * <a href='#24'></a>
+  * <a href='#24'>Create Table With a Primary Key Constraint</a>
   * <a href='#25'></a>
   * <a href='#26'></a>
   * <a href='#27'></a>
@@ -1762,6 +1762,47 @@ STORE_ID	CITY
 5	Boston
 6	Seattle
 3	Chicago
+>>>
+```
+
+### <h3 id="24">Create Table With a Primary Key Constraint</h3>
+
+[udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5491354?start=15)
+
+[details](https://www.techonthenet.com/)
+
+```SQL
+CREATE TABLE products
+(
+  product_id number not null,
+  name varchar(50),
+  product_cost number(5,2),
+  product_retail number(5,2),
+  product_type varchar(10),
+  store_id number not null,
+
+  CONSTRAINT product_pk PRIMARY KEY (product_id)
+
+)
+
+>>>
+Table created.
+
+0.06 seconds
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
 >>>
 ```
 
