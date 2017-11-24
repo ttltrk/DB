@@ -1794,7 +1794,13 @@ Table created.
 
 ```SQL
 INSERT INTO products(product_id, name, product_cost, product_retail, product_type, store_id) VALUES (1001, 'Colgate Toothpaste', 2.25, 5.47, 'hygiene', 2);
+
+--COMMIT;
+
 INSERT INTO products(product_id, name, product_cost, product_retail, product_type, store_id) VALUES (1002, 'Colgate Toothpaste', 2.25, 5.47, 'hygiene', 2);
+
+--COMMIT;
+
 INSERT INTO products(product_id, name, product_cost, product_retail, product_type, store_id) VALUES (1003, 'Listerine Mouthwash', 1.75, 4.81, 'hygiene', 3);
 
 --COMMIT;
