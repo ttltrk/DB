@@ -49,18 +49,18 @@
 Database Basics
 ------
 
-### <h3 id='1'>Oracle Database Introduction & Basics of Tables</h3>
+### <h3 id='1'>1 - Oracle Database Introduction & Basics of Tables</h3>
 
-### <h3 id='2'>Setting Up the SQL Development Environment</h3>
+### <h3 id='2'>2 - Setting Up the SQL Development Environment</h3>
 
 Single Table Queries
 ------
 
-### <h3 id='3'>Retrieving Data Using the SELECT Clause</h3>
+### <h3 id='3'>3 - Retrieving Data Using the SELECT Clause</h3>
 
-### <h3 id='4'>Using the WHERE Clause</h3>
+### <h3 id='4'>4 - Using the WHERE Clause</h3>
 
-### <h3 id='5'>Using Operators in the WHERE Clause</h3>
+### <h3 id='5'>5 - Using Operators in the WHERE Clause</h3>
 
 WHERE
 
@@ -162,7 +162,7 @@ EMPNO	ENAME	JOB	MGR	HIREDATE	SAL	COMM	DEPTNO
 >>>
 ```
 
-### <h3 id='6'>Combining WHERE, AND & OR with Operators</h3>
+### <h3 id='6'>6 - Combining WHERE, AND & OR with Operators</h3>
 
 OR
 
@@ -199,7 +199,7 @@ EMPNO	ENAME	JOB	MGR	HIREDATE	SAL	COMM	DEPTNO
 7902	FORD	ANALYST	7566	12/03/1981	3000	-	20
 >>>
 ```
-### <h3 id='7'>Query Filtering Continued BETWEEN, IN and NULL</h3>
+### <h3 id='7'>7 - Query Filtering Continued BETWEEN, IN and NULL</h3>
 
 IN
 
@@ -321,7 +321,7 @@ EMPNO	ENAME	JOB	MGR	HIREDATE	SAL	COMM	DEPTNO
 >>>
 ```
 
-### <h3 id='8'>Query Filtering Conditions & Operator Precedence</h3>
+### <h3 id='8'>8 - Query Filtering Conditions & Operator Precedence</h3>
 
 ```SQL
 -- all employees with null and 0 in COMM and SAL is in the range 1100-5000 and not equal to 1500
@@ -352,7 +352,7 @@ EMPNO	ENAME	JOB	MGR	HIREDATE	SAL	COMM	DEPTNO
 7654	MARTIN	SALESMAN	7698	09/28/1981	1250	1400	30
 >>>
 ```
-### <h3 id='9'>Ordering, Concatenating and Aliasing Query Results</h3>
+### <h3 id='9'>9 - Ordering, Concatenating and Aliasing Query Results</h3>
 
 ```SQL
 --return back the ENAME as EMPLOYEE NAME, SAL as SALARY and COMM as COMMISION
@@ -460,7 +460,7 @@ DEPTNO	SAL	ENAME
 Single Row Functions
 ------
 
-### <h3 id='10'>Single Row Functions (SRF) & Using the Dual Table</h3>
+### <h3 id='10'>10 - Single Row Functions (SRF) & Using the Dual Table</h3>
 
 ```SQL
 SELECT 'my name is ' || ename as sentence
@@ -579,7 +579,7 @@ adams IS THE NAME and their job is: CLERK
 >>>
 ```
 
-### <h3 id='11'>Using Functions in WHERE and Character Based SRFs</h3>
+### <h3 id='11'>11 - Using Functions in WHERE and Character Based SRFs</h3>
 
 LOWER
 
@@ -744,7 +744,7 @@ hell
 >>>
 ```
 
-### <h3 id='12'>Numeric and Date Data type SRFs</h3>
+### <h3 id='12'>12 - Numeric and Date Data type SRFs</h3>
 
 ROUND
 
@@ -870,7 +870,7 @@ MBW
 >>>
 ```
 
-### <h3 id='13'>Conversion SRFs & Date Formatting</h3>
+### <h3 id='13'>13 - Conversion SRFs & Date Formatting</h3>
 
 TO_CHAR
 
@@ -939,7 +939,7 @@ REQDATE
 >>>
 ```
 
-### <h3 id='14'>Concluding SRFs & NULL / NULLIF Functions</h3>
+### <h3 id='14'>14 - Concluding SRFs & NULL / NULLIF Functions</h3>
 
 ```SQL
 SELECT ename, job, sal, comm
@@ -1028,7 +1028,7 @@ MARTIN	6	6
 Grouping Functions (Exercises and Solutions In the Lectures)
 ------
 
-### <h3 id='15'>Grouping Functions MIN, MAX, AVG, COUNT</h3>
+### <h3 id='15'>15 - Grouping Functions MIN, MAX, AVG, COUNT</h3>
 
 MAX
 
@@ -1124,7 +1124,7 @@ SUM	AVG	MAX	MIN	COUNT(*)
 >>>
 ```
 
-### <h3 id='16'>GROUP BY Clause HAVING Clause</h3>
+### <h3 id='16'>16 - GROUP BY Clause HAVING Clause</h3>
 
 GROUP BY
 
@@ -1240,7 +1240,7 @@ DEP_NUM	DEPTNO
 (6) ORDER BY
 ```
 
-### <h3 id='17'>More Practice With The GROUP BY Clause</h3>
+### <h3 id='17'>17 - More Practice With The GROUP BY Clause</h3>
 
 GROUP BY
 
@@ -1286,12 +1286,12 @@ GROUP BY col_1, col_2, col_3...col_n
 [ ORDER BY conditions ]
 ```
 
-[tech on the net](https://www.techonthenet.com/)
+[[tech on the net](https://www.techonthenet.com/)]
 
 Multi-Table Queries and Joins (Exercieses and Solutions In the Lectures)
 ------
 
-### <h3 id='18'>SELECT within SELECT (Subqueries)</h3>
+### <h3 id='18'>18 - SELECT within SELECT (Subqueries)</h3>
 
 ```SQL
 SELECT * FROM dept;
@@ -1391,7 +1391,7 @@ EMPNO	ENAME	JOB	MGR	HIREDATE	SAL	COMM	DEPTNO
 >>>
 ```
 
-### <h3 id='19'>Relating Tables Together Using JOINs</h3>
+### <h3 id='19'>19 - Relating Tables Together Using JOINs</h3>
 
 ```SQL
 SELECT * FROM emp, dept;
@@ -1475,7 +1475,7 @@ ADAMS	CLERK	1100	DALLAS	20
 >>>
 ```
 
-### <h3 id='20'>Joins Continued INNER & OUTER Joins</h3>
+### <h3 id='20'>20 - Joins Continued INNER & OUTER Joins</h3>
 
 INNER JOIN
 
@@ -1603,7 +1603,7 @@ EMPNO	ENAME	JOB	MGR	HIREDATE	SAL	COMM	DEPTNO	DEPTNO	DNAME	LOC
 >>>
 ```
 
-### <h3 id='21'>More Joins With Correlated Subqueries</h3>
+### <h3 id='21'>21 - More Joins With Correlated Subqueries</h3>
 
 EXISTS
 
@@ -1663,7 +1663,7 @@ DEPTNO	DNAME	LOC
 Creating, ALtering and Updating Tables Using SQL
 ------
   
-### <h3 id='22'>Creating your own tables and Design Considerations</h3>
+### <h3 id='22'>22 - Creating your own tables and Design Considerations</h3>
 
 Primary Key
   * Cannot have duplicates
@@ -1717,7 +1717,7 @@ Table created.
 >>>
 ```
 
-#### <h3 id="23">Inserting Data into our Table</h3>
+#### <h3 id="23">23 - Inserting Data into our Table</h3>
 
 INSERT INTO
 
@@ -1765,11 +1765,11 @@ STORE_ID	CITY
 >>>
 ```
 
-### <h3 id="24">Create Table With a Primary Key Constraint</h3>
+### <h3 id="24">24 - Create Table With a Primary Key Constraint</h3>
 
-[udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5491354?start=15)
+[[Create Table With a Primary Key Constraint.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5491354?start=15)]
 
-[details](https://www.techonthenet.com/)
+[[techonthenet.com](https://www.techonthenet.com/)]
 
 ```SQL
 CREATE TABLE products
