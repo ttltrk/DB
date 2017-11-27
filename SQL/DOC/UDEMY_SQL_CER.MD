@@ -38,14 +38,12 @@
   * <a href='#23'>23 - Inserting Data into our Table</a>
   * <a href='#24'>24 - Create Table With a Primary Key Constraint</a>
   * <a href='#25'>25 - Using ALTER to modify the tavle structure</a>
-  * <a href='#26'></a>
-  * <a href='#27'></a>
-  * <a href='#28'></a>
-  * <a href='#29'></a>
-  * <a href='#30'></a>
-  * <a href='#31'></a>
-  * <a href='#32'></a>
-
+  * <a href='#26'>26 - Create Table with SELECT + UPDATE Data</a>
+  * <a href='#27'>27 - DELETE, TRUNCATE, and DROP Commands</a>
+  * <a href='#28'>28 - Working With Database Indexes (Newly Added)</a>
+  * <a href='#29'>29 - System Tables, Pseudo Columns & Deleting Duplicates (Newly Added)</a>
+  * <a href='#30'>30 - Views and Other Objects and Commands (Newly Added)</a>
+  
 Database Basics
 ------
 
@@ -1923,6 +1921,110 @@ PRODUCT_ID	PRODUCT_NAME	PRODUCT_COST	PRODUCT_RETAIL	PRODUCT_TYPE	STORE_ID
 1003	Listerine Mouthwash	1.75	4.81	hygiene	3
 >>>
 ```
+
+### <h3 id='26'>26 - Create Table with SELECT + UPDATE Data</h3>
+
+[[Create Table with SELECT + UPDATE Data.udemy]()]
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+### <h3 id='27'>27 - DELETE, TRUNCATE, and DROP Commands</h3>
+
+[[DELETE, TRUNCATE, and DROP Commands.udemy]()]
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+### <h3 id='28'>28 - Working With Database Indexes (Newly Added)</h3>
+
+[[Working With Database Indexes (Newly Added).udemy]()]
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+### <h3 id='29'>29 - System Tables, Pseudo Columns & Deleting Duplicates (Newly Added)</h3>
+
+[[System Tables, Pseudo Columns & Deleting Duplicates (Newly Added).udemy]()]
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+### <h3 id='30'>30 - Views and Other Objects and Commands (Newly Added)</h3>
+
+[[Views and Other Objects and Commands (Newly Added).udemy]()]
 
 ```SQL
 
