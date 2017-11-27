@@ -37,7 +37,7 @@
   * <a href='#22'>22 - Creating your own tables and Design Considerations</a>
   * <a href='#23'>23 - Inserting Data into our Table</a>
   * <a href='#24'>24 - Create Table With a Primary Key Constraint</a>
-  * <a href='#25'></a>
+  * <a href='#25'>25 - Using ALTER to modify the tavle structure</a>
   * <a href='#26'></a>
   * <a href='#27'></a>
   * <a href='#28'></a>
@@ -1812,6 +1812,61 @@ PRODUCT_ID	NAME	PRODUCT_COST	PRODUCT_RETAIL	PRODUCT_TYPE	STORE_ID
 1001	Colgate Toothpaste	2.25	5.47	hygiene	2
 1002	Colgate Toothpaste	2.25	5.47	hygiene	2
 1003	Listerine Mouthwash	1.75	4.81	hygiene	3
+>>>
+```
+
+### <h3 id="25">25 - Using ALTER to modify the tavle structure</h3>
+
+```SQL
+INSERT INTO products VALUES (1011, '', 4.00, 8.00, 'Clothing', 3)
+
+SELECT * FROM products;
+
+>>>
+PRODUCT_ID	NAME	PRODUCT_COST	PRODUCT_RETAIL	PRODUCT_TYPE	STORE_ID
+1011	-	4	8	Clothing	3
+1001	Colgate Toothpaste	2.25	5.47	hygiene	2
+1002	Colgate Toothpaste	2.25	5.47	hygiene	2
+1003	Listerine Mouthwash	1.75	4.81	hygiene	3
+>>>
+```
+
+DELETE
+
+```SQL
+DELETE FROM products WHERE product_id = 1011
+
+SELECT * FROM products;
+>>>
+PRODUCT_ID	NAME	PRODUCT_COST	PRODUCT_RETAIL	PRODUCT_TYPE	STORE_ID
+1001	Colgate Toothpaste	2.25	5.47	hygiene	2
+1002	Colgate Toothpaste	2.25	5.47	hygiene	2
+1003	Listerine Mouthwash	1.75	4.81	hygiene	3
+>>>
+```
+
+ALTER TABLE
+
+```SQL
+ALTER TABLE products MODIFY name varchar2(50) not null;
+
+DESCRIBE products;  
+
+>>>
+Table	Column	Data Type	Length	Precision	Scale	Primary Key	Nullable	Default	Comment
+PRODUCTS	PRODUCT_ID	NUMBER	22	-	-	1	-	-	-
+ 	NAME	VARCHAR2	50	-	-	-	-	-	-
+ 	PRODUCT_COST	NUMBER	-	5	2	-	nullable	-	-
+ 	PRODUCT_RETAIL	NUMBER	-	5	2	-	nullable	-	-
+ 	PRODUCT_TYPE	VARCHAR2	10	-	-	-	nullable	-	-
+ 	STORE_ID	NUMBER	22	-	-	-	-	-	-
+>>>
+```
+
+```SQL
+
+>>>
+
 >>>
 ```
 
