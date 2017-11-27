@@ -51,16 +51,26 @@ Database Basics
 
 ### <h3 id='1'>1 - Oracle Database Introduction & Basics of Tables</h3>
 
+[[Oracle Database Introduction & Basics of Tables.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484492?start=0)]
+
 ### <h3 id='2'>2 - Setting Up the SQL Development Environment</h3>
+
+[[Setting Up the SQL Development Environment.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484522?start=0)]
 
 Single Table Queries
 ------
 
 ### <h3 id='3'>3 - Retrieving Data Using the SELECT Clause</h3>
 
+[[Retrieving Data Using the SELECT Clause.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484526?start=0)]
+
 ### <h3 id='4'>4 - Using the WHERE Clause</h3>
 
+[[Using the WHERE Clause.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484530?start=0)]
+
 ### <h3 id='5'>5 - Using Operators in the WHERE Clause</h3>
+
+[[Using Operators in the WHERE Clause.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484532?start=0)]
 
 WHERE
 
@@ -164,6 +174,8 @@ EMPNO	ENAME	JOB	MGR	HIREDATE	SAL	COMM	DEPTNO
 
 ### <h3 id='6'>6 - Combining WHERE, AND & OR with Operators</h3>
 
+[[Combining WHERE, AND & OR with Operators.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484538?start=0)]
+
 OR
 
 ```SQL
@@ -200,6 +212,8 @@ EMPNO	ENAME	JOB	MGR	HIREDATE	SAL	COMM	DEPTNO
 >>>
 ```
 ### <h3 id='7'>7 - Query Filtering Continued BETWEEN, IN and NULL</h3>
+
+[[Query Filtering Continued BETWEEN, IN and NULL.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484542?start=0)]
 
 IN
 
@@ -323,6 +337,8 @@ EMPNO	ENAME	JOB	MGR	HIREDATE	SAL	COMM	DEPTNO
 
 ### <h3 id='8'>8 - Query Filtering Conditions & Operator Precedence</h3>
 
+[[Query Filtering Conditions & Operator Precedence.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484550?start=0)]
+
 ```SQL
 -- all employees with null and 0 in COMM and SAL is in the range 1100-5000 and not equal to 1500
 SELECT * FROM EMP
@@ -353,6 +369,8 @@ EMPNO	ENAME	JOB	MGR	HIREDATE	SAL	COMM	DEPTNO
 >>>
 ```
 ### <h3 id='9'>9 - Ordering, Concatenating and Aliasing Query Results</h3>
+
+[[Ordering, Concatenating and Aliasing Query Results.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484552?start=0)]
 
 ```SQL
 --return back the ENAME as EMPLOYEE NAME, SAL as SALARY and COMM as COMMISION
@@ -461,6 +479,8 @@ Single Row Functions
 ------
 
 ### <h3 id='10'>10 - Single Row Functions (SRF) & Using the Dual Table</h3>
+
+[[Single Row Functions (SRF) & Using the Dual Table.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484554?start=0)]
 
 ```SQL
 SELECT 'my name is ' || ename as sentence
@@ -580,6 +600,8 @@ adams IS THE NAME and their job is: CLERK
 ```
 
 ### <h3 id='11'>11 - Using Functions in WHERE and Character Based SRFs</h3>
+
+[[Using Functions in WHERE and Character Based SRFs.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484556?start=0)]
 
 LOWER
 
@@ -746,6 +768,8 @@ hell
 
 ### <h3 id='12'>12 - Numeric and Date Data type SRFs</h3>
 
+[[Numeric and Date Data type SRFs.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484564?start=0)]
+
 ROUND
 
 ```SQL
@@ -872,6 +896,8 @@ MBW
 
 ### <h3 id='13'>13 - Conversion SRFs & Date Formatting</h3>
 
+[[Conversion SRFs & Date Formatting.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484568?start=0)]
+
 TO_CHAR
 
 ```SQL
@@ -940,6 +966,8 @@ REQDATE
 ```
 
 ### <h3 id='14'>14 - Concluding SRFs & NULL / NULLIF Functions</h3>
+
+[[Concluding SRFs & NULL / NULLIF Functions.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484574?start=0)]
 
 ```SQL
 SELECT ename, job, sal, comm
