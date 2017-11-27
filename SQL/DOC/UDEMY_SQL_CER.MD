@@ -1864,9 +1864,15 @@ PRODUCTS	PRODUCT_ID	NUMBER	22	-	-	1	-	-	-
 ```
 
 ```SQL
-
+ALTER TABLE products
+  RENAME COLUMN name TO product_name;
+  
+SELECT * FROM products;
 >>>
-
+PRODUCT_ID	PRODUCT_NAME	PRODUCT_COST	PRODUCT_RETAIL	PRODUCT_TYPE	STORE_ID
+1001	Colgate Toothpaste	2.25	5.47	hygiene	2
+1002	Colgate Toothpaste	2.25	5.47	hygiene	2
+1003	Listerine Mouthwash	1.75	4.81	hygiene	3
 >>>
 ```
 
