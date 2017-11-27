@@ -4,11 +4,11 @@ Database documents
 
 ### [PL/SQL](https://github.com/ttltrk/DB/tree/master/PLSQL)
 
-  * [Oracle PL/SQL Fundamentals vol. I & II on Udemy](https://github.com/ttltrk/DB/blob/master/PLSQL/DOC/UDEMY_PLSQL.MD) - [3%]
+  * [Oracle PL/SQL Fundamentals vol. I & II on Udemy](https://github.com/ttltrk/DB/blob/master/PLSQL/DOC/UDEMY_PLSQL.MD)
 
 ### [SQL](https://github.com/ttltrk/DB/tree/master/SQL)
 
-  * [SQL Tutorial on SoloLearn](https://github.com/ttltrk/DB/blob/master/SQL/DOC/SOLOLEARN_SQL.MD) - [100%]
-  * [The Complete SQL Bootcamp on Udemy](https://github.com/ttltrk/DB/blob/master/SQL/DOC/UDEMY_SQL_BOOT.MD) - [74%]
-  * [The Complete Oracle SQL Certification Course on Udemy](https://github.com/ttltrk/DB/blob/master/SQL/DOC/UDEMY_SQL_CER.MD) - [32%]
+  * [SQL Tutorial on SoloLearn](https://github.com/ttltrk/DB/blob/master/SQL/DOC/SOLOLEARN_SQL.MD)
+  * [The Complete SQL Bootcamp on Udemy](https://github.com/ttltrk/DB/blob/master/SQL/DOC/UDEMY_SQL_BOOT.MD)
+  * [The Complete Oracle SQL Certification Course on Udemy](https://github.com/ttltrk/DB/blob/master/SQL/DOC/UDEMY_SQL_CER.MD)
   * [SQL Tutorial on W3Schools](https://github.com/ttltrk/DB/blob/master/SQL/DOC/W3SCHOOLS_SQL.MD)
