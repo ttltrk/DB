@@ -1058,6 +1058,8 @@ Grouping Functions (Exercises and Solutions In the Lectures)
 
 ### <h3 id='15'>15 - Grouping Functions MIN, MAX, AVG, COUNT</h3>
 
+[[Grouping Functions MIN, MAX, AVG, COUNT.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484576?start=0)]
+
 MAX
 
 ```SQL
@@ -1153,6 +1155,8 @@ SUM	AVG	MAX	MIN	COUNT(*)
 ```
 
 ### <h3 id='16'>16 - GROUP BY Clause HAVING Clause</h3>
+
+[[GROUP BY Clause HAVING Clause.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5491338?start=0)]
 
 GROUP BY
 
@@ -1270,6 +1274,8 @@ DEP_NUM	DEPTNO
 
 ### <h3 id='17'>17 - More Practice With The GROUP BY Clause</h3>
 
+[[More Practice With The GROUP BY Clause.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5491340?start=0)]
+
 GROUP BY
 
 ```SQL
@@ -1321,6 +1327,8 @@ Multi-Table Queries and Joins (Exercieses and Solutions In the Lectures)
 
 ### <h3 id='18'>18 - SELECT within SELECT (Subqueries)</h3>
 
+[[SELECT within SELECT (Subqueries).udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5491342?start=0)]
+
 ```SQL
 SELECT * FROM dept;
 
@@ -1342,7 +1350,7 @@ DEPTNO	DNAME	LOC
 30	SALES	CHICAGO
 >>>
 ```
-SELECT * FROM dept
+
 ```SQL
 SELECT * FROM dept
 WHERE deptno = (SELECT deptno FROM dept WHERE deptno = 30);
@@ -1420,6 +1428,8 @@ EMPNO	ENAME	JOB	MGR	HIREDATE	SAL	COMM	DEPTNO
 ```
 
 ### <h3 id='19'>19 - Relating Tables Together Using JOINs</h3>
+
+[[Relating Tables Together Using JOINs.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5491344?start=0)]
 
 ```SQL
 SELECT * FROM emp, dept;
@@ -1504,6 +1514,8 @@ ADAMS	CLERK	1100	DALLAS	20
 ```
 
 ### <h3 id='20'>20 - Joins Continued INNER & OUTER Joins</h3>
+
+[[Joins Continued INNER & OUTER Joins.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5491346?start=0)]
 
 INNER JOIN
 
@@ -1633,6 +1645,8 @@ EMPNO	ENAME	JOB	MGR	HIREDATE	SAL	COMM	DEPTNO	DEPTNO	DNAME	LOC
 
 ### <h3 id='21'>21 - More Joins With Correlated Subqueries</h3>
 
+[[More Joins With Correlated Subqueries.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5491348?start=0)]
+
 EXISTS
 
 ```SQL
@@ -1693,6 +1707,8 @@ Creating, ALtering and Updating Tables Using SQL
   
 ### <h3 id='22'>22 - Creating your own tables and Design Considerations</h3>
 
+[[Creating your own tables and Design Considerations.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5491350?start=0)]
+
 Primary Key
   * Cannot have duplicates
   * Cannot be Null
@@ -1746,6 +1762,8 @@ Table created.
 ```
 
 #### <h3 id="23">23 - Inserting Data into our Table</h3>
+
+[[Inserting Data into our Table.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5491352?start=0)]
 
 INSERT INTO
 
@@ -1844,6 +1862,8 @@ PRODUCT_ID	NAME	PRODUCT_COST	PRODUCT_RETAIL	PRODUCT_TYPE	STORE_ID
 ```
 
 ### <h3 id="25">25 - Using ALTER to modify the tavle structure</h3>
+
+[[Using ALTER to modify the tavle structure.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5527236?start=0)]
 
 ```SQL
 INSERT INTO products VALUES (1011, '', 4.00, 8.00, 'Clothing', 3)
