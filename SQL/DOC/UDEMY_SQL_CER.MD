@@ -2025,10 +2025,8 @@ EMPNO	ENAME	JOB	HIREDATE	SAL	COMM	STORE_ID
 ```
 
 ```SQL
-
->>>
-
->>>
+--we can't add 0 to the store_id now
+ALTER TABLE employees MODIFY store_id number not null;
 ```
 
 ```SQL
