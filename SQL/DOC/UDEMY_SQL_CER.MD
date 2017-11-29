@@ -2045,6 +2045,8 @@ DEPTNO	DNAME	LOC
 >>>
 ```
 
+DELETE
+
 ```SQL
 DELETE FROM dept WHERE deptno = 40;
 
@@ -2058,45 +2060,34 @@ DEPTNO	DNAME	LOC
 >>>
 ```
 
+DROP
+
 ```SQL
+--the constraint name you can find in the object browser
+ALTER TABLE emp DROP CONSTRAINT SYS_C0062754887
 
 >>>
-
+table altered
 >>>
 ```
 
+DROP TABLE
+
 ```SQL
+DROP TABLE dept;
 
 >>>
-
+table altered
 >>>
 ```
 
-```SQL
-
->>>
-
->>>
-```
+TRUNCATE TABLE
 
 ```SQL
+TRUNCATE TABLE emp;
 
 >>>
-
->>>
-```
-
-```SQL
-
->>>
-
->>>
-```
-
-```SQL
-
->>>
-
+table truncated
 >>>
 ```
 
