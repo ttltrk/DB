@@ -2029,30 +2029,55 @@ EMPNO	ENAME	JOB	HIREDATE	SAL	COMM	STORE_ID
 ALTER TABLE employees MODIFY store_id number not null;
 ```
 
-```SQL
-
->>>
-
->>>
-```
-
-```SQL
-
->>>
-
->>>
-```
-
-```SQL
-
->>>
-
->>>
-```
-
 ### <h3 id='27'>27 - DELETE, TRUNCATE, and DROP Commands</h3>
 
-[[DELETE, TRUNCATE, and DROP Commands.udemy]()]
+[[DELETE, TRUNCATE, and DROP Commands.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5537980?start=0)]
+
+```SQL
+SELECT * FROM dept;
+
+>>>
+DEPTNO	DNAME	LOC
+10	ACCOUNTING	NEW YORK
+20	RESEARCH	DALLAS
+30	SALES	CHICAGO
+40	OPERATIONS	BOSTON
+>>>
+```
+
+```SQL
+DELETE FROM dept WHERE deptno = 40;
+
+SELECT * FROM dept;
+
+>>>
+DEPTNO	DNAME	LOC
+10	ACCOUNTING	NEW YORK
+20	RESEARCH	DALLAS
+30	SALES	CHICAGO
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
 
 ```SQL
 
