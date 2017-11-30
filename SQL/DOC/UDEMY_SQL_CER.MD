@@ -2093,26 +2093,46 @@ table truncated
 
 ### <h3 id='28'>28 - Working With Database Indexes (Newly Added)</h3>
 
-[[Working With Database Indexes (Newly Added).udemy]()]
+[[Working With Database Indexes (Newly Added).udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5712340?start=15)]
+
+CREATE INDEX
 
 ```SQL
+CREATE INDEX emp_name_idx
+  ON employees (ename);
 
 >>>
-
+index created
 >>>
 ```
 
 ```SQL
-
+CREATE INDEX emp_name_job_date_idx
+  ON employees (ename, job, hiredate);
+  
 >>>
-
+index created
 >>>
 ```
 
+CREATE UNIQUE INDEX
+
 ```SQL
+CREATE UNIQUE INDEX emp_job_idx
+  ON employees (job);
+  
+>>>
+can't create the index
+>>>
+```
+
+DROP INDEX
+
+```SQL
+DROP INDEX emp_job_idx;
 
 >>>
-
+index dropped
 >>>
 ```
 
