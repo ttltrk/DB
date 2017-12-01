@@ -2212,34 +2212,6 @@ AND rownum < 10;
 >>>
 ```
 
-```SQL
-
->>>
-
->>>
-```
-
-```SQL
-
->>>
-
->>>
-```
-
-```SQL
-
->>>
-
->>>
-```
-
-```SQL
-
->>>
-
->>>
-```
-
 ### <h3 id='30'>30 - Views and Other Objects and Commands (Newly Added)</h3>
 
 [[Views and Other Objects and Commands (Newly Added).udemy]()]
