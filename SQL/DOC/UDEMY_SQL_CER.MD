@@ -2141,6 +2141,85 @@ index dropped
 [[System Tables, Pseudo Columns & Deleting Duplicates (Newly Added).udemy]()]
 
 ```SQL
+SELECT store_id, city, COUNT(*)
+FROM stores
+GROUP BY store_id, city
+ORDER BY COUNT(*);
+
+>>>
+STORE_ID	CITY	COUNT(*)
+1	San Francisco	1
+4	Philadelphia	1
+2	New York	1
+3	Chicago	1
+6	Seattle	1
+5	Boston	1
+>>>
+```
+
+ROWID
+
+```SQL
+SELECT rowid, store_id, city FROM stores;
+
+>>>
+ROWID	STORE_ID	CITY
+AEM0BoAJeAAAAFrAAA	1	San Francisco
+AEM0BoAJeAAAAFrAAB	2	New York
+AEM0BoAJeAAAAFrAAC	4	Philadelphia
+AEM0BoAJeAAAAFrAAD	5	Boston
+AEM0BoAJeAAAAFrAAE	6	Seattle
+AEM0BoAJeAAAAFtAAA	3	Chicago
+>>>
+```
+
+```SQL
+SELECT MIN(rowid)
+FROM stores
+GROUP BY store_id, city;
+
+>>>
+MIN(ROWID)
+AEM0BoAJeAAAAFrAAA
+AEM0BoAJeAAAAFrAAC
+AEM0BoAJeAAAAFrAAD
+AEM0BoAJeAAAAFtAAA
+AEM0BoAJeAAAAFrAAE
+AEM0BoAJeAAAAFrAAB
+>>>
+```
+
+```SQL
+DELETE FROM stores
+WHERE rowid NOT IN (
+SELECT MIN(rowid)
+FROM stores
+GROUP BY store_id, city
+);
+
+>>>
+0 row(s) deleted.
+>>>
+```
+
+```SQL
+SELECT * FROM all_tables
+WHERE table_name = 'EMPLOYEES'
+AND rownum < 10;
+
+>>>
+...
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
+
+```SQL
 
 >>>
 
