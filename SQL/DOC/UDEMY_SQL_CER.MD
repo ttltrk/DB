@@ -2214,7 +2214,47 @@ AND rownum < 10;
 
 ### <h3 id='30'>30 - Views and Other Objects and Commands (Newly Added)</h3>
 
-[[Views and Other Objects and Commands (Newly Added).udemy]()]
+[[Views and Other Objects and Commands (Newly Added).udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5717648?start=0)]
+
+CREATE VIEW
+
+```SQL
+CREATE VIEW managers_v
+AS SELECT * FROM employees
+WHERE JOB = 'MANAGER';
+
+>>>
+view created
+>>>
+```
+
+```SQL
+SELECT * FROM managers_v
+
+>>>
+EMPNO	ENAME	JOB	HIREDATE	SAL	COMM	STORE_ID
+7698	BLAKE	MANAGER	05/01/1981	2850	-	3
+7782	CLARK	MANAGER	06/09/1981	2450	-	3
+7566	JONES	MANAGER	04/02/1981	2975	-	1
+>>>
+```
+
+```SQL
+SELECT * FROM user_objects
+WHERE object_type = 'VIEW'
+
+>>>
+OBJECT_NAME	SUBOBJECT_NAME	OBJECT_ID	DATA_OBJECT_ID	OBJECT_TYPE	CREATED	LAST_DDL_TIME	TIMESTAMP	STATUS	TEMPORARY	GENERATED	SECONDARY	NAMESPACE	EDITION_NAME	SHARING	EDITIONABLE	ORACLE_MAINTAINED
+MANAGERS_V	-	71035095	-	VIEW	12/02/2017	12/02/2017	2017-12-02:12:05:51	VALID	N	N	N	1	-	NONE	Y	N
+>>>
+```
+
+```SQL
+
+>>>
+
+>>>
+```
 
 ```SQL
 
