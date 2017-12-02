@@ -2249,30 +2249,13 @@ MANAGERS_V	-	71035095	-	VIEW	12/02/2017	12/02/2017	2017-12-02:12:05:51	VALID	N	N
 >>>
 ```
 
+DROP VIEW
+
 ```SQL
+DROP VIEW managers_v
 
 >>>
-
+view dropped
 >>>
 ```
 
-```SQL
-
->>>
-
->>>
-```
-
-```SQL
-
->>>
-
->>>
-```
-
-```SQL
-
->>>
-
->>>
-```
