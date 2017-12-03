@@ -2,7 +2,7 @@
 [The Complete SQL Bootcamp](https://www.udemy.com/the-complete-sql-bootcamp/learn/v4/overview)
 ========
 
-### Course Introduction
+### Section 1 - Course Introduction
   * <a href='#1'>Introduction</a>
   * <a href='#2'>Course Curriculum Overview</a>
   * <a href='#3'>Overview of Databases</a>
@@ -11,20 +11,20 @@
   * <a href='#6'>Setting Up with pgAdmin 4</a>
   * <a href='#7'>Installation Notes</a>
 
-### PostGreSQL Installation (Mac)
+### Section 2 - PostGreSQL Installation (Mac)
   * <a href='#8'>Mac OS X - Quick Note</a>
   * <a href='#9'>Mac OS Installation</a>
   * <a href='#10'>Mac Sample Database Download</a>
   * <a href='#11'>Mac Database Set-up</a>
   * <a href='#12'>Review of Set-up</a>
 
-### PostGreSQL Installation (Win)
+### Section 3 - PostGreSQL Installation (Win)
   * <a href='#13'>Windows - Quick Note</a>
   * <a href='#14'>Windows Installation</a>
   * <a href='#15'>Sample Database Download</a>
   * <a href='#16'>Windows Command Line Installation Lecture</a>
   
-### Databases and Tables
+### Section 4 - Databases and Tables
   * <a href='#17'>Databases and Tables Overview</a>
   * <a href='#18'>Creating and restoring a Database</a>
   * <a href='#19'>Overview of Challenges!</a>
@@ -33,7 +33,7 @@
   * <a href='#22'>Challenge: Restore a Table Schema!</a>
   * <a href='#23'>Review of Section</a>
 
-### SQL Statement Fundamentals
+### Section 5 - SQL Statement Fundamentals
   * <a href='#24'>SQL Cheat Sheet</a>
   * <a href='#25'>SQL Statement Fundamentals</a>
   * <a href='#26'>SELECT Statement</a>
@@ -51,7 +51,7 @@
   * <a href='#38'>LIKE</a>
   * <a href='#39'>General Challenge 1</a>
 
-### GROUP BY Statement
+### Section 6 - GROUP BY Statement
   * <a href='#40'>MIN MAX SUM and AVG</a>
   * <a href='#41'>GROUP BY</a>
   * <a href='#42'>Challenge: GROUP BY</a>
@@ -59,12 +59,12 @@
   * <a href='#44'>Quick Note</a>
   * <a href='#45'>Challenge: HAVING</a>
 
-### Assessment Test 1
+### Section 7 - Assessment Test 1
   * <a href='#46'>Overview of Assessment Test 1</a>
   * <a href='#47'>Assessment Test 1</a>
   * <a href='#48'>Solutions to Assessment Test 1</a>
 
-### JOINS
+### Section 8 - JOINS
   * <a href='#49'>Overview of JOINS</a>
   * <a href='#50'>AS Statement</a>
   * <a href='#51'>Overview of Inner Join</a>
@@ -74,7 +74,7 @@
   * <a href='#55'>Union</a>
   * <a href='#56'>Join Challenges</a>
 
-### Advanced SQL Commands
+### Section 9 - Advanced SQL Commands
   * Overview of Advanced SQL Commands
   * Timestamps and Extract
   * Mathematical Functions
@@ -82,12 +82,12 @@
   * SubQuery
   * Self-Join
 
-### Assessment Test 2
+### Section 10 - Assessment Test 2
   * Assessment Test 2 Overview
   * Assessment Test 2
   * Solutions to Assessment Test 2
 
-### Creating Databases and Tables
+### Section 11 - Creating Databases and Tables
   * Overview of Section
   * Data Types
   * Primary Keys and Foreign Keys
@@ -105,39 +105,39 @@
   * NOT NULL Constraint
   * UNIQUE Constraint
 
-### Assessment Test 3
+### Section 12 - Assessment Test 3
   * Assessment Test 3
   * Solutions to Assessment Test 3
 
-### Extra Views
+### Section 13 - Extra Views
   * Views
 
-### Extra PostGreSQL with Python
+### Section 14 - Extra PostGreSQL with Python
   * Overview of Python and PostGreSQL
   * Psycopg2 Example Usage
   * Psycopg2 Resources
 
-### Bonus Offers
+### Section 15 - Bonus Offers
   * Bonus Offers
 
-Course Introduction
+Section 1 - Course Introduction
 ------
 
-#### <h4 id='1'>Introduction</h4>
+### <h3 id='1'>Introduction</h3>
   
-#### <h4 id='2'>Course Curriculum Overview</h4>
+### <h3 id='2'>Course Curriculum Overview</h3>
   
-#### <h4 id='3'>Overview of Databases</h4>
+### <h3 id='3'>Overview of Databases</h3>
   
-#### <h4 id='4'>Course FAQs</h4>
+### <h3 id='4'>Course FAQs</h3>
   
-#### <h4 id='5'>Time to get your Computer Set-Up!</h4>
+### <h3 id='5'>Time to get your Computer Set-Up!</h3>
   
-#### <h4 id='6'>Setting Up with pgAdmin 4</h4>
+### <h3 id='6'>Setting Up with pgAdmin 4</h3>
   
-#### <h4 id='7'>Installation Notes</h4>
+### <h3 id='7'>Installation Notes</h4>
 
-PostGreSQL Installation (Mac)
+Section 2 - PostGreSQL Installation (Mac)
 ------
 
 #### <h4 id='8'>Mac OS X - Quick Note</h4>
