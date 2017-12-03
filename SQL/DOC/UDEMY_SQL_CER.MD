@@ -44,7 +44,7 @@
   * <a href='#29'>29 - System Tables, Pseudo Columns & Deleting Duplicates (Newly Added)</a>
   * <a href='#30'>30 - Views and Other Objects and Commands (Newly Added)</a>
   
-Database Basics
+Section 1 - Database Basics
 ------
 
 ### <h3 id='1'>1 - Oracle Database Introduction & Basics of Tables</h3>
@@ -55,7 +55,7 @@ Database Basics
 
 [[Setting Up the SQL Development Environment.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484522?start=0)]
 
-Single Table Queries
+Section 2 - Single Table Queries
 ------
 
 ### <h3 id='3'>3 - Retrieving Data Using the SELECT Clause</h3>
@@ -473,7 +473,7 @@ DEPTNO	SAL	ENAME
 >>>
 ```
 
-Single Row Functions
+Section 3 - Single Row Functions
 ------
 
 ### <h3 id='10'>10 - Single Row Functions (SRF) & Using the Dual Table</h3>
@@ -1051,7 +1051,7 @@ MARTIN	6	6
 >>>
 ```
 
-Grouping Functions (Exercises and Solutions In the Lectures)
+Section 4 - Grouping Functions (Exercises and Solutions In the Lectures)
 ------
 
 ### <h3 id='15'>15 - Grouping Functions MIN, MAX, AVG, COUNT</h3>
@@ -1320,7 +1320,7 @@ GROUP BY col_1, col_2, col_3...col_n
 
 [[tech on the net](https://www.techonthenet.com/)]
 
-Multi-Table Queries and Joins (Exercieses and Solutions In the Lectures)
+Section 5 - Multi-Table Queries and Joins (Exercieses and Solutions In the Lectures)
 ------
 
 ### <h3 id='18'>18 - SELECT within SELECT (Subqueries)</h3>
@@ -1700,7 +1700,7 @@ DEPTNO	DNAME	LOC
 >>>
 ```
 
-Creating, ALtering and Updating Tables Using SQL
+Section 6 - Creating, ALtering and Updating Tables Using SQL
 ------
   
 ### <h3 id='22'>22 - Creating your own tables and Design Considerations</h3>
