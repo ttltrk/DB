@@ -1,5 +1,5 @@
 
-Bsic Queries
+Basic Queries
 ======
 
 ```SQL
@@ -11,19 +11,11 @@ SELECT * FROM emp WHERE job != 'MANAGER';
 SELECT * FROM emp WHERE job = 'SALESMAN' AND sal = 1500;
 SELECT * FROM emp WHERE job = 'SALESMAN' AND sal < 2500;
 SELECT * FROM emp WHERE job = 'SALESMAN' AND sal <= 3000;
-```
-
-```SQL
-SELECT * FROM emp WHERE sal < comm;
-SELECT * FROM emp WHERE job != 'MANAGERS' and SAL > 2500 and DEPTNO = 20;
 SELECT * FROM emp WHERE job = 'CLERK' OR job = 'SALESMAN';
 ```
 
 ```SQL
 SELECT ename, hiredate, deptno FROM emp WHERE deptno IN (20, 30);
-```
-
-```SQL
 SELECT ename, hiredate FROM emp WHERE ename IN ('FORD', 'SMITH');
 SELECT ename, hiredate FROM emp WHERE ename NOT IN ('FORD', 'SMITH');
 ```
