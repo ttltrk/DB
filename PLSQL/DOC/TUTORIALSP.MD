@@ -9,7 +9,9 @@ PL/SQL
 
 <h2>Basic Syntax</h2>
 
-```plsql
+Basic Structure
+
+```sql
 DECLARE 
    <declarations section> 
 BEGIN 
@@ -19,7 +21,9 @@ EXCEPTION
 END;
 ```
 
-```plsql
+Hello World
+
+```sql
 DECLARE 
    message  varchar2(20):= 'Hello, World!'; 
 BEGIN 
@@ -29,6 +33,27 @@ END;
 
 >>>
 Hello World  
+
+PL/SQL procedure successfully completed.
+>>>
+```
+
+Comments
+
+```sql
+DECLARE 
+   -- variable declaration 
+   message  varchar2(20):= 'Hello, World!'; 
+BEGIN 
+   /* 
+   *  PL/SQL executable statement(s) 
+   */ 
+   dbms_output.put_line(message); 
+END; 
+/
+
+>>>
+Hello World
 
 PL/SQL procedure successfully completed.
 >>>
