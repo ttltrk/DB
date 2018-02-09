@@ -2,12 +2,12 @@
 PL/SQL
 ======
 
-* Basic Syntax
+* <a href='#01'>01 - Basic Syntax</a>
 * Data Types
 * Variables
 * Constants and Literals
 
-<h2>Basic Syntax</h2>
+<h2 id="01">Basic Syntax</h2>
 
 Basic Structure
 
