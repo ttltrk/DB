@@ -3,9 +3,9 @@
 ======
 
 * <a href='#01'>01 - Basic Syntax</a>
-* Data Types
-* Variables
-* Constants and Literals
+* <a href='#02'>02 - Data Types</a>
+* <a href='#03'>03 - Variables</a>
+* <a href='#04'>04 - Constants and Literals</a>
 
 <h2 id="01">Basic Syntax</h2>
 
@@ -69,3 +69,9 @@ PL/SQL Program Units
   * Trigger
   * Type
   * Type body
+    
+<h2 id="02">02 - Data Types</h2>
+
+<h2 id="03">03 - Variables</h2>
+
+<h2 id="04">04 - Constants and Literals</h2>
