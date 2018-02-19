@@ -1,5 +1,5 @@
 
-BSqlM (Basic SQL Manual)
+Basic SQL Manual (BSqlM)
 ======
 
 
