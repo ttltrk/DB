@@ -10,6 +10,25 @@ Basic PLSQL Manual (BPSM)
 * <a href='#02'>02 - Data Types</a>
 * <a href='#03'>03 - Variables</a>
 * <a href='#04'>04 - Constants and Literals</a>
+* <a href='#05'>05 - Operators</a>
+* <a href='#06'>06 - Conditions</a>
+* <a href='#07'>07 - Loops</a>
+* <a href='#08'>08 - Strings</a>
+* <a href='#09'>09 - Arrays</a>
+* <a href='#10'>10 - Procedures</a>
+* <a href='#11'>11 - Functions</a>
+* <a href='#12'>12 - Cursors</a>
+* <a href='#13'>13 - Records</a>
+* <a href='#14'>14 - Exceptions</a>
+* <a href='#15'>15 - Triggers</a>
+* <a href='#16'>16 - Packages</a>
+* <a href='#17'>17 - Collections</a>
+* <a href='#18'>18 - Transactions</a>
+* <a href='#19'>19 - Date & Time</a>
+* <a href='#20'>20 - DBMS Output</a>
+* <a href='#21'>21 - Object Oriented</a>
+
+---
 
 <h2 id="01">Basic Syntax</h2>
 
@@ -230,4 +249,39 @@ PL/SQL procedure completed successfully
 ```
 
 <h2 id="04">04 - Constants and Literals</h2>
+
+<h2 id="05">05 - Operators</h2>
+
+<h2 id="06">06 - Conditions</h2>
+
+<h2 id="07">07 - Loops</h2>
+
+<h2 id="08">08 - Strings</h2>
+
+<h2 id="09">09 - Arrays</h2>
+
+<h2 id="10">10 - Procedures</h2>
+
+<h2 id="11">11 - Functions</h2>
+
+<h2 id="12">12 - Cursors</h2>
+
+<h2 id="13">13 - Records</h2>
+
+<h2 id="14">14 - Exceptions</h2>
+
+<h2 id="15">15 - Triggers</h2>
+
+<h2 id="16">16 - Packages</h2>
+
+<h2 id="17">17 - Collections</h2>
+
+<h2 id="18">18 - Transactions</h2>
+
+<h2 id="19">19 - Date & Time</h2>
+
+<h2 id="20">20 - DBMS Output</h2>
+
+<h2 id="21">21 - Object Oriented</h2>
+
 
