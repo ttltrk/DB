@@ -4,8 +4,6 @@ Basic PLSQL Manual (BPSM)
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/MANUALS.MD)
 
-[tutorialspoint.com](https://www.tutorialspoint.com/plsql/index.htm)
-
 ---
 
 * <a href='#01'>01 - Basic Syntax</a>
@@ -29,6 +27,10 @@ Basic PLSQL Manual (BPSM)
 * <a href='#19'>19 - Date & Time</a>
 * <a href='#20'>20 - DBMS Output</a>
 * <a href='#21'>21 - Object Oriented</a>
+
+---
+
+[tutorialspoint.com](https://www.tutorialspoint.com/plsql/index.htm)
 
 ---
 
