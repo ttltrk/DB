@@ -2,6 +2,8 @@
 Basic PLSQL Manual (BPSM)
 ======
 
+[<<<](https://github.com/ttltrk/PRG/blob/master/MANUALS.MD)
+
 [tutorialspoint.com](https://www.tutorialspoint.com/plsql/index.htm)
 
 ---
