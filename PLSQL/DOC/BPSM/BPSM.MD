@@ -6,9 +6,9 @@ Basic PLSQL Manual (BPSM)
 
 ---
 
-* <a href='#https://github.com/ttltrk/DB/blob/master/PLSQL/DOC/BPSM/01/BASIC_SYNTAX.MD'>01 - Basic Syntax</a>
-* <a href='#https://github.com/ttltrk/DB/blob/master/PLSQL/DOC/BPSM/02/DATA_TYPES.MD'>02 - Data Types</a>
-* <a href='#https://github.com/ttltrk/DB/blob/master/PLSQL/DOC/BPSM/03/VARIABLES.MD'>03 - Variables</a>
+* <a href='https://github.com/ttltrk/DB/blob/master/PLSQL/DOC/BPSM/01/BASIC_SYNTAX.MD'>01 - Basic Syntax</a>
+* <a href='https://github.com/ttltrk/DB/blob/master/PLSQL/DOC/BPSM/02/DATA_TYPES.MD'>02 - Data Types</a>
+* <a href='https://github.com/ttltrk/DB/blob/master/PLSQL/DOC/BPSM/03/VARIABLES.MD'>03 - Variables</a>
 * <a href='#04'>04 - Constants and Literals</a>
 * <a href='#05'>05 - Operators</a>
 * <a href='#06'>06 - Conditions</a>
