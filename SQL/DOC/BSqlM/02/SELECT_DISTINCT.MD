@@ -2,7 +2,7 @@
 SELECT DISTINCT
 ======
 
-[]()
+[<<<](https://github.com/ttltrk/DB/blob/master/SQL/DOC/BSqlM/BSqlM.MD)
 
 ---
 
