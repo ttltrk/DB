@@ -8,7 +8,7 @@ Basic SQL Manual (BSqlM)
 
 * <a href="https://github.com/ttltrk/DB/blob/master/SQL/DOC/BSqlM/01/SELECT.MD">01 - SELECT</a>
 * <a href="https://github.com/ttltrk/DB/blob/master/SQL/DOC/BSqlM/02/SELECT_DISTINCT.MD">02 - SELECT DISTINCT</a>
-* <a href="#">03 - WHERE</a>
+* <a href="https://github.com/ttltrk/DB/blob/master/SQL/DOC/BSqlM/03/WHERE.MD">03 - WHERE</a>
 * <a href="#">04 - AND, OR, NOT</a>
 * <a href="#">05 - ORDER BY</a>
 * <a href="#">06 - INSERT INTO</a>
