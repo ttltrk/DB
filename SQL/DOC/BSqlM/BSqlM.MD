@@ -6,19 +6,34 @@ Basic SQL Manual (BSqlM)
 
 ---
 
-* <a href="https://github.com/ttltrk/DB/blob/master/SQL/DOC/BSqlM/01/SELECT.MD">01 - SELECT</a>
-* <a href="https://github.com/ttltrk/DB/blob/master/SQL/DOC/BSqlM/02/SELECT_DISTINCT.MD">02 - SELECT DISTINCT</a>
-* <a href="https://github.com/ttltrk/DB/blob/master/SQL/DOC/BSqlM/03/WHERE.MD">03 - WHERE</a>
-* <a href="#">04 - AND, OR, NOT</a>
-* <a href="#">05 - ORDER BY</a>
-* <a href="#">06 - INSERT INTO</a>
-* <a href="#">07 - NULL VALUES</a>
-* <a href="#">08 - UPDATE</a>
-* <a href="#">09 - DELETE</a>
-* <a href="#">10 - SELECT TOP</a>
-* <a href="#">11 - MIN, MAX</a>
-* <a href="#">12 - COUNT, AVG, SUM</a>
-...
+* <a href="">Home</a>
+* <a href="">Overview</a>
+* <a href="">RDBMS Concepts</a>
+* <a href="">Databases</a>
+* <a href="">Syntax</a>
+* <a href="">Data Types</a>
+* <a href="">Operators</a>
+* <a href="">Expressions</a>
+* <a href="">Create Database</a>
+* <a href="">Drop Database</a>
+* <a href="">Select Database</a>
+* <a href="">Create Table</a>
+* <a href="">Drop Table</a>
+* <a href="">Insert Query</a>
+* <a href="">Select Query</a>
+* <a href="">Where Clause</a>
+* <a href="">AND & OR Clause</a>
+* <a href="">Update Query</a>
+* <a href="">Delete Query</a>
+* <a href="">Like Clause</a>
+* <a href="">Top Clause</a>
+* <a href="">Order By</a>
+* <a href="">Group By</a>
+* <a href="">Distinct Keyword</a>
+* <a href="">Sorting Results</a>
 
 ---
 
+[src](https://www.tutorialspoint.com/sql/index.htm)
+
+---
