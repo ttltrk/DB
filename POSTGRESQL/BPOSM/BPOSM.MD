@@ -1,6 +1,7 @@
 
-Basic PostgreSQL Manual (BPOSM)
-======
+PostgreSQL
+
+---
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/MANUALS.MD)
 
