@@ -1,10 +1,13 @@
 
-Basic SQL Manual (BSqlM)
-======
+### SQL
+
+---
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/MANUALS.MD)
 
 ---
+
+Basics
 
 * <a href="">Home</a>
 * <a href="">Overview</a>
@@ -31,6 +34,14 @@ Basic SQL Manual (BSqlM)
 * <a href="">Group By</a>
 * <a href="">Distinct Keyword</a>
 * <a href="">Sorting Results</a>
+
+---
+
+Advanced
+
+---
+
+Resources
 
 ---
 
