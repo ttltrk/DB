@@ -1,8 +1,8 @@
 
-Basic PostgreSQL Manual
+Basic PostgreSQL Manual (BPOSM)
 ======
 
-[<<<]()
+[<<<](https://github.com/ttltrk/PRG/blob/master/MANUALS.MD)
 
 ---
 
