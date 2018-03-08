@@ -1,10 +1,13 @@
 
-Basic PLSQL Manual (BPSM)
-======
+### PL/SQL
+
+---
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/MANUALS.MD)
 
 ---
+
+Basics
 
 * <a href="#">Home</a>
 * <a href="#">Overview</a>
@@ -30,6 +33,10 @@ Basic PLSQL Manual (BPSM)
 * <a href='#'>Date & Time</a>
 * <a href='#'>DBMS Output</a>
 * <a href='#'>Object Oriented</a>
+
+---
+
+Resources
 
 ---
 
