@@ -1,7 +1,7 @@
 
 ---
 
-### Basic Manuals Database
+### basic manuals Database
 
 ---
 
