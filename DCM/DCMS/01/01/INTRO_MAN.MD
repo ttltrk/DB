@@ -5,7 +5,7 @@
 
 ---
 
-[<<<]()
+[<<<](https://github.com/ttltrk/DB/blob/master/DCM/DCMS/01/01.MD)
 
 ---
 
