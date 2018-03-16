@@ -33,6 +33,30 @@ SQL Query ---> Query Language Processor ---> DBMS Engine ---> Physical Database
 
 <h3 id="02">SQL Commands</h3>
 
+DDL - Data Definition Language
+
+|Command|Description|
+|----|----|
+|CREATE|Creates a new table, a view of a table, or other object in the database.|
+|ALTER|Modifies an existing database object, such as a table.|
+|DROP|Deletes an entire table, a view of a table or other objects in the database.|
+
+DML - Data Manipulation Language
+
+|Command|Description|
+|----|----|
+|SELECT|Retrieves certain records from one or more tables.|
+|INSERT|Creates a record.|
+|UPDATE|Modifies records.|
+|DELETE|Deletes records.|
+
+DCL - Data Control Language
+
+|Command|Description|
+|----|----|
+|GRANT|Gives a privilege to user.|
+|REVOKE|Takes back privileges granted from user.|
+
 ---
 
 [src](https://www.tutorialspoint.com/sql/sql-overview.htm)
