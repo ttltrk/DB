@@ -12,7 +12,7 @@
 Basics
 
 * <a href="https://github.com/ttltrk/DB/blob/master/SQL/DOC/BSqlM/01/HOME.MD">Home</a>
-* <a href="">Overview</a>
+* <a href="https://github.com/ttltrk/DB/blob/master/SQL/DOC/BSqlM/02/OVERVIEW.MD">Overview</a>
 * <a href="">RDBMS Concepts</a>
 * <a href="">Databases</a>
 * <a href="">Syntax</a>
