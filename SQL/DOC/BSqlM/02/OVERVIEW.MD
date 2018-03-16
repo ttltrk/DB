@@ -24,6 +24,11 @@ Oracle, Sybase, Informix, Postgres and SQL Server use SQL as their standard data
 
 <h3 id="01">SQL Processes</h3>
 
+```
+SQL Query ---> Query Language Processor ---> DBMS Engine ---> Physical Database
+                 <<< Parser + Optimizer        <<< File + Transaction Manager
+```
+
 ---
 
 <h3 id="02">SQL Commands</h3>
