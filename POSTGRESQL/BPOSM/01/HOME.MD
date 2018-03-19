@@ -5,7 +5,7 @@
 
 ---
 
-[<<<]()
+[<<<](https://github.com/ttltrk/DB/blob/master/POSTGRESQL/BPOSM/BPOSM.MD)
 
 ---
 
