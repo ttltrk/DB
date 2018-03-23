@@ -39,6 +39,8 @@ Resources
 ---
 
 [src](https://www.tutorialspoint.com/plsql/index.htm)
+[src - 1](https://www.plsqltutorial.com)
+[src - 2](https://whc.es/Oracle%20PLSQL%20For%20Dummies.pdf)
 
 ---
  
