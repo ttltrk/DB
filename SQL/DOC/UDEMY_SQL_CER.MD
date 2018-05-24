@@ -7,7 +7,7 @@
 
 ---
 
-### [The Complete Oracle SQL Certification Course](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/content)
+### The Complete Oracle SQL Certification Course
 
 ---
  
