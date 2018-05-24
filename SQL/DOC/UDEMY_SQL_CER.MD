@@ -10,6 +10,15 @@
 ### The Complete Oracle SQL Certification Course
 
 ---
+
+* [01 - Database Basics]()
+* [02 - Single Table Queries]()
+* [03 - Single Row Functions]()
+* [04 - Grouping Functions (Exercises and Solutions In the Lectures)]()
+* [05 - Mult-Table Queries and Joins (Exercises and Solutions in the Lectures)]()
+* [06 - Creating, ALtering and Updating Tables Using SQL]()
+
+---
  
 ### Section 1 - Database Basics
   * <a href='#1'>1 - Oracle Database Introduction & Basics of Tables</a>
