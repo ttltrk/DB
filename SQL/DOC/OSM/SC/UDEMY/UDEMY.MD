@@ -11,16 +11,16 @@
 
 ---
 
-* SQL 1
+* The Complete SQL Bootcamp
   
-  + []()
+  + [man](https://github.com/ttltrk/DB/blob/master/SQL/DOC/UDEMY_SQL_BOOT.MD)
   + []()
 
 ---
 
-* SQL 2
+* The Complete Oracle SQL Certification Course
 
-  + []()
+  + [man](https://github.com/ttltrk/DB/blob/master/SQL/DOC/UDEMY_SQL_CER.MD)
   + []()
   
 ---
