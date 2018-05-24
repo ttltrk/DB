@@ -11,7 +11,7 @@
 
 ---
 
-* [01 - Database Basics]()
+* [01 - Database Basics](https://github.com/ttltrk/DB/blob/master/SQL/DOC/SQLCERT/01/01.MD)
 * [02 - Single Table Queries]()
 * [03 - Single Row Functions]()
 * [04 - Grouping Functions (Exercises and Solutions In the Lectures)]()
