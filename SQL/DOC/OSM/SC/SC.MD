@@ -11,6 +11,6 @@
 
 ---
 
-* [Udemy]()
+* [Udemy](https://github.com/ttltrk/DB/blob/master/SQL/DOC/OSM/SC/UDEMY/UDEMY.MD)
 
 ---
