@@ -7,7 +7,7 @@
 
 ---
 
-### [The Complete SQL Bootcamp]
+### The Complete SQL Bootcamp
 
 ---
 
