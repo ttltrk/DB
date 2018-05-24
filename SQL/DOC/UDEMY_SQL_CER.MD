@@ -20,10 +20,6 @@
 
 ---
  
-### Section 1 - Database Basics
-  * <a href='#1'>1 - Oracle Database Introduction & Basics of Tables</a>
-  * <a href='#2'>2 - Setting Up the SQL Development Environment</a>
-  
 ### Section 2 - Single Table Queries
   * <a href='#3'>3 - Retrieving Data Using the SELECT Clause</a>
   * <a href='#4'>4 - Using the WHERE Clause</a>
