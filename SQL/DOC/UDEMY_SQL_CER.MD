@@ -62,17 +62,6 @@
   * <a href='#29'>29 - System Tables, Pseudo Columns & Deleting Duplicates (Newly Added)</a>
   * <a href='#30'>30 - Views and Other Objects and Commands (Newly Added)</a>
   
-Section 1 - Database Basics
-------
-
-### <h3 id='1'>1 - Oracle Database Introduction & Basics of Tables</h3>
-
-[[Oracle Database Introduction & Basics of Tables.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484492?start=0)]
-
-### <h3 id='2'>2 - Setting Up the SQL Development Environment</h3>
-
-[[Setting Up the SQL Development Environment.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484522?start=0)]
-
 Section 2 - Single Table Queries
 ------
 
