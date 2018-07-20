@@ -11,7 +11,7 @@
 
 ---
 
-* [Sololearn]()
+* [Sololearn](https://github.com/ttltrk/DB/blob/master/SQL/DOC/OSM/SC/SOLOLEARN/SOLOLEARN.MD)
 * [Udemy](https://github.com/ttltrk/DB/blob/master/SQL/DOC/OSM/SC/UDEMY/UDEMY.MD)
 
 ---
