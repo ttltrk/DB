@@ -18,9 +18,9 @@
 
 ---
 
-[Python]() |
+[Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/SOLOLEARN_PY.MD) |
 [Java](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/SL/SL.MD) |
 [C++](https://github.com/ttltrk/PRG/blob/master/C/DOC/CPP/COURSES/SOLOLEARN/SOLOLEARN.MD) |
-[C#](https://github.com/ttltrk/PRG/blob/master/C/DOC/CS/COURSES/SOLOLEARN/SOLOLEARN.MD) |
+[C#](https://github.com/ttltrk/PRG/blob/master/C/DOC/CS/COURSES/SOLOLEARN/SOLOLEARN.MD) 
 
 ---
