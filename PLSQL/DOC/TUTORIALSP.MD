@@ -5,8 +5,8 @@
 
 ---
 
-* [01.01 - PL/SQL Tutorial]()
-* [01.02 - PL/SQL Useful Resources]()
+* [01 - PL/SQL Tutorial]()
+* [02 - PL/SQL Useful Resources]()
 
 ---
 
