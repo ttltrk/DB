@@ -1,11 +1,14 @@
 
-[PL/SQL](https://www.tutorialspoint.com/plsql/index.htm)
-======
+---
 
-* <a href='#01'>01 - Basic Syntax</a>
-* <a href='#02'>02 - Data Types</a>
-* <a href='#03'>03 - Variables</a>
-* <a href='#04'>04 - Constants and Literals</a>
+### PL/SQL 
+
+---
+
+* [01.01 - PL/SQL Tutorial]()
+* [01.02 - PL/SQL Useful Resources]()
+
+---
 
 <h2 id="01">Basic Syntax</h2>
 
