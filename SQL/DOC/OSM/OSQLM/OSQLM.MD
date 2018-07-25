@@ -11,6 +11,6 @@
 
 ---
 
-* [structured query language]()
+* [structured query language](https://github.com/ttltrk/DB/blob/master/SQL/DOC/OSM/OSQLM/SQLM/SQLM.MD)
 
 ---
