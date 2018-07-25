@@ -11,7 +11,7 @@
 
 ---
 
-* [own manuals]()
+* [own manuals](https://github.com/ttltrk/DB/blob/master/SQL/DOC/OSM/OSQLM/OSQLM.MD)
 * [courses](https://github.com/ttltrk/DB/blob/master/SQL/DOC/OSM/SC/SC.MD)
 * [apps]()
 
