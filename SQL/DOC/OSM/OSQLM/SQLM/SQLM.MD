@@ -17,3 +17,7 @@
 * [04 - Advanced Topics ]()
 
 ---
+
+* [man src](https://en.wikibooks.org/wiki/Structured_Query_Language)
+
+---
