@@ -7,17 +7,106 @@
 
 ---
 
-### SQL man
+<h3 id='^'>SQL man</h3>
 
 ---
 
-* [01 - Foundation ]()
-* [02 - Basic Commands ]()
-* [03 - Daily Operations ]()
-* [04 - Advanced Topics ]()
+* <a href='#SELECT'>SELECT</a>
+* <a href='#SELECTDISTINCT'>SELECT DISTINCT</a>
+* <a href='#WHERE'>WHERE</a>
+* <a href='#ANDORNOT'>AND, OR, NOT</a>
+* <a href='#ORDERBY'>ORDER BY</a>
+* <a href='#INSERTINTO'>INSERT INTO</a>
+* <a href='#NULLVALUES'>NULL VALUES</a>
+* <a href='#UPDATE'>UPDATE</a>
+* <a href='#DELETE'>DELETE</a>
+* <a href='#SELECTTOP'>SELECT TOP</a>
+* <a href='#MINMAX'>MIN and MAX</a>
+* <a href='#COUNTAVGSUM'>COUNT, AVG, SUM</a>
+* <a href='#LIKE'>LIKE</a>
+* <a href='#WILDCARDS'>WILDCARDS</a>
+* <a href='#IN'>IN</a>
+* <a href='#BETWEEN'>BETWEEN</a>
+* <a href='#ALIASES'>ALIASES</a>
+* <a href='#JOINS'>JOINS</a>
+* <a href='#INNERJOIN'>INNER JOIN</a>
 
 ---
 
-* [man src](https://en.wikibooks.org/wiki/Structured_Query_Language)
+<h3 id='SELECT'>SELECT</h3>
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='SELECTDISTINCT'>SELECT DISTINCT</h3>
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id=''></h3>
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id=''></h3>
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id=''></h3>
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id=''></h3>
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id=''></h3>
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id=''></h3>
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id=''></h3>
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id=''></h3>
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id=''></h3>
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id=''></h3>
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id=''></h3>
+
+<a href='#^'>^^^</a>
 
 ---
