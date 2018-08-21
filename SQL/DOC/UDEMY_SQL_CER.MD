@@ -7,22 +7,13 @@
 
 ---
 
-### The Complete Oracle SQL Certification Course
-
----
-
-* [01 - Database Basics](https://github.com/ttltrk/DB/blob/master/SQL/DOC/SQLCERT/01/01.MD)
-* [02 - Single Table Queries]()
-* [03 - Single Row Functions]()
-* [04 - Grouping Functions (Exercises and Solutions In the Lectures)]()
-* [05 - Mult-Table Queries and Joins (Exercises and Solutions in the Lectures)]()
-* [06 - Creating, ALtering and Updating Tables Using SQL]()
+<h3 id='^'>The Complete Oracle SQL Certification Course</h3>
 
 ---
 
 ### Section 1 - Database Basics
-  * <a href=''></a>
-  * <a href=''></a>
+  * <a href='#1'>1 - Oracle Database Introduction & Basics of Tables</a>
+  * <a href='#2'>2 - Setting Up the SQL Development Environment</a>
  
 ### Section 2 - Single Table Queries
   * <a href='#3'>3 - Retrieving Data Using the SELECT Clause</a>
@@ -61,19 +52,40 @@
   * <a href='#28'>28 - Working With Database Indexes (Newly Added)</a>
   * <a href='#29'>29 - System Tables, Pseudo Columns & Deleting Duplicates (Newly Added)</a>
   * <a href='#30'>30 - Views and Other Objects and Commands (Newly Added)</a>
-  
-Section 2 - Single Table Queries
-------
 
-### <h3 id='3'>3 - Retrieving Data Using the SELECT Clause</h3>
+### Section 1 - 
+
+<h3 id='#1'>1 - </h3>
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='#2'>2 - </h3>
+
+<a href='#^'>^^^</a>
+
+---
+
+### Section 2 - Single Table Queries
+
+<h3 id='3'>3 - Retrieving Data Using the SELECT Clause</h3>
 
 [[Retrieving Data Using the SELECT Clause.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484526?start=0)]
 
-### <h3 id='4'>4 - Using the WHERE Clause</h3>
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='4'>4 - Using the WHERE Clause</h3>
 
 [[Using the WHERE Clause.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484530?start=0)]
 
-### <h3 id='5'>5 - Using Operators in the WHERE Clause</h3>
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='5'>5 - Using Operators in the WHERE Clause</h3>
 
 [[Using Operators in the WHERE Clause.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484532?start=0)]
 
@@ -177,7 +189,11 @@ EMPNO	ENAME	JOB	MGR	HIREDATE	SAL	COMM	DEPTNO
 >>>
 ```
 
-### <h3 id='6'>6 - Combining WHERE, AND & OR with Operators</h3>
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='6'>6 - Combining WHERE, AND & OR with Operators</h3>
 
 [[Combining WHERE, AND & OR with Operators.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484538?start=0)]
 
