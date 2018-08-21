@@ -19,6 +19,10 @@
 * [06 - Creating, ALtering and Updating Tables Using SQL]()
 
 ---
+
+### Section 1 - Database Basics
+  * <a href=''></a>
+  * <a href=''></a>
  
 ### Section 2 - Single Table Queries
   * <a href='#3'>3 - Retrieving Data Using the SELECT Clause</a>
