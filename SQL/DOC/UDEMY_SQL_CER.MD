@@ -53,7 +53,7 @@
   * <a href='#29'>29 - System Tables, Pseudo Columns & Deleting Duplicates (Newly Added)</a>
   * <a href='#30'>30 - Views and Other Objects and Commands (Newly Added)</a>
 
-### Section 1 - 
+---
 
 <h3 id='1'>1 - </h3>
 
@@ -66,8 +66,6 @@
 <a href='#^'>^^^</a>
 
 ---
-
-### Section 2 - Single Table Queries
 
 <h3 id='3'>3 - Retrieving Data Using the SELECT Clause</h3>
 
