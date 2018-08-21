@@ -26,25 +26,29 @@ Section 2 - Single Table Queries
   * <a href='#8'>8 - Query Filtering Conditions & Operator Precedence</a>
   * <a href='#9'>9 - Ordering, Concatenating and Aliasing Query Results</a>
 
-### Section 3 - Single Row Functions
+Section 3 - Single Row Functions
+  
   * <a href='#10'>10 - Single Row Functions (SRF) & Using the Dual Table</a>
   * <a href='#11'>11 - Using Functions in WHERE and Character Based SRFs</a>
   * <a href='#12'>12 - Numeric and Date Data type SRFs</a>
   * <a href='#13'>13 - Conversion SRFs & Date Formatting</a>
   * <a href='#14'>14 - Concluding SRFs & NULL / NULLIF Functions</a>
   
-### Section 4 - Grouping Functions (Exercises and Solutions In the Lectures)
+Section 4 - Grouping Functions (Exercises and Solutions In the Lectures)
+  
   * <a href='#15'>15 - Grouping Functions MIN, MAX, AVG, COUNT</a>
   * <a href='#16'>16 - GROUP BY Clause HAVING Clause</a>
   * <a href='#17'>17 - More Practice With The GROUP BY Clause</a>
 
-### Section 5 - Mult-Table Queries and Joins (Exercises and Solutions in the Lectures)
+Section 5 - Mult-Table Queries and Joins (Exercises and Solutions in the Lectures)
+  
   * <a href='#18'>18 - SELECT within SELECT (Subqueries)</a>
   * <a href='#19'>19 - Relating Tables Together Using JOINs</a>
   * <a href='#20'>20 - Joins Continued INNER & OUTER Joins</a>
   * <a href='#21'>21 - More Joins With Correlated Subqueries</a>
 
-### Section 6 - Creating, ALtering and Updating Tables Using SQL
+Section 6 - Creating, ALtering and Updating Tables Using SQL
+  
   * <a href='#22'>22 - Creating your own tables and Design Considerations</a>
   * <a href='#23'>23 - Inserting Data into our Table</a>
   * <a href='#24'>24 - Create Table With a Primary Key Constraint</a>
