@@ -55,13 +55,13 @@
 
 ---
 
-<h3 id='1'>1 - </h3>
+<h3 id='1'>1 - Oracle Database Introduction & Basics of Tables</h3>
 
 <a href='#^'>^^^</a>
 
 ---
 
-<h3 id='2'>2 - </h3>
+<h3 id='2'>2 - Setting Up the SQL Development Environment</h3>
 
 <a href='#^'>^^^</a>
 
@@ -69,23 +69,17 @@
 
 <h3 id='3'>3 - Retrieving Data Using the SELECT Clause</h3>
 
-[[Retrieving Data Using the SELECT Clause.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484526?start=0)]
-
 <a href='#^'>^^^</a>
 
 ---
 
 <h3 id='4'>4 - Using the WHERE Clause</h3>
 
-[[Using the WHERE Clause.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484530?start=0)]
-
 <a href='#^'>^^^</a>
 
 ---
 
 <h3 id='5'>5 - Using Operators in the WHERE Clause</h3>
-
-[[Using Operators in the WHERE Clause.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484532?start=0)]
 
 WHERE
 
@@ -193,8 +187,6 @@ EMPNO	ENAME	JOB	MGR	HIREDATE	SAL	COMM	DEPTNO
 
 <h3 id='6'>6 - Combining WHERE, AND & OR with Operators</h3>
 
-[[Combining WHERE, AND & OR with Operators.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484538?start=0)]
-
 OR
 
 ```SQL
@@ -230,9 +222,12 @@ EMPNO	ENAME	JOB	MGR	HIREDATE	SAL	COMM	DEPTNO
 7902	FORD	ANALYST	7566	12/03/1981	3000	-	20
 >>>
 ```
-### <h3 id='7'>7 - Query Filtering Continued BETWEEN, IN and NULL</h3>
 
-[[Query Filtering Continued BETWEEN, IN and NULL.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484542?start=0)]
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='7'>7 - Query Filtering Continued BETWEEN, IN and NULL</h3>
 
 IN
 
@@ -354,9 +349,11 @@ EMPNO	ENAME	JOB	MGR	HIREDATE	SAL	COMM	DEPTNO
 >>>
 ```
 
-### <h3 id='8'>8 - Query Filtering Conditions & Operator Precedence</h3>
+<a href='#^'>^^^</a>
 
-[[Query Filtering Conditions & Operator Precedence.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484550?start=0)]
+---
+
+<h3 id='8'>8 - Query Filtering Conditions & Operator Precedence</h3>
 
 ```SQL
 -- all employees with null and 0 in COMM and SAL is in the range 1100-5000 and not equal to 1500
@@ -387,9 +384,12 @@ EMPNO	ENAME	JOB	MGR	HIREDATE	SAL	COMM	DEPTNO
 7654	MARTIN	SALESMAN	7698	09/28/1981	1250	1400	30
 >>>
 ```
-### <h3 id='9'>9 - Ordering, Concatenating and Aliasing Query Results</h3>
 
-[[Ordering, Concatenating and Aliasing Query Results.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484552?start=0)]
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='9'>9 - Ordering, Concatenating and Aliasing Query Results</h3>
 
 ```SQL
 --return back the ENAME as EMPLOYEE NAME, SAL as SALARY and COMM as COMMISION
@@ -494,12 +494,11 @@ DEPTNO	SAL	ENAME
 >>>
 ```
 
-Section 3 - Single Row Functions
-------
+<a href='#^'>^^^</a>
 
-### <h3 id='10'>10 - Single Row Functions (SRF) & Using the Dual Table</h3>
+---
 
-[[Single Row Functions (SRF) & Using the Dual Table.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484554?start=0)]
+<h3 id='10'>10 - Single Row Functions (SRF) & Using the Dual Table</h3>
 
 ```SQL
 SELECT 'my name is ' || ename as sentence
@@ -618,9 +617,11 @@ adams IS THE NAME and their job is: CLERK
 >>>
 ```
 
-### <h3 id='11'>11 - Using Functions in WHERE and Character Based SRFs</h3>
+<a href='#^'>^^^</a>
 
-[[Using Functions in WHERE and Character Based SRFs.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484556?start=0)]
+---
+
+<h3 id='11'>11 - Using Functions in WHERE and Character Based SRFs</h3>
 
 LOWER
 
@@ -785,9 +786,11 @@ hell
 >>>
 ```
 
-### <h3 id='12'>12 - Numeric and Date Data type SRFs</h3>
+<a href='#^'>^^^</a>
 
-[[Numeric and Date Data type SRFs.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484564?start=0)]
+---
+
+<h3 id='12'>12 - Numeric and Date Data type SRFs</h3>
 
 ROUND
 
@@ -913,9 +916,11 @@ MBW
 >>>
 ```
 
-### <h3 id='13'>13 - Conversion SRFs & Date Formatting</h3>
+<a href='#^'>^^^</a>
 
-[[Conversion SRFs & Date Formatting.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484568?start=0)]
+---
+
+<h3 id='13'>13 - Conversion SRFs & Date Formatting</h3>
 
 TO_CHAR
 
@@ -984,9 +989,11 @@ REQDATE
 >>>
 ```
 
-### <h3 id='14'>14 - Concluding SRFs & NULL / NULLIF Functions</h3>
+<a href='#^'>^^^</a>
 
-[[Concluding SRFs & NULL / NULLIF Functions.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484574?start=0)]
+---
+
+<h3 id='14'>14 - Concluding SRFs & NULL / NULLIF Functions</h3>
 
 ```SQL
 SELECT ename, job, sal, comm
@@ -1072,12 +1079,11 @@ MARTIN	6	6
 >>>
 ```
 
-Section 4 - Grouping Functions (Exercises and Solutions In the Lectures)
-------
+<a href='#^'>^^^</a>
 
-### <h3 id='15'>15 - Grouping Functions MIN, MAX, AVG, COUNT</h3>
+---
 
-[[Grouping Functions MIN, MAX, AVG, COUNT.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5484576?start=0)]
+<h3 id='15'>15 - Grouping Functions MIN, MAX, AVG, COUNT</h3>
 
 MAX
 
@@ -1173,9 +1179,11 @@ SUM	AVG	MAX	MIN	COUNT(*)
 >>>
 ```
 
-### <h3 id='16'>16 - GROUP BY Clause HAVING Clause</h3>
+<a href='#^'>^^^</a>
 
-[[GROUP BY Clause HAVING Clause.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5491338?start=0)]
+---
+
+<h3 id='16'>16 - GROUP BY Clause HAVING Clause</h3>
 
 GROUP BY
 
@@ -1291,9 +1299,11 @@ DEP_NUM	DEPTNO
 (6) ORDER BY
 ```
 
-### <h3 id='17'>17 - More Practice With The GROUP BY Clause</h3>
+<a href='#^'>^^^</a>
 
-[[More Practice With The GROUP BY Clause.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5491340?start=0)]
+---
+
+<h3 id='17'>17 - More Practice With The GROUP BY Clause</h3>
 
 GROUP BY
 
@@ -1341,12 +1351,11 @@ GROUP BY col_1, col_2, col_3...col_n
 
 [[tech on the net](https://www.techonthenet.com/)]
 
-Section 5 - Multi-Table Queries and Joins (Exercieses and Solutions In the Lectures)
-------
+<a href='#^'>^^^</a>
 
-### <h3 id='18'>18 - SELECT within SELECT (Subqueries)</h3>
+---
 
-[[SELECT within SELECT (Subqueries).udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5491342?start=0)]
+<h3 id='18'>18 - SELECT within SELECT (Subqueries)</h3>
 
 ```SQL
 SELECT * FROM dept;
@@ -1446,9 +1455,11 @@ EMPNO	ENAME	JOB	MGR	HIREDATE	SAL	COMM	DEPTNO
 >>>
 ```
 
-### <h3 id='19'>19 - Relating Tables Together Using JOINs</h3>
+<a href='#^'>^^^</a>
 
-[[Relating Tables Together Using JOINs.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5491344?start=0)]
+---
+
+<h3 id='19'>19 - Relating Tables Together Using JOINs</h3>
 
 ```SQL
 SELECT * FROM emp, dept;
@@ -1532,9 +1543,11 @@ ADAMS	CLERK	1100	DALLAS	20
 >>>
 ```
 
-### <h3 id='20'>20 - Joins Continued INNER & OUTER Joins</h3>
+<a href='#^'>^^^</a>
 
-[[Joins Continued INNER & OUTER Joins.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5491346?start=0)]
+---
+
+<h3 id='20'>20 - Joins Continued INNER & OUTER Joins</h3>
 
 INNER JOIN
 
@@ -1662,9 +1675,11 @@ EMPNO	ENAME	JOB	MGR	HIREDATE	SAL	COMM	DEPTNO	DEPTNO	DNAME	LOC
 >>>
 ```
 
-### <h3 id='21'>21 - More Joins With Correlated Subqueries</h3>
+<a href='#^'>^^^</a>
 
-[[More Joins With Correlated Subqueries.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5491348?start=0)]
+---
+
+<h3 id='21'>21 - More Joins With Correlated Subqueries</h3>
 
 EXISTS
 
@@ -1721,12 +1736,11 @@ DEPTNO	DNAME	LOC
 >>>
 ```
 
-Section 6 - Creating, ALtering and Updating Tables Using SQL
-------
-  
-### <h3 id='22'>22 - Creating your own tables and Design Considerations</h3>
+<a href='#^'>^^^</a>
 
-[[Creating your own tables and Design Considerations.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5491350?start=0)]
+---
+
+<h3 id='22'>22 - Creating your own tables and Design Considerations</h3>
 
 Primary Key
   * Cannot have duplicates
@@ -1780,9 +1794,11 @@ Table created.
 >>>
 ```
 
-#### <h3 id="23">23 - Inserting Data into our Table</h3>
+<a href='#^'>^^^</a>
 
-[[Inserting Data into our Table.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5491352?start=0)]
+---
+
+<h3 id="23">23 - Inserting Data into our Table</h3>
 
 INSERT INTO
 
@@ -1830,9 +1846,11 @@ STORE_ID	CITY
 >>>
 ```
 
-### <h3 id="24">24 - Create Table With a Primary Key Constraint</h3>
+<a href='#^'>^^^</a>
 
-[[Create Table With a Primary Key Constraint.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5491354?start=15)]
+---
+
+<h3 id="24">24 - Create Table With a Primary Key Constraint</h3>
 
 [[techonthenet.com](https://www.techonthenet.com/)]
 
@@ -1880,9 +1898,11 @@ PRODUCT_ID	NAME	PRODUCT_COST	PRODUCT_RETAIL	PRODUCT_TYPE	STORE_ID
 >>>
 ```
 
-### <h3 id="25">25 - Using ALTER to modify the tavle structure</h3>
+<a href='#^'>^^^</a>
 
-[[Using ALTER to modify the tavle structure.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5527236?start=0)]
+---
+
+<h3 id="25">25 - Using ALTER to modify the tavle structure</h3>
 
 ```SQL
 INSERT INTO products VALUES (1011, '', 4.00, 8.00, 'Clothing', 3)
@@ -1943,9 +1963,11 @@ PRODUCT_ID	PRODUCT_NAME	PRODUCT_COST	PRODUCT_RETAIL	PRODUCT_TYPE	STORE_ID
 >>>
 ```
 
-### <h3 id='26'>26 - Create Table with SELECT + UPDATE Data</h3>
+<a href='#^'>^^^</a>
 
-[[Create Table with SELECT + UPDATE Data.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5531820?start=15)]
+---
+
+<h3 id='26'>26 - Create Table with SELECT + UPDATE Data</h3>
 
 ```SQL
 CREATE TABLE employees AS
@@ -2050,9 +2072,11 @@ EMPNO	ENAME	JOB	HIREDATE	SAL	COMM	STORE_ID
 ALTER TABLE employees MODIFY store_id number not null;
 ```
 
-### <h3 id='27'>27 - DELETE, TRUNCATE, and DROP Commands</h3>
+<a href='#^'>^^^</a>
 
-[[DELETE, TRUNCATE, and DROP Commands.udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5537980?start=0)]
+---
+
+<h3 id='27'>27 - DELETE, TRUNCATE, and DROP Commands</h3>
 
 ```SQL
 SELECT * FROM dept;
@@ -2112,9 +2136,11 @@ table truncated
 >>>
 ```
 
-### <h3 id='28'>28 - Working With Database Indexes (Newly Added)</h3>
+<a href='#^'>^^^</a>
 
-[[Working With Database Indexes (Newly Added).udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5712340?start=15)]
+---
+
+<h3 id='28'>28 - Working With Database Indexes (Newly Added)</h3>
 
 CREATE INDEX
 
@@ -2157,9 +2183,11 @@ index dropped
 >>>
 ```
 
-### <h3 id='29'>29 - System Tables, Pseudo Columns & Deleting Duplicates (Newly Added)</h3>
+<a href='#^'>^^^</a>
 
-[[System Tables, Pseudo Columns & Deleting Duplicates (Newly Added).udemy]()]
+---
+
+<h3 id='29'>29 - System Tables, Pseudo Columns & Deleting Duplicates (Newly Added)</h3>
 
 ```SQL
 SELECT store_id, city, COUNT(*)
@@ -2233,9 +2261,11 @@ AND rownum < 10;
 >>>
 ```
 
-### <h3 id='30'>30 - Views and Other Objects and Commands (Newly Added)</h3>
+<a href='#^'>^^^</a>
 
-[[Views and Other Objects and Commands (Newly Added).udemy](https://www.udemy.com/the-complete-oracle-sql-certification-course/learn/v4/t/lecture/5717648?start=0)]
+---
+
+<h3 id='30'>30 - Views and Other Objects and Commands (Newly Added)</h3>
 
 CREATE VIEW
 
@@ -2280,3 +2310,6 @@ view dropped
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
+---
