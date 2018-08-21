@@ -11,24 +11,6 @@
 
 ---
 
-* [01 - Course Introduction]()
-* [02 - PostGreSQL Installation (Mac)]()
-* [03 - PostGreSQL Installation (Win)]()
-* [04 - Databases and Tables]()
-* [05 - SQL Statement Fundamentals]()
-* [06 - GROUP BY Statement]()
-* [07 - Assessment Test 1]()
-* [08 - JOINS]()
-* [09 - Advanced SQL Commands]()
-* [10 - Assessment Test 2]()
-* [11 - Creating Databases and Tables]()
-* [12 - Assessment Test 3]()
-* [13 - Extra Views]()
-* [14 - Extra PostGreSQL with Python]()
-* [15 - Bonus Offers]()
-
----
-
 ### Section 1 - Course Introduction
   * <a href='#1'>Introduction</a>
   * <a href='#2'>Course Curriculum Overview</a>
