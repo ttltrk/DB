@@ -7,7 +7,7 @@
 
 ---
 
-<h3 id='^'>SQL man</h3>
+<h3 id='^'>SQL</h3>
 
 ---
 
@@ -34,6 +34,23 @@
 ---
 
 <h3 id='SELECT'>SELECT</h3>
+
+```sql
+SELECT column1, column2, ...
+FROM table_name;
+```
+
+<a href='#^'>^^^</a>
+
+```sql
+SELECT CustomerName, City FROM Customers;
+```
+
+<a href='#^'>^^^</a>
+
+```sql
+SELECT * FROM Customers;
+```
 
 <a href='#^'>^^^</a>
 
