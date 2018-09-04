@@ -60,6 +60,32 @@ SELECT * FROM Customers;
 
 <h3 id='SELECTDISTINCT'>SELECT DISTINCT</h3>
 
+The SELECT DISTINCT statement is used to return only distinct (different) values.
+
+```sql
+SELECT DISTINCT column1, column2, ...
+FROM table_name;
+```
+
+<a href='#^'>^^^</a>
+
+```sql
+SELECT DISTINCT Country FROM Customers;
+```
+
+<a href='#^'>^^^</a>
+
+```sql
+SELECT COUNT(DISTINCT Country) FROM Customers;
+```
+
+<a href='#^'>^^^</a>
+
+```sql
+SELECT Count(*) AS DistinctCountries
+FROM (SELECT DISTINCT Country FROM Customers);
+```
+
 <a href='#^'>^^^</a>
 
 ---
