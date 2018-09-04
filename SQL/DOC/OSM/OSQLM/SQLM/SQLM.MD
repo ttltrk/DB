@@ -90,7 +90,41 @@ FROM (SELECT DISTINCT Country FROM Customers);
 
 ---
 
-<h3 id=''></h3>
+<h3 id='WHERE'>WHERE</h3>
+
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+```
+
+<a href='#^'>^^^</a>
+
+```sql
+SELECT * FROM Customers
+WHERE Country='Mexico';
+```
+
+<a href='#^'>^^^</a>
+
+```sql
+SELECT * FROM Customers
+WHERE CustomerID=1;
+```
+
+<a href='#^'>^^^</a>
+
+```sql
+=	      Equal
+<>	    Not equal. Note: In some versions of SQL this operator may be written as !=
+>	      Greater than
+<	      Less than
+>=	    Greater than or equal
+<=	    Less than or equal
+BETWEEN	Between an inclusive range
+LIKE	  Search for a pattern
+IN	    To specify multiple possible values for a column
+```
 
 <a href='#^'>^^^</a>
 
