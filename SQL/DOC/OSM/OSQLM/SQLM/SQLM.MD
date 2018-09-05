@@ -242,19 +242,63 @@ ORDER BY Country ASC, CustomerName DESC;
 
 ---
 
-<h3 id=''></h3>
+<h3 id='INSERTINTO'>INSERT INTO</h3>
+
+```sql
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+
+INSERT INTO table_name
+VALUES (value1, value2, value3, ...);
+```
+
+<a href='#^'>^^^</a>
+
+```sql
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
+```
+
+<a href='#^'>^^^</a>
+
+```sql
+INSERT INTO Customers (CustomerName, City, Country)
+VALUES ('Cardinal', 'Stavanger', 'Norway');
+```
 
 <a href='#^'>^^^</a>
 
 ---
 
-<h3 id=''></h3>
+<h3 id='NULLVALUES'>NULL VALUES</h3>
 
 <a href='#^'>^^^</a>
 
 ---
 
-<h3 id=''></h3>
+<h3 id='UPDATE'>UPDATE</h3>
+
+```sql
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+```
+
+<a href='#^'>^^^</a>
+
+```sql
+UPDATE Customers
+SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
+WHERE CustomerID = 1;
+```
+
+<a href='#^'>^^^</a>
+
+```sql
+UPDATE Customers
+SET ContactName='Juan'
+WHERE Country='Mexico';
+```
 
 <a href='#^'>^^^</a>
 
