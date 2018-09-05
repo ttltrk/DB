@@ -147,13 +147,96 @@ To specify multiple possible values for a column
 
 ---
 
-<h3 id=''></h3>
+<h3 id='ANDORNOT'>AND, OR, NOT</h3>
+
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 AND condition2 AND condition3 ...;
+
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 OR condition2 OR condition3 ...;
+
+SELECT column1, column2, ...
+FROM table_name
+WHERE NOT condition;
+```
+
+<a href='#^'>^^^</a>
+
+```sql
+SELECT * FROM Customers
+WHERE Country='Germany' AND City='Berlin';
+```
+
+<a href='#^'>^^^</a>
+
+```sql
+SELECT * FROM Customers
+WHERE City='Berlin' OR City='München';
+```
+
+<a href='#^'>^^^</a>
+
+```sql
+SELECT * FROM Customers
+WHERE NOT Country='Germany';
+```
+
+<a href='#^'>^^^</a>
+
+```sql
+SELECT * FROM Customers
+WHERE Country='Germany' AND (City='Berlin' OR City='München');
+```
+
+<a href='#^'>^^^</a>
+
+```sql
+SELECT * FROM Customers
+WHERE NOT Country='Germany' AND NOT Country='USA';
+```
 
 <a href='#^'>^^^</a>
 
 ---
 
-<h3 id=''></h3>
+<h3 id='ORDERBY'>ORDER BY</h3>
+
+```sql
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1, column2, ... ASC|DESC;
+```
+
+<a href='#^'>^^^</a>
+
+```sql
+SELECT * FROM Customers
+ORDER BY Country;
+```
+
+<a href='#^'>^^^</a>
+
+```sql
+SELECT * FROM Customers
+ORDER BY Country DESC;
+```
+
+<a href='#^'>^^^</a>
+
+```sql
+SELECT * FROM Customers
+ORDER BY Country, CustomerName;
+```
+
+<a href='#^'>^^^</a>
+
+```sql
+SELECT * FROM Customers
+ORDER BY Country ASC, CustomerName DESC;
+```
 
 <a href='#^'>^^^</a>
 
