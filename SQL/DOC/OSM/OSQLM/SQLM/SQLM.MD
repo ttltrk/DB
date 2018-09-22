@@ -32,7 +32,7 @@
 * <a href='#ALIASES'>ALIASES</a>
 * <a href='#JOINS'>JOINS</a>
 * <a href='#INNERJOIN'>INNER JOIN</a>
-* <a href='#CREATEABLE'>CREATE TABLE</a>
+* <a href='#CREATETABLE'>CREATE TABLE</a>
 
 ---
 
