@@ -271,6 +271,25 @@ VALUES ('Cardinal', 'Stavanger', 'Norway');
 
 ---
 
+Inserting multiple rows in a single SQL query
+
+```sql
+INSERT INTO tbl_name (a,b,c) VALUES(1,2,3),(4,5,6),(7,8,9);
+```
+
+```sql
+INSERT INTO MyTable 
+    ( Column1, Column2, Column3 )
+VALUES 
+    ('John', 123, 'Lloyds Office'), 
+    ('Jane', 124, 'Lloyds Office'), 
+    ('Billy', 125, 'London Office'),
+    ('Miranda', 126, 'Bristol Office');
+
+<a href='#^'>^^^</a>
+
+---
+
 <h3 id='NULLVALUES'>NULL VALUES</h3>
 
 <a href='#^'>^^^</a>
