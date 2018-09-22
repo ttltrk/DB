@@ -32,6 +32,7 @@
 * <a href='#ALIASES'>ALIASES</a>
 * <a href='#JOINS'>JOINS</a>
 * <a href='#INNERJOIN'>INNER JOIN</a>
+* <a href='#CREATEABLE'>CREATE TABLE</a>
 
 ---
 
@@ -304,7 +305,36 @@ WHERE Country='Mexico';
 
 ---
 
-<h3 id=''></h3>
+<h3 id='CREATETABLE'>CREATE TABLE</h3>
+
+```sql
+CREATE TABLE trk (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255) 
+);
+```
+
+---
+
+Create, Insert and Select table
+
+```sql
+CREATE TABLE trk (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255) 
+);
+
+INSERT INTO trk (PersonID , LastName , FirstName , Address , City)
+VALUES (01, 'Doe', 'John', 'Main str.', 'Norway');
+
+select * from trk
+```
 
 <a href='#^'>^^^</a>
 
