@@ -291,6 +291,25 @@ VALUES
 
 ---
 
+```sql
+SELECT * 
+FROM trk_test;
+
+INSERT INTO trk_test 
+VALUES ('4','king','bbe','hemp','ams');
+
+INSERT INTO trk_test 
+VALUES ('5','petofi','alex','var','bp');
+
+>>>
+1	"trk"	"ttl"	"Hlavna 5"	"TNO"
+2	"doe"	"jon"	"CA"	"GS"
+3	"ewong"	"samatha"	"SFR"	"Dallas"
+4	"king"	"bbe"	"hemp"	"ams"
+5	"petofi"	"alex"	"var"	"bp"
+>>>
+```
+
 <h3 id='NULLVALUES'>NULL VALUES</h3>
 
 <a href='#^'>^^^</a>
