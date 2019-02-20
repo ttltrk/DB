@@ -28,7 +28,40 @@
 * <a href='#ALIASES'>ALIASES</a>
 * <a href='#JOINS'>JOINS</a>
 * <a href='#INNERJOIN'>INNER JOIN</a>
+* <a href='#LEFTJOIN'>LEFT JOIN</a>
+* <a href='#RIGHTJOIN'>RIGHT JOIN</a>
+* <a href='#FULLJOIN'>FULL JOIN</a>
+* <a href='#SELFJOIN'>SELF JOIN</a>
+* <a href='#UNION'>UNION</a>
+* <a href='#GROUPBY'>GROUP BY</a>
+* <a href='#HAVING'>HAVING</a>
+* <a href='#EXISTS'>EXISTS</a>
+* <a href='#ANYALL'>ANY, ALL</a>
+* <a href='#SELECTINTO'>SELECT INTO</a>
+* <a href='#INSINTSEL'>INSERT INTO SELECT</a>
+* <a href='#CASE'>CASE</a>
+* <a href='#NULL'>NULL FUNCTIONS</a>
+* <a href='#STOPRO'>STORED PROCEDURES</a>
+* <a href='#COMMENT'>COMMENTS</a>
+* <a href='#CREATEDB'>CREATE DB</a>
+* <a href='#DROPDB'>DROP DB</a>
+* <a href='#BACKUPDB'>BACKUP DB</a>
 * <a href='#CREATETABLE'>CREATE TABLE</a>
+* <a href='#DROPTABLE'>DROP TABLE</a>
+* <a href='#ALTERTABLE'>ALTER TABLE</a>
+* <a href='#CONSTRAINTS'>CONSTRAINTS</a>
+* <a href='#NOTNULL'>NOT NULL</a>
+* <a href='#UNIQUE'>UNIQUE</a>
+* <a href='#PRIMARYKEY'>PRIMARY KEY</a>
+* <a href='#FOREIGNKEY'>FOREIGN KEY</a>
+* <a href='#CHECK'>CHECK</a>
+* <a href='#DEFAULT'>DEFAULT</a>
+* <a href='#INDEX'>INDEX</a>
+* <a href='#AUTOINCREMENT'>AUTO INCREMENT</a>
+* <a href='#DATES'>DATES</a>
+* <a href='#VIEWS'>VIEWS</a>
+* <a href='#INJENCTION'>INJENCTION</a>
+* <a href='#HOSTING'>HOSTING</a>
 
 ---
 
