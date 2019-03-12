@@ -83,14 +83,13 @@ SELECT CustomerName, City FROM Customers;
 ```sql
 SELECT * FROM Employees;
 
-PERSONID	LASTNAME	FIRSTNAME	ADDRESS	CITY	SALARY	COMPANYID
-2	Big	Bob	Main str.	Norway	1200	4
-3	Nuttall	Ben	Raspberry Pi str	US	1900	3
-6	Smog	Smig	w str	Norway	4900	2
-1	Doe	John	Main str.	Norway	1000	1
-5	ball	zo	str str	la	2900	2
-4	trk	ttl	TNO str	SVK	1900	5
-
+PERSONID	LASTNAME	FIRSTNAME	ADDRESS	CITY	    SALARY	COMPANYID
+2	        Big	        Bob	        Main str. Norway	1200	4
+3	        Nuttall	    Ben	        Raspberry Pi str US	1900	3
+6	        Smog	    Smig	    w str	Norway	    4900	2
+1	        Doe	        John	    Main str.	Norway	1000	1
+5	        ball	    zo	        str str	la	        2900	2
+4	        trk	        ttl	        TNO str	SVK	        1900	5
 ```
 
 <a href='#^'>^^^</a>
