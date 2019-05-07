@@ -9,6 +9,10 @@
 
 ---
 
+[w3schools](https://www.w3schools.com/sql/)
+
+---
+
 * <a href='#SELECT'>SELECT</a>
 * <a href='#SELECTDISTINCT'>SELECT DISTINCT</a>
 * <a href='#WHERE'>WHERE</a>
