@@ -11,7 +11,7 @@
 
 ---
 
-```sql
+```csv
 personid	lastname	firstname	address	city
 1	trk	ttl	Hlavna 5	TNO
 2	doe	jon	CA	GS
