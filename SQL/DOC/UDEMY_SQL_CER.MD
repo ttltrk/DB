@@ -11,6 +11,16 @@
 
 ---
 
+```sql
+personid	lastname	firstname	address	city
+1	trk	ttl	Hlavna 5	TNO
+2	doe	jon	CA	GS
+3	ewong	samatha	SFR	Dallas
+5	petofi	alex	var	bp
+6	kawhi	leo	canada	toronto
+4	bbking	bbe	hemp	ams
+```
+
 Section 1 - Database Basics
 
   * <a href='#1'>1 - Oracle Database Introduction & Basics of Tables</a>
