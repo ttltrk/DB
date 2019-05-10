@@ -11,14 +11,6 @@
 
 [w3schools](https://www.w3schools.com/sql/)
 
-```sql
-1	"trk"	    "ttl"	    "Hlavna 5"	"TNO"
-2	"doe"	    "jon"	    "CA"	    "GS"
-3	"ewong"	    "samatha"	"SFR"	    "Dallas"
-4	"king"	    "bbe"	    "hemp"	    "ams"
-5	"petofi"	"alex"	    "var"	    "bp"
-```
-
 ---
 
 * <a href='#SELECT'>SELECT</a>
