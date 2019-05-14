@@ -7,11 +7,7 @@
 
 ---
 
-<a href='https://github.com/ttltrk/DB/blob/master/SQL/DOC/OSM/OSQLM/SQLM/SQLM.MD'><h3 id='^'>SQL</h3></a>
-
----
-
-<h3 id='SELECT'>SELECT</h3>
+<h3 id='^'>SELECT</h3>
 
 ---
 
