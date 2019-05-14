@@ -389,22 +389,25 @@ select * from trk
 
 <h3 id='altertable'>ALTER TABLE</h3>
 
-```
-How to rename column name from department to dep
-```
-
 ```sql
+--How to rename column name from department to dep
+
 ALTER TABLE trk_test_02
 RENAME COLUMN department TO dep;
 ```
 
-```
-add new column to the table
+```sql
+--add new column to the table
+
+ALTER TABLE trk_test_02
+ADD city varchar(255);
 ```
 
 ```sql
-ALTER TABLE trk_test_02
-ADD city varchar(255);
+--change the table name from trk_test to trk_test_01
+
+ALTER TABLE trk_test
+  RENAME TO trk_test_01;
 ```
 
 <a href='#^'>^^^</a>
