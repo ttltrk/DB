@@ -31,7 +31,9 @@ FROM table_name;
 
 ```sql
 SELECT * FROM trk_test
+```
 
+```sql
 1	"trk"	"ttl"	"Hlavna 5"	"TNO"
 2	"doe"	"jon"	"CA"	"GS"
 3	"ewong"	"samatha"	"SFR"	"Dallas"
@@ -46,7 +48,9 @@ SELECT * FROM trk_test
 
 ```sql
 SELECT lastname, address FROM trk_test
+```
 
+```sql
 "trk"	"Hlavna 5"
 "doe"	"CA"
 "ewong"	"SFR"
