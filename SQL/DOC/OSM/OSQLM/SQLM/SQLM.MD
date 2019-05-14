@@ -67,46 +67,6 @@
 
 ---
 
-<h3 id='SELECT'>SELECT</h3>
-
-```
-The SELECT statement is used to select data from a database.
-The data returned is stored in a result table, called the result-set.
-```
-
-```sql
-SELECT column1, column2, ...
-FROM table_name;
-```
-
-<a href='#^'>^^^</a>
-
-```sql
-SELECT * FROM trk_test
-
-1	"trk"	"ttl"	"Hlavna 5"	"TNO"
-2	"doe"	"jon"	"CA"	"GS"
-3	"ewong"	"samatha"	"SFR"	"Dallas"
-5	"petofi"	"alex"	"var"	"bp"
-6	"kawhi"	"leo"	"canada"	"toronto"
-4	"bbking"	"bbe"	"hemp"	"ams"
-```
-
-```
-SELECT lastname, address FROM trk_test
-
-"trk"	"Hlavna 5"
-"doe"	"CA"
-"ewong"	"SFR"
-"petofi"	"var"
-"kawhi"	"canada"
-"bbking"	"hemp"
-```
-
-<a href='#^'>^^^</a>
-
----
-
 <h3 id='SELECTDISTINCT'>SELECT DISTINCT</h3>
 
 The SELECT DISTINCT statement is used to return only distinct (different) values.
