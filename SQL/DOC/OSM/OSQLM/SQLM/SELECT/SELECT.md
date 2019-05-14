@@ -7,7 +7,7 @@
 
 ---
 
-<h3 id='^'>SELECT</h3>
+<h3 id='^'>SQL - SELECT</h3>
 
 ---
 
