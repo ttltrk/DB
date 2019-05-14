@@ -7,11 +7,13 @@
 
 ---
 
-<a href='https://github.com/ttltrk/DB/edit/master/SQL/DOC/OSM/OSQLM/SQLM/SQLM.MD'><h3 id='^'>SQL</h3></a>
+<a href='https://github.com/ttltrk/DB/blob/master/SQL/DOC/OSM/OSQLM/SQLM/SQLM.MD'><h3 id='^'>SQL</h3></a>
 
 ---
 
 <h3 id='SELECT'>SELECT</h3>
+
+---
 
 ```
 The SELECT statement is used to select data from a database.
