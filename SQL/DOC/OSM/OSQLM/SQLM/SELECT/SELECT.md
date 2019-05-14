@@ -23,6 +23,8 @@ FROM table_name;
 
 <a href='#^'>^^^</a>
 
+---
+
 ```sql
 SELECT * FROM trk_test
 
