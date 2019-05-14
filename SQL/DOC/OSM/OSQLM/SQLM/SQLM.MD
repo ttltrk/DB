@@ -398,6 +398,15 @@ ALTER TABLE trk_test_02
 RENAME COLUMN department TO dep;
 ```
 
+```
+add new column to the table
+```
+
+```sql
+ALTER TABLE trk_test_02
+ADD city varchar(255);
+```
+
 <a href='#^'>^^^</a>
 
 ---
