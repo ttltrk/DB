@@ -9,10 +9,6 @@
 
 ---
 
-[w3schools](https://www.w3schools.com/sql/)
-
----
-
 * <a href='#SELECT'>SELECT</a>
 * <a href='#SELECTDISTINCT'>SELECT DISTINCT</a>
 * <a href='#WHERE'>WHERE</a>
@@ -71,6 +67,11 @@
 
 <h3 id='SELECT'>SELECT</h3>
 
+```
+The SELECT statement is used to select data from a database.
+The data returned is stored in a result table, called the result-set.
+```
+
 ```sql
 SELECT column1, column2, ...
 FROM table_name;
@@ -79,21 +80,25 @@ FROM table_name;
 <a href='#^'>^^^</a>
 
 ```sql
-SELECT CustomerName, City FROM Customers;
+SELECT * FROM trk_test
+
+1	"trk"	"ttl"	"Hlavna 5"	"TNO"
+2	"doe"	"jon"	"CA"	"GS"
+3	"ewong"	"samatha"	"SFR"	"Dallas"
+5	"petofi"	"alex"	"var"	"bp"
+6	"kawhi"	"leo"	"canada"	"toronto"
+4	"bbking"	"bbe"	"hemp"	"ams"
 ```
 
-<a href='#^'>^^^</a>
+```
+SELECT lastname, address FROM trk_test
 
-```sql
-SELECT * FROM Employees;
-
-PERSONID	LASTNAME	FIRSTNAME	ADDRESS	CITY	    SALARY	COMPANYID
-2	        Big	        Bob	        Main str. Norway	1200	4
-3	        Nuttall	    Ben	        Raspberry Pi str US	1900	3
-6	        Smog	    Smig	    w str	Norway	    4900	2
-1	        Doe	        John	    Main str.	Norway	1000	1
-5	        ball	    zo	        str str	la	        2900	2
-4	        trk	        ttl	        TNO str	SVK	        1900	5
+"trk"	"Hlavna 5"
+"doe"	"CA"
+"ewong"	"SFR"
+"petofi"	"var"
+"kawhi"	"canada"
+"bbking"	"hemp"
 ```
 
 <a href='#^'>^^^</a>
