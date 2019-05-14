@@ -11,7 +11,7 @@
 
 ---
 
-* <a href='https://github.com/ttltrk/DB/new/master/SQL/DOC/OSM/OSQLM/SQLM'>SELECT</a>
+* <a href='https://github.com/ttltrk/DB/blob/master/SQL/DOC/OSM/OSQLM/SQLM/SELECT/SELECT.md'>SELECT</a>
 * <a href='#SELECTDISTINCT'>SELECT DISTINCT</a>
 * <a href='#WHERE'>WHERE</a>
 * <a href='#ANDORNOT'>AND, OR, NOT</a>
