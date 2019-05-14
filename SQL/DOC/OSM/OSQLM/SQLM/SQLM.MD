@@ -387,7 +387,16 @@ select * from trk
 
 ---
 
-<h3 id=''></h3>
+<h3 id='altertable'>ALTER TABLE</h3>
+
+```
+How to rename column name from department to dep
+```
+
+```sql
+ALTER TABLE trk_test_02
+RENAME COLUMN department TO dep;
+```
 
 <a href='#^'>^^^</a>
 
