@@ -45,6 +45,23 @@ VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway
 --UPDATE
 UPDATE Customers SET ContactName = 'Alfred Schmidt', City= 'Frankfurt' WHERE CustomerID = 1;
 UPDATE Customers SET ContactName='Juan' WHERE Country='Mexico';
+
+--DELETE
+DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
+DELETE FROM Customers;
+
+--LIMIT
+SELECT * FROM Customers LIMIT 3;
+
+--MIN, MAX
+SELECT MIN(Price) AS SmallestPrice FROM Products;
+SELECT MAX(Price) AS LargestPrice FROM Products;
+
+--COUNT, AVG, SUM
+SELECT COUNT(ProductID) FROM Products;
+SELECT COUNT(DISTINCT ProductID) FROM Products;
+SELECT AVG(Price) FROM Products;
+SELECT SUM(Quantity) FROM OrderDetails;
 ```
 
 ---
