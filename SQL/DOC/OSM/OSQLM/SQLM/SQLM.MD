@@ -12,18 +12,26 @@
 ---
 
 ```sql
+----------------------------------------------------------------------------------
+
 --SELECT * FROM
 SELECT * FROM emp;
 SELECT id, lastname FROM emp; 
+
+----------------------------------------------------------------------------------
 
 --SELECT DISTINCT
 SELECT DISTINCT Country FROM Customers; 
 SELECT COUNT(DISTINCT Country) FROM Customers;
 SELECT COUNT(*) AS DistinctCountries FROM (SELECT DISTINCT Country FROM Customers);
 
+----------------------------------------------------------------------------------
+
 --WHERE
 SELECT * FROM Customers WHERE Country='Mexico';
 SELECT * FROM Customers WHERE CustomerID=1;
+
+----------------------------------------------------------------------------------
 
 --AND, OR, NOT
 SELECT * FROM Customers WHERE Country='Germany' AND City='Berlin';
