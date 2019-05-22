@@ -14,12 +14,9 @@
 ```sql
 SELECT * FROM emp;
 SELECT id, lastname FROM emp; 
-
---The following SQL statement selects only the DISTINCT values from the "Country" column in the "Customers" table:
 SELECT DISTINCT Country FROM Customers; 
-
---The following SQL statement lists the number of different (distinct) customer countries:
 SELECT COUNT(DISTINCT Country) FROM Customers;
+SELECT COUNT(*) AS DistinctCountries FROM (SELECT DISTINCT Country FROM Customers);
 ```
 
 ---
