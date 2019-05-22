@@ -12,11 +12,39 @@
 ---
 
 ```sql
+--SELECT * FROM
 SELECT * FROM emp;
 SELECT id, lastname FROM emp; 
+
+--SELECT DISTINCT
 SELECT DISTINCT Country FROM Customers; 
 SELECT COUNT(DISTINCT Country) FROM Customers;
 SELECT COUNT(*) AS DistinctCountries FROM (SELECT DISTINCT Country FROM Customers);
+
+--WHERE
+SELECT * FROM Customers WHERE Country='Mexico';
+SELECT * FROM Customers WHERE CustomerID=1;
+
+--AND, OR, NOT
+SELECT * FROM Customers WHERE Country='Germany' AND City='Berlin';
+SELECT * FROM Customers WHERE City='Berlin' OR City='München';
+SELECT * FROM Customers WHERE NOT Country='Germany';
+SELECT * FROM Customers WHERE Country='Germany' AND (City='Berlin' OR City='München');
+SELECT * FROM Customers WHERE NOT Country='Germany' AND NOT Country='USA';
+
+--ORDER BY
+SELECT * FROM Customers ORDER BY Country;
+SELECT * FROM Customers ORDER BY Country DESC;
+SELECT * FROM Customers ORDER BY Country, CustomerName;
+SELECT * FROM Customers ORDER BY Country ASC, CustomerName DESC;
+
+--INSERT INTO
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
+
+--UPDATE
+UPDATE Customers SET ContactName = 'Alfred Schmidt', City= 'Frankfurt' WHERE CustomerID = 1;
+UPDATE Customers SET ContactName='Juan' WHERE Country='Mexico';
 ```
 
 ---
