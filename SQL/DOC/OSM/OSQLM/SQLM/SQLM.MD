@@ -31,6 +31,17 @@
 ```sql
 SELECT * FROM emp;
 SELECT id, lastname FROM emp; 
+
+>>>
+personid|lastname|firstname|address |city   |
+--------|--------|---------|--------|-------|
+       1|trk     |ttl      |Hlavna 5|TNO    |
+       2|doe     |jon      |CA      |GS     |
+       3|ewong   |samatha  |SFR     |Dallas |
+       6|kawhi   |leo      |canada  |toronto|
+       4|bbking  |bbe      |hemp    |ams    |
+       5|petofi  |alex     |var     |BP     |
+>>>
 ```
 
 <a href='#^'>^^^</a>
