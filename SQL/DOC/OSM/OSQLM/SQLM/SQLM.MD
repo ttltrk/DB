@@ -18,6 +18,11 @@
 * <a href='#andornot'>and, or, not</a></br>
 * <a href='#limit'>limit</a></br>
 * <a href='#minmax'>min, max</a></br>
+* <a href='#countavgsum'>count, avg, sum</a></br>
+* <a href='#between'>between</a></br>
+* <a href='#in'>in</a></br>
+* <a href='#like'>like</a></br>
+
 * <a href='#insert'>insert</a></br>
 * <a href='#update'>update</a></br>
 * <a href='#delete'>delete</a></br>
@@ -126,6 +131,75 @@ SELECT COUNT(ProductID) FROM Products;
 SELECT COUNT(DISTINCT ProductID) FROM Products;
 SELECT AVG(Price) FROM Products;
 SELECT SUM(Quantity) FROM OrderDetails;
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='between'>between</h3>
+
+```sql
+SELECT customer_id, amount
+FROM payment
+WHERE amount BETWEEN 8 AND 9;
+```
+
+```sql
+SELECT amount, payment_date
+FROM payment
+WHERE payment_date BETWEEN '2007-02-07' AND '2007-02-15';
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='in'>in</h3>
+
+```sql
+SELECT customer_id, rental_id, return_date
+FROM rental
+WHERE customer_id IN (1,2)
+ORDER BY return_date DESC;
+```
+
+```sql
+SELECT customer_id, rental_id, return_date
+FROM rental
+WHERE customer_id IN (1,2,7,21)
+ORDER BY return_date DESC;
+```
+
+```sql
+SELECT customer_id, rental_id, return_date
+FROM rental
+WHERE customer_id NOT IN (1,2)
+ORDER BY return_date DESC;
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='like'>like</h3>
+
+```sql
+SELECT first_name, last_name
+FROM customer
+WHERE first_name LIKE 'Jen%';
+```
+
+```sql
+SELECT first_name, last_name
+FROM customer
+WHERE first_name NOT LIKE 'Jen%';
+```
+
+```sql
+SELECT first_name, last_name
+FROM customer
+WHERE first_name LIKE '%em%';
 ```
 
 <a href='#^'>^^^</a>
