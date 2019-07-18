@@ -22,7 +22,6 @@
 * <a href='#between'>between</a></br>
 * <a href='#in'>in</a></br>
 * <a href='#like'>like</a></br>
-
 * <a href='#insert'>insert</a></br>
 * <a href='#update'>update</a></br>
 * <a href='#delete'>delete</a></br>
