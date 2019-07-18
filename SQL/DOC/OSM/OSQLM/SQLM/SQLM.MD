@@ -11,87 +11,117 @@
 
 ---
 
-```sql
-----------------------------------------------------------------------------------
+* <a href='#select'>select</a></br>
+* <a href='#selectdist'>select distinct</a></br>
+* <a href='#where'>where</a></br>
+* <a href='#orderby'>order by</a></br>
+* <a href='#andornot'>and, or, not</a></br>
+* <a href='#limit'>limit</a></br>
+* <a href='#minmax'>min, max</a></br>
+* <a href='#insert'>insert</a></br>
+* <a href='#update'>update</a></br>
+* <a href='#delete'>delete</a></br>
+* <a href='#create'>create</a></br>
+* <a href='#alter'>alter</a></br>
 
---SELECT * FROM
+---
+
+<h3 id='select'>select</h3>
+
+```sql
 SELECT * FROM emp;
 SELECT id, lastname FROM emp; 
+```
 
-----------------------------------------------------------------------------------
+<a href='#^'>^^^</a>
 
---SELECT DISTINCT
+---
+
+<h3 id='selectdist'>select distinct</h3>
+
+```sql
 SELECT DISTINCT Country FROM Customers; 
 SELECT COUNT(DISTINCT Country) FROM Customers;
 SELECT COUNT(*) AS DistinctCountries FROM (SELECT DISTINCT Country FROM Customers);
+```
 
-----------------------------------------------------------------------------------
+<a href='#^'>^^^</a>
 
---WHERE
+---
+
+<h3 id='where'>where</h3>
+
+```sql
 SELECT * FROM Customers WHERE Country='Mexico';
 SELECT * FROM Customers WHERE CustomerID=1;
+```
 
-----------------------------------------------------------------------------------
+<a href='#^'>^^^</a>
 
---AND, OR, NOT
+---
+
+<h3 id='orderby'>order by</h3>
+
+```sql
+SELECT * FROM Customers ORDER BY Country;
+SELECT * FROM Customers ORDER BY Country DESC;
+SELECT * FROM Customers ORDER BY Country, CustomerName;
+SELECT * FROM Customers ORDER BY Country ASC, CustomerName DESC;
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='andornot'>and, or, not</h3>
+
+```sql
 SELECT * FROM Customers WHERE Country='Germany' AND City='Berlin';
 SELECT * FROM Customers WHERE City='Berlin' OR City='München';
 SELECT * FROM Customers WHERE NOT Country='Germany';
 SELECT * FROM Customers WHERE Country='Germany' AND (City='Berlin' OR City='München');
 SELECT * FROM Customers WHERE NOT Country='Germany' AND NOT Country='USA';
+```
 
-----------------------------------------------------------------------------------
+<a href='#^'>^^^</a>
 
---ORDER BY
-SELECT * FROM Customers ORDER BY Country;
-SELECT * FROM Customers ORDER BY Country DESC;
-SELECT * FROM Customers ORDER BY Country, CustomerName;
-SELECT * FROM Customers ORDER BY Country ASC, CustomerName DESC;
+---
 
-----------------------------------------------------------------------------------
+<h3 id='limit'>limit</h3>
 
---INSERT INTO
-INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
-VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
-
-----------------------------------------------------------------------------------
-
---UPDATE
-UPDATE Customers SET ContactName = 'Alfred Schmidt', City= 'Frankfurt' WHERE CustomerID = 1;
-UPDATE Customers SET ContactName='Juan' WHERE Country='Mexico';
-
-----------------------------------------------------------------------------------
-
---DELETE
-DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
-DELETE FROM Customers;
-
-----------------------------------------------------------------------------------
-
---LIMIT
+```sql
 SELECT * FROM Customers LIMIT 3;
+```
 
-----------------------------------------------------------------------------------
+<a href='#^'>^^^</a>
 
---MIN, MAX
+---
+
+<h3 id='minmax'>min, max</h3>
+
+```sql
 SELECT MIN(Price) AS SmallestPrice FROM Products;
 SELECT MAX(Price) AS LargestPrice FROM Products;
+```
 
-----------------------------------------------------------------------------------
+<a href='#^'>^^^</a>
 
---COUNT, AVG, SUM
+---
+
+<h3 id='countavgsum'>count, avg, sum</h3>
+
+```sql
 SELECT COUNT(ProductID) FROM Products;
 SELECT COUNT(DISTINCT ProductID) FROM Products;
 SELECT AVG(Price) FROM Products;
 SELECT SUM(Quantity) FROM OrderDetails;
-
-----------------------------------------------------------------------------------
 ```
+
+<a href='#^'>^^^</a>
 
 ---
 
-
-<h3 id='INSERTINTO'>INSERT INTO</h3>
+<h3 id='insert'>insert</h3>
 
 ```sql
 INSERT INTO table_name (column1, column2, column3, ...)
@@ -101,23 +131,15 @@ INSERT INTO table_name
 VALUES (value1, value2, value3, ...);
 ```
 
-<a href='#^'>^^^</a>
-
 ```sql
 INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
 VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
 ```
 
-<a href='#^'>^^^</a>
-
 ```sql
 INSERT INTO Customers (CustomerName, City, Country)
 VALUES ('Cardinal', 'Stavanger', 'Norway');
 ```
-
-<a href='#^'>^^^</a>
-
----
 
 Inserting multiple rows in a single SQL query
 
@@ -134,10 +156,6 @@ VALUES
     ('Billy', 125, 'London Office'),
     ('Miranda', 126, 'Bristol Office');
 ```
-
-<a href='#^'>^^^</a>
-
----
 
 ```sql
 SELECT * 
@@ -157,6 +175,15 @@ VALUES ('5','petofi','alex','var','bp');
 5	"petofi"	"alex"	"var"	"bp"
 >>>
 ```
+
+```sql
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
+```
+
+<a href='#^'>^^^</a>
+
+---
 
 <h3 id='NULLVALUES'>NULL VALUES</h3>
 
@@ -188,11 +215,29 @@ SET ContactName='Juan'
 WHERE Country='Mexico';
 ```
 
+```sql
+UPDATE Customers SET ContactName = 'Alfred Schmidt', City= 'Frankfurt' WHERE CustomerID = 1;
+UPDATE Customers SET ContactName='Juan' WHERE Country='Mexico';
+```
+
 <a href='#^'>^^^</a>
 
 ---
 
-<h3 id='CREATETABLE'>CREATE TABLE</h3>
+<h3 id='delete'>delete</h3>
+
+```sql
+DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
+DELETE FROM Customers;
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='create'>create</h3>
+
+create table
 
 ```sql
 CREATE TABLE trk (
@@ -203,8 +248,6 @@ CREATE TABLE trk (
     City varchar(255) 
 );
 ```
-
----
 
 Create, Insert and Select table
 
@@ -227,7 +270,9 @@ select * from trk
 
 ---
 
-<h3 id='altertable'>ALTER TABLE</h3>
+<h3 id='alter'>alter</h3>
+
+alter table
 
 ```sql
 --How to rename column name from department to dep
