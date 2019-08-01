@@ -77,6 +77,7 @@ ewong   |
 kawhi   |
 bbking  |
 petofi  |
+```
 
 <a href='#^'>^^^</a>
 
@@ -85,9 +86,44 @@ petofi  |
 <h3 id='selectdist'>select distinct</h3>
 
 ```sql
-SELECT DISTINCT Country FROM Customers; 
-SELECT COUNT(DISTINCT Country) FROM Customers;
-SELECT COUNT(*) AS DistinctCountries FROM (SELECT DISTINCT Country FROM Customers);
+SELECT DISTINCT city FROM trk_test_02; 
+
+city|
+----|
+LA  |
+SF  |
+LN  |
+BA  |
+NYC |
+BP  |
+
+SELECT COUNT(DISTINCT city) FROM trk_test_02;
+
+count|
+-----|
+    6|
+    
+SELECT COUNT(city) FROM trk_test_02;
+
+count|
+-----|
+    7|
+
+SELECT distinct personid FROM trk_test_01 WHERE Mod(personid,2)=0; --only even numbers
+
+personid|
+--------|
+       2|
+       4|
+       6|
+       
+--Write a query to find the difference between the total number of cities and the unique number of cities in the table STATION.
+SELECT COUNT(city) - COUNT(DISTINCT city) FROM trk_test_02;
+
+?column?|
+--------|
+       1|
+       
 ```
 
 <a href='#^'>^^^</a>
