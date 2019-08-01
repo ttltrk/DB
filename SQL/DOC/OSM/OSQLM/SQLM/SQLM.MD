@@ -33,10 +33,8 @@
 <h3 id='select'>select</h3>
 
 ```sql
-SELECT * FROM emp;
-SELECT id, lastname FROM emp; 
+SELECT * FROM trk_test_01;
 
->>>
 personid|lastname|firstname|address |city   |
 --------|--------|---------|--------|-------|
        1|trk     |ttl      |Hlavna 5|TNO    |
@@ -45,8 +43,40 @@ personid|lastname|firstname|address |city   |
        6|kawhi   |leo      |canada  |toronto|
        4|bbking  |bbe      |hemp    |ams    |
        5|petofi  |alex     |var     |BP     |
->>>
-```
+       
+SELECT * FROM trk_test_02;
+
+systemid|dep       |city|
+--------|----------|----|
+       1|ITOPS     |BA  |
+       2|DEVOPS    |BP  |
+       3|HR        |SF  |
+       4|MANAGEMENT|LA  |
+       5|ITOPS     |BP  |
+       6|ITOPS     |LN  |
+       7|DEVOPS    |NYC |
+       
+SELECT personid, lastname FROM trk_test_01; 
+
+personid|lastname|
+--------|--------|
+       1|trk     |
+       2|doe     |
+       3|ewong   |
+       6|kawhi   |
+       4|bbking  |
+       5|petofi  |
+       
+SELECT lastname FROM (SELECT * FROM trk_test_01) AS lname --select from select
+
+lastname|
+--------|
+trk     |
+doe     |
+ewong   |
+kawhi   |
+bbking  |
+petofi  |
 
 <a href='#^'>^^^</a>
 
