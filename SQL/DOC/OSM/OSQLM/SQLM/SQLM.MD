@@ -14,8 +14,8 @@
 * <a href='#select'>select</a></br>
 * <a href='#selectdist'>select distinct</a></br>
 * <a href='#where'>where</a></br>
-* <a href='#orderby'>order by</a></br>
 * <a href='#andornot'>and, or, not</a></br>
+* <a href='#orderby'>order by</a></br>
 * <a href='#limit'>limit</a></br>
 * <a href='#minmax'>min, max</a></br>
 * <a href='#countavgsum'>count, avg, sum</a></br>
@@ -225,10 +225,51 @@ systemid|dep       |city|
 <h3 id='orderby'>order by</h3>
 
 ```sql
-SELECT * FROM Customers ORDER BY Country;
-SELECT * FROM Customers ORDER BY Country DESC;
-SELECT * FROM Customers ORDER BY Country, CustomerName;
-SELECT * FROM Customers ORDER BY Country ASC, CustomerName DESC;
+SELECT * FROM trk_test_01 ORDER BY city;
+
+personid|lastname|firstname|address |city   |
+--------|--------|---------|--------|-------|
+       4|bbking  |bbe      |hemp    |ams    |
+       5|petofi  |alex     |var     |BP     |
+       3|ewong   |samatha  |SFR     |Dallas |
+       2|doe     |jon      |CA      |GS     |
+       1|trk     |ttl      |Hlavna 5|TNO    |
+       6|kawhi   |leo      |canada  |toronto|
+       
+SELECT * FROM trk_test_01 ORDER BY city DESC;
+
+personid|lastname|firstname|address |city   |
+--------|--------|---------|--------|-------|
+       6|kawhi   |leo      |canada  |toronto|
+       1|trk     |ttl      |Hlavna 5|TNO    |
+       2|doe     |jon      |CA      |GS     |
+       3|ewong   |samatha  |SFR     |Dallas |
+       5|petofi  |alex     |var     |BP     |
+       4|bbking  |bbe      |hemp    |ams    |
+       
+SELECT * FROM trk_test_02 ORDER BY dep, city;
+
+systemid|dep       |city|
+--------|----------|----|
+       2|DEVOPS    |BP  |
+       7|DEVOPS    |NYC |
+       3|HR        |SF  |
+       1|ITOPS     |BA  |
+       5|ITOPS     |BP  |
+       6|ITOPS     |LN  |
+       4|MANAGEMENT|LA  |
+       
+SELECT * FROM trk_test_02 ORDER BY dep ASC, city DESC;
+
+systemid|dep       |city|
+--------|----------|----|
+       7|DEVOPS    |NYC |
+       2|DEVOPS    |BP  |
+       3|HR        |SF  |
+       6|ITOPS     |LN  |
+       5|ITOPS     |BP  |
+       1|ITOPS     |BA  |
+       4|MANAGEMENT|LA  |
 ```
 
 <a href='#^'>^^^</a>
