@@ -130,11 +130,11 @@ personid|
        6|
        
 --Write a query to find the difference between the total number of cities and the unique number of cities in the table STATION.
-SELECT COUNT(city) - COUNT(DISTINCT city) FROM trk_test_02;
+SELECT COUNT(city) - COUNT(DISTINCT city) AS difference FROM trk_test_02;
 
-?column?|
---------|
-       1|
+difference|
+----------|
+         1|
        
 ```
 
