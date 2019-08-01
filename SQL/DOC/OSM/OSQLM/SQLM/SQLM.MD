@@ -86,6 +86,18 @@ petofi  |
 <h3 id='selectdist'>select distinct</h3>
 
 ```sql
+SELECT city FROM trk_test_02; 
+
+city|
+----|
+BA  |
+BP  |
+SF  |
+LA  |
+BP  |
+LN  |
+NYC |
+
 SELECT DISTINCT city FROM trk_test_02; 
 
 city|
