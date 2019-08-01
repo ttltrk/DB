@@ -145,8 +145,77 @@ difference|
 <h3 id='where'>where</h3>
 
 ```sql
-SELECT * FROM Customers WHERE Country='Mexico';
-SELECT * FROM Customers WHERE CustomerID=1;
+SELECT * FROM trk_test_01 WHERE lastname='kawhi';
+
+personid|lastname|firstname|address|city   |
+--------|--------|---------|-------|-------|
+       6|kawhi   |leo      |canada |toronto|
+       
+SELECT * FROM trk_test_02 WHERE city='BP';
+
+systemid|dep   |city|
+--------|------|----|
+       2|DEVOPS|BP  |
+       5|ITOPS |BP  |
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='andornot'>and, or, not</h3>
+
+```sql
+SELECT * FROM trk_test_02;
+
+systemid|dep       |city|
+--------|----------|----|
+       1|ITOPS     |BA  |
+       2|DEVOPS    |BP  |
+       3|HR        |SF  |
+       4|MANAGEMENT|LA  |
+       5|ITOPS     |BP  |
+       6|ITOPS     |LN  |
+       7|DEVOPS    |NYC |
+       
+SELECT * FROM trk_test_02 WHERE city='BP' AND dep='DEVOPS';
+
+systemid|dep   |city|
+--------|------|----|
+       2|DEVOPS|BP  |
+       
+SELECT * FROM trk_test_02 WHERE city='BP' OR city='BA';
+
+systemid|dep   |city|
+--------|------|----|
+       1|ITOPS |BA  |
+       2|DEVOPS|BP  |
+       5|ITOPS |BP  |
+       
+SELECT * FROM trk_test_02 WHERE NOT city='BP';
+
+systemid|dep       |city|
+--------|----------|----|
+       1|ITOPS     |BA  |
+       3|HR        |SF  |
+       4|MANAGEMENT|LA  |
+       6|ITOPS     |LN  |
+       7|DEVOPS    |NYC |
+       
+SELECT * FROM trk_test_02 WHERE dep='ITOPS' AND (City='BA' OR City='BP');
+
+systemid|dep  |city|
+--------|-----|----|
+       1|ITOPS|BA  |
+       5|ITOPS|BP  |
+       
+SELECT * FROM trk_test_02 WHERE NOT city='NYC' AND NOT dep='ITOPS';
+
+systemid|dep       |city|
+--------|----------|----|
+       2|DEVOPS    |BP  |
+       3|HR        |SF  |
+       4|MANAGEMENT|LA  |
 ```
 
 <a href='#^'>^^^</a>
@@ -160,20 +229,6 @@ SELECT * FROM Customers ORDER BY Country;
 SELECT * FROM Customers ORDER BY Country DESC;
 SELECT * FROM Customers ORDER BY Country, CustomerName;
 SELECT * FROM Customers ORDER BY Country ASC, CustomerName DESC;
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id='andornot'>and, or, not</h3>
-
-```sql
-SELECT * FROM Customers WHERE Country='Germany' AND City='Berlin';
-SELECT * FROM Customers WHERE City='Berlin' OR City='München';
-SELECT * FROM Customers WHERE NOT Country='Germany';
-SELECT * FROM Customers WHERE Country='Germany' AND (City='Berlin' OR City='München');
-SELECT * FROM Customers WHERE NOT Country='Germany' AND NOT Country='USA';
 ```
 
 <a href='#^'>^^^</a>
