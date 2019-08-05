@@ -43,7 +43,9 @@ personid|lastname|firstname|address |city   |
        6|kawhi   |leo      |canada  |toronto|
        4|bbking  |bbe      |hemp    |ams    |
        5|petofi  |alex     |var     |BP     |
-       
+```
+
+```sql       
 SELECT * FROM trk_test_02;
 
 systemid|dep       |city|
@@ -55,7 +57,9 @@ systemid|dep       |city|
        5|ITOPS     |BP  |
        6|ITOPS     |LN  |
        7|DEVOPS    |NYC |
-       
+```
+
+```sql
 SELECT personid, lastname FROM trk_test_01; 
 
 personid|lastname|
@@ -66,7 +70,9 @@ personid|lastname|
        6|kawhi   |
        4|bbking  |
        5|petofi  |
-       
+```
+
+```sql
 SELECT lastname FROM (SELECT * FROM trk_test_01) AS lname --select from select
 
 lastname|
@@ -97,7 +103,9 @@ LA  |
 BP  |
 LN  |
 NYC |
+```
 
+```sql
 SELECT DISTINCT city FROM trk_test_02; 
 
 city|
@@ -108,27 +116,36 @@ LN  |
 BA  |
 NYC |
 BP  |
+```
 
+```sql
 SELECT COUNT(DISTINCT city) FROM trk_test_02;
 
 count|
 -----|
     6|
-    
+```
+
+```sql
 SELECT COUNT(city) FROM trk_test_02;
 
 count|
 -----|
     7|
+```
 
-SELECT distinct personid FROM trk_test_01 WHERE Mod(personid,2)=0; --only even numbers
+```sql
+--only even numbers
+SELECT distinct personid FROM trk_test_01 WHERE Mod(personid,2)=0; 
 
 personid|
 --------|
        2|
        4|
        6|
-       
+```
+
+```sql
 --Write a query to find the difference between the total number of cities 
 --and the unique number of cities in the table STATION.
 SELECT COUNT(city) - COUNT(DISTINCT city) AS difference FROM trk_test_02;
