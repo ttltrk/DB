@@ -316,10 +316,29 @@ largestsysid|
 <h3 id='countavgsum'>count, avg, sum</h3>
 
 ```sql
-SELECT COUNT(ProductID) FROM Products;
-SELECT COUNT(DISTINCT ProductID) FROM Products;
-SELECT AVG(Price) FROM Products;
-SELECT SUM(Quantity) FROM OrderDetails;
+SELECT COUNT(personid) FROM trk_test_01;
+
+count|
+-----|
+    6|
+
+SELECT COUNT(DISTINCT city) FROM trk_test_02;
+
+count|
+-----|
+    6|
+
+SELECT AVG(personid) FROM trk_test_01;
+
+avg               |
+------------------|
+3.5000000000000000|
+
+SELECT SUM(personid) FROM trk_test_01;
+
+sum|
+---|
+ 21|
 ```
 
 <a href='#^'>^^^</a>
