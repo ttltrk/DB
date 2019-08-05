@@ -253,7 +253,9 @@ personid|lastname|firstname|address |city   |
        2|doe     |jon      |CA      |GS     |
        1|trk     |ttl      |Hlavna 5|TNO    |
        6|kawhi   |leo      |canada  |toronto|
-       
+```
+
+```sql
 SELECT * FROM trk_test_01 ORDER BY city DESC;
 
 personid|lastname|firstname|address |city   |
@@ -264,7 +266,9 @@ personid|lastname|firstname|address |city   |
        3|ewong   |samatha  |SFR     |Dallas |
        5|petofi  |alex     |var     |BP     |
        4|bbking  |bbe      |hemp    |ams    |
-       
+```
+
+```sql
 SELECT * FROM trk_test_02 ORDER BY dep, city;
 
 systemid|dep       |city|
@@ -276,7 +280,9 @@ systemid|dep       |city|
        5|ITOPS     |BP  |
        6|ITOPS     |LN  |
        4|MANAGEMENT|LA  |
-       
+```
+
+```sql
 SELECT * FROM trk_test_02 ORDER BY dep ASC, city DESC;
 
 systemid|dep       |city|
@@ -318,7 +324,9 @@ SELECT MIN(systemid) AS SmallestSysid FROM trk_test_02;
 smallestsysid|
 -------------|
             1|
-            
+```
+
+```sql
 SELECT MAX(systemid) AS LargestSysid FROM trk_test_02;
 
 largestsysid|
@@ -338,19 +346,25 @@ SELECT COUNT(personid) FROM trk_test_01;
 count|
 -----|
     6|
+```
 
+```sql
 SELECT COUNT(DISTINCT city) FROM trk_test_02;
 
 count|
 -----|
     6|
+```
 
+```sql
 SELECT AVG(personid) FROM trk_test_01;
 
 avg               |
 ------------------|
 3.5000000000000000|
+```
 
+```sql
 SELECT SUM(personid) FROM trk_test_01;
 
 sum|
