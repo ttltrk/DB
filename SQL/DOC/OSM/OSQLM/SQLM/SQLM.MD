@@ -281,6 +281,12 @@ systemid|dep       |city|
 
 ```sql
 SELECT * FROM Customers LIMIT 3;
+
+personid|lastname|firstname|address |city  |
+--------|--------|---------|--------|------|
+       1|trk     |ttl      |Hlavna 5|TNO   |
+       2|doe     |jon      |CA      |GS    |
+       3|ewong   |samatha  |SFR     |Dallas|
 ```
 
 <a href='#^'>^^^</a>
@@ -290,8 +296,17 @@ SELECT * FROM Customers LIMIT 3;
 <h3 id='minmax'>min, max</h3>
 
 ```sql
-SELECT MIN(Price) AS SmallestPrice FROM Products;
-SELECT MAX(Price) AS LargestPrice FROM Products;
+SELECT MIN(systemid) AS SmallestSysid FROM trk_test_02;
+
+smallestsysid|
+-------------|
+            1|
+            
+SELECT MAX(systemid) AS LargestSysid FROM trk_test_02;
+
+largestsysid|
+------------|
+           7|
 ```
 
 <a href='#^'>^^^</a>
