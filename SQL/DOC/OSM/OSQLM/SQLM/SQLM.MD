@@ -379,15 +379,36 @@ sum|
 <h3 id='between'>between</h3>
 
 ```sql
-SELECT customer_id, amount
-FROM payment
-WHERE amount BETWEEN 8 AND 9;
+SELECT * FROM trk_test_01 WHERE personid BETWEEN 2 AND 4;
+
+personid|lastname|firstname|address|city  |
+--------|--------|---------|-------|------|
+       2|doe     |jon      |CA     |GS    |
+       3|ewong   |samatha  |SFR    |Dallas|
+       4|bbking  |bbe      |hemp   |ams   |
 ```
 
 ```sql
-SELECT amount, payment_date
-FROM payment
-WHERE payment_date BETWEEN '2007-02-07' AND '2007-02-15';
+SELECT * FROM trk_test_01 WHERE personid not BETWEEN 2 AND 4;
+
+personid|lastname|firstname|address |city   |
+--------|--------|---------|--------|-------|
+       1|trk     |ttl      |Hlavna 5|TNO    |
+       6|kawhi   |leo      |canada  |toronto|
+       5|petofi  |alex     |var     |BP     |
+```
+
+```sql
+SELECT * FROM trk_test_01 WHERE personid BETWEEN 2 AND 4 AND NOT lastname IN ('doe');
+
+personid|lastname|firstname|address|city  |
+--------|--------|---------|-------|------|
+       3|ewong   |samatha  |SFR    |Dallas|
+       4|bbking  |bbe      |hemp   |ams   |
+```
+
+```sql
+SELECT * FROM trk_test_01 WHERE city BETWEEN 'GS' AND 'ams' ORDER BY city;
 ```
 
 <a href='#^'>^^^</a>
@@ -397,24 +418,31 @@ WHERE payment_date BETWEEN '2007-02-07' AND '2007-02-15';
 <h3 id='in'>in</h3>
 
 ```sql
-SELECT customer_id, rental_id, return_date
-FROM rental
-WHERE customer_id IN (1,2)
-ORDER BY return_date DESC;
+SELECT address FROM trk_test_01 WHERE city IN ('GS', 'Dallas', 'toronto');
+
+address|
+-------|
+CA     |
+SFR    |
+canada |
 ```
 
 ```sql
-SELECT customer_id, rental_id, return_date
-FROM rental
-WHERE customer_id IN (1,2,7,21)
-ORDER BY return_date DESC;
+SELECT address FROM trk_test_01 WHERE city NOT IN ('GS', 'Dallas', 'toronto');
+
+address |
+--------|
+Hlavna 5|
+hemp    |
+var     |
 ```
 
 ```sql
-SELECT customer_id, rental_id, return_date
-FROM rental
-WHERE customer_id NOT IN (1,2)
-ORDER BY return_date DESC;
+SELECT * FROM trk_test_01 WHERE city IN (SELECT city FROM trk_test_02); -- compare two columns from two different tables
+
+personid|lastname|firstname|address|city|
+--------|--------|---------|-------|----|
+       5|petofi  |alex     |var    |BP  |
 ```
 
 <a href='#^'>^^^</a>
