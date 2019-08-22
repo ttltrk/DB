@@ -27,6 +27,8 @@
 * <a href='#delete'>delete</a></br>
 * <a href='#create'>create</a></br>
 * <a href='#alter'>alter</a></br>
+* <a href='#join'>JOIN</a></br>
+* <a href='#union'>UNION</a></br>
 
 ---
 
@@ -651,13 +653,23 @@ ALTER TABLE trk_test
 
 ---
 
-<h3 id=''></h3>
+<h3 id='join'>JOIN</h3>
+
+```sql
+SELECT trk_test_01.personid, trk_test_01.lastname, trk_test_02.dep 
+FROM trk_test_01 INNER JOIN trk_test_02 ON trk_test_01.personid=trk_test_02.systemid;
+```
 
 <a href='#^'>^^^</a>
 
 ---
 
-<h3 id=''></h3>
+<h3 id='union'>UNION</h3>
+
+```sql
+SELECT city FROM trk_test_01 UNION SELECT city FROM trk_test_02 ORDER BY city --without duplicates
+SELECT city FROM trk_test_01 UNION ALL SELECT city FROM trk_test_02 ORDER BY city --with duplicates
+```
 
 <a href='#^'>^^^</a>
 
