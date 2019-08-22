@@ -11,22 +11,23 @@
 
 ---
 
-* <a href='#select'>select</a></br>
-* <a href='#selectdist'>select distinct</a></br>
-* <a href='#where'>where</a></br>
-* <a href='#andornot'>and, or, not</a></br>
-* <a href='#orderby'>order by</a></br>
-* <a href='#limit'>limit</a></br>
-* <a href='#minmax'>min, max</a></br>
-* <a href='#countavgsum'>count, avg, sum</a></br>
-* <a href='#between'>between</a></br>
-* <a href='#in'>in</a></br>
-* <a href='#like'>like</a></br>
-* <a href='#insert'>insert</a></br>
-* <a href='#update'>update</a></br>
-* <a href='#delete'>delete</a></br>
-* <a href='#create'>create</a></br>
-* <a href='#alter'>alter</a></br>
+* <a href='#select'>SELECT</a></br>
+* <a href='#selectdist'>SELECT DISTINCT</a></br>
+* <a href='#where'>WHERE</a></br>
+* <a href='#andornot'>AND, OR, NOT</a></br>
+* <a href='#orderby'>ORDER BY</a></br>
+* <a href='#limit'>LIMIT</a></br>
+* <a href='#minmax'>MIN, MAX</a></br>
+* <a href='#countavgsum'>COUNT, AVG, SUM</a></br>
+* <a href='#between'>BETWEEN</a></br>
+* <a href='#in'>IN</a></br>
+* <a href='#like'>LIKE</a></br>
+* <a href='#alias'>ALIAS</a></br>
+* <a href='#insert'>INSERT</a></br>
+* <a href='#update'>UPDATE</a></br>
+* <a href='#delete'>DELETE</a></br>
+* <a href='#create'>CREATE</a></br>
+* <a href='#alter'>ALTER</a></br>
 * <a href='#join'>JOIN</a></br>
 * <a href='#union'>UNION</a></br>
 
@@ -469,6 +470,16 @@ WHERE first_name NOT LIKE 'Jen%';
 SELECT first_name, last_name
 FROM customer
 WHERE first_name LIKE '%em%';
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='alias'>ALIAS</h3>
+
+```sql
+SELECT personid AS PI, firstname AS FI FROM trk_test_01;
 ```
 
 <a href='#^'>^^^</a>
