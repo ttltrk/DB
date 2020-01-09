@@ -37,7 +37,6 @@
 
 ```SQL
 SELECT * FROM trk_test_01;
-```
 
 personid|lastname|firstname|address |city   |
 --------|--------|---------|--------|-------|
@@ -47,6 +46,7 @@ personid|lastname|firstname|address |city   |
        6|kawhi   |leo      |canada  |toronto|
        4|bbking  |bbe      |hemp    |ams    |
        5|petofi  |alex     |var     |BP     |
+```
 
 ```sql       
 SELECT * FROM trk_test_02;
